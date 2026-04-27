@@ -1,0 +1,10 @@
+# Local browser/session state
+tools/browser-harness/.chrome-harness-profile/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local environment files
+.env
+*.log

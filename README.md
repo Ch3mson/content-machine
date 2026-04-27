@@ -1,54 +1,73 @@
-# Slideshow Account Playbook Workflow
+# Slideshow Test
 
-This workspace is a docs-first system for building account-specific slideshow rules for TikTok and Instagram.
+Docs-first workspace for building social slideshow account playbooks and rendered
+TikTok/Instagram carousel slides for w(inner).
 
-V1 does not generate final post images. It turns your inputs into reusable source-of-truth files that future AI sessions can use for copy, image direction, and slide structure.
+Start with `AGENTS.md`. It routes user tags like `workflow a`, `workflow b`,
+`process images`, and `source images` to the right workflow and tool chain.
 
-## Workflow Order
+## Quick Routing
 
-1. Use `winner-brief.md` as the raw product brief and keep `product/app-brief.md` as the cleaned global app source of truth.
-2. Use `references/agents/account-onboarding.md` to interview the user before finalizing any account files.
-3. Create or update the account's `account-brief.md` from the conversation.
-4. Add product assets to `product/assets/`, especially app-in-hand images if they help the account feel native.
-5. Add competitor slideshow references to `accounts/mens-fitness/inputs/competitor-flow/`.
-6. Add Pinterest or design references to `accounts/mens-fitness/inputs/design-images/`.
-7. Add optional liked or disliked copy samples to `accounts/mens-fitness/inputs/copy-samples/`.
-8. Show brief flow, design, and copy samples to the user for calibration.
-9. Run the extraction prompts in `accounts/mens-fitness/prompts.md`.
-10. Review the raw extraction files in `accounts/mens-fitness/extractions/`.
-11. Distill approved rules into `flow.md`, `writing.md`, and `image.md`.
-12. Generate one sample slideshow concept and QA it against the account files.
+| User says | Agent starts |
+| --- | --- |
+| `workflow a` | `workflows/workflow-a-new-account.md` |
+| `workflow b` | `workflows/workflow-b-new-post.md` |
+| `workflow c` or `process images` | `workflows/workflow-c-image-processing.md` |
+| `source images` | `tools/image-sourcer/README.md` |
 
-## Folder Map
+## Directory Map
 
-- `winner-brief.md`: raw uploaded app brief.
-- `product/`: cleaned global app context shared by all accounts.
-- `product/claim-bank.md`: approved, rejected, and flagged app claims.
-- `references/skills/stop-slop/`: vendored writing skill used as the anti-AI-writing base.
-- `references/agents/account-onboarding.md`: agent workflow for interviewing the user, showing samples, and filling account reference files.
-- `references/research/README.md`: niche-agnostic guide for deciding what research a new account needs.
-- `references/templates/account-brief.md`: generic starter for a new account's conversational brief.
-- `references/templates/account-sources.md`: generic `sources.md` starter for future account niches.
-- `accounts/mens-fitness/`: pilot account playbook.
-- `accounts/mens-fitness/inputs/`: user-provided competitor, design, and copy inputs.
-- `accounts/mens-fitness/extractions/`: raw analysis before rules become final.
-- `accounts/mens-fitness/flow.md`: slideshow structure source of truth.
-- `accounts/mens-fitness/writing.md`: copy voice source of truth.
-- `accounts/mens-fitness/image.md`: image and typography source of truth.
-- `accounts/mens-fitness/prompts.md`: reusable extraction, generation, and QA prompts.
-- `accounts/mens-fitness/sources.md`: lightweight research bank for athlete mental performance claims.
+| Path | Purpose |
+| --- | --- |
+| `AGENTS.md` | Mandatory router and retrieval contract for agents. |
+| `workflows/` | Step-by-step procedures for account setup, post creation, and image processing. |
+| `accounts/` | Account source-of-truth files and post workspaces. |
+| `product/` | w(inner) app brief, claim bank, and product assets. |
+| `references/` | Research rules, templates, social references, and writing QA skill. |
+| `tools/` | Runnable utilities such as image sourcing and browser harness. |
+| `winner-brief.md` | Raw product brief used to build `product/app-brief.md`. |
 
-## Creating Another Account
+## Current Account
 
-Before writing a new account's source-of-truth files, use `references/agents/account-onboarding.md`.
+`accounts/athlete-stories/` is the active locked account. It contains:
 
-Then copy `references/templates/account-brief.md` into the new account folder as `account-brief.md`, copy `references/templates/account-sources.md` as `sources.md`, and customize both through the interview and sample-calibration process.
+- `account-brief.md`
+- `presets.md`
+- `writing.md`
+- `image.md`
+- `sources.md`
+- example post folders for LeBron and Michael Jordan
 
-## Definition Of Done For One Account
+## Common Tasks
 
-- `flow.md` explains the competitor-derived format without copying wording, identity, or assets.
-- `writing.md` adapts Stop Slop into short slideshow copy rules for the niche.
-- `image.md` turns Pinterest/design inputs into practical image generation and editing rules.
-- `product/claim-bank.md` separates approved claims from bold claims that need approval.
-- The user has reacted to brief flow, design, and copy samples before rules are locked.
-- One sample 5-8 slide concept passes the QA checklist in `prompts.md`.
+Create or update an account:
+
+```text
+workflow a for athlete-stories
+```
+
+Create a post for an existing account:
+
+```text
+workflow b for athlete-stories about Messi
+```
+
+Source images from a preset:
+
+```powershell
+python tools/image-sourcer/source_images.py accounts/athlete-stories/Lebron/image_preset.json
+```
+
+Process a post's images:
+
+```powershell
+python accounts/athlete-stories/Lebron/process_images.py
+```
+
+## Definition Of Done
+
+- The selected workflow was followed from `workflows/`.
+- Product mentions match `product/app-brief.md` and `product/claim-bank.md`.
+- Account copy follows `writing.md` and the Stop Slop QA rules.
+- Visual output follows `image.md`.
+- Processed slides are exactly 1080x1920 PNG files.
