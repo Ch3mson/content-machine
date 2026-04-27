@@ -1,8 +1,10 @@
-# Account Onboarding Agent Workflow
+# Workflow A: New Account Onboarding
 
-Use this document when creating a new slideshow account playbook or creating new posts for an existing account.
+Use this document when creating a new slideshow account playbook.
 
 The agent's job is not to fill markdown files from assumptions. The agent must interview the user, inspect provided references, show brief samples, get feedback, and only then lock source-of-truth files.
+
+For creating new posts on an existing account, use `references/agents/workflow-b.md`.
 
 ---
 
@@ -12,7 +14,8 @@ The agent's job is not to fill markdown files from assumptions. The agent must i
 
 | File | Purpose |
 |------|---------|
-| `references/agents/account-onboarding.md` | This file. Full workflow for onboarding and post creation. |
+| `references/agents/workflow-a.md` | This file. New account onboarding workflow. |
+| `references/agents/workflow-b.md` | New post workflow for existing accounts. |
 | `references/agents/image-processing.md` | Image pipeline: normalize → B&W → paper overlay → text. Includes full Python script. |
 | `references/skills/stop-slop/SKILL.md` | Writing quality rules. Base standard for all copy. |
 | `references/skills/stop-slop/references/phrases.md` | Banned phrases and filler to remove. |
@@ -46,11 +49,7 @@ The agent's job is not to fill markdown files from assumptions. The agent must i
 
 ---
 
-## Workflow A: New Account Onboarding
-
-Use this workflow when setting up a brand new account that does not yet have source-of-truth files.
-
-### Required Inputs
+## Required Inputs
 
 Before finalizing an account, collect or explicitly mark missing:
 
@@ -64,7 +63,7 @@ Before finalizing an account, collect or explicitly mark missing:
 - Product relationship to w(inner).
 - Research sensitivity and claim-risk topics.
 
-### Rule For Questions
+## Rule For Questions
 
 Ask questions in short rounds. Do not ask for everything at once.
 
@@ -80,7 +79,7 @@ Each round should do one job:
 
 After each round, summarize what changed in the account direction.
 
-### Phase 1: Account Intent Interview
+## Phase 1: Account Intent Interview
 
 Ask until these are clear:
 
@@ -94,7 +93,7 @@ Ask until these are clear:
 
 Write answers into `account-brief.md`.
 
-### Phase 2: Competitor Flow Intake
+## Phase 2: Competitor Flow Intake
 
 Ask the user for competitor slideshow examples before writing `flow.md`.
 
@@ -142,7 +141,7 @@ Ask for feedback on:
 
 Only then update `flow.md`.
 
-### Phase 3: Design Reference Intake
+## Phase 3: Design Reference Intake
 
 Ask the user for Pinterest/design references before writing `image.md`.
 
@@ -180,7 +179,7 @@ Ask for feedback on:
 
 Only then update `image.md`.
 
-### Phase 4: Copy And Tone Interview
+## Phase 4: Copy And Tone Interview
 
 Use Stop Slop as the base, but do not assume the account voice from Stop Slop alone.
 
@@ -224,7 +223,7 @@ Ask the user:
 
 Update `writing.md` only after this feedback.
 
-### Phase 5: Product Mention Interview
+## Phase 5: Product Mention Interview
 
 Use `product/app-brief.md` and `product/claim-bank.md`.
 
@@ -242,7 +241,7 @@ If no competitor CTA exists, generate three hypotheses:
 
 Do not finalize product rules until the user picks or rejects a direction.
 
-### Phase 6: Research Interview
+## Phase 6: Research Interview
 
 Use `references/research/README.md`.
 
@@ -262,7 +261,7 @@ Show a draft content-pillar risk map before writing `sources.md`:
 
 Update `sources.md` after user confirmation.
 
-### Phase 7: First Full Sample
+## Phase 7: First Full Sample
 
 After the initial `flow.md`, `writing.md`, `image.md`, and `sources.md` drafts exist, create one small sample concept.
 
@@ -278,7 +277,7 @@ Return:
 
 The sample is a calibration artifact, not final content.
 
-### Phase 8: Lock Source Of Truth
+## Phase 8: Lock Source Of Truth
 
 Only lock the account files after the user has reacted to:
 
@@ -299,118 +298,6 @@ Then update:
 
 ---
 
-## Workflow B: New Post for Existing Account
-
-Use this workflow when an account already has locked source-of-truth files and you need to create a new post.
-
-### Prerequisites
-
-Before starting, confirm these files exist and are locked:
-
-- `accounts/{account-name}/writing.md` — voice, tone, rhythm rules.
-- `accounts/{account-name}/image.md` — design system, pipeline specs, slide role mapping.
-- `accounts/{account-name}/sources.md` — claim risk levels, approved sources.
-
-If any file is missing, go back to Workflow A.
-
-### Step 1: Gather Post Inputs
-
-Ask the user for:
-
-1. **Athlete or subject** — Who is this post about?
-2. **Photos** — Raw images for each slide role. The user provides these. Ask which photo maps to which role if not obvious.
-3. **Product shot** — Phone-in-hand image for slide 6, if the account uses one.
-4. **Any specific copy direction** — If the user has a quote, angle, or fact they want included.
-
-If the user does not have photos yet, pause and ask them to provide them before continuing.
-
-### Step 2: Write the Flow
-
-Using `writing.md` rules and `image.md` slide role mapping, write `flow.md` for the post.
-
-The flow must follow the account's established structure. For the athlete-stories account, this is:
-
-| Slide | Role | Copy Rhythm |
-|-------|------|-------------|
-| 1 | The Beginning | Short. Staccato. 2-5 words per sentence. |
-| 2 | The Grind | Medium. 8-14 words. Building context. |
-| 3 | The Weight | Medium. Tension rising. |
-| 4 | The Peak | Longest. 15-25 words. The visualization reveal. |
-| 5 | The Transformation | Medium. The payoff. |
-| 6 | The Product | Short. Grounded product mention. |
-| 7 | The Legend | Athlete quote. |
-
-Rules for writing the flow:
-
-- Follow `writing.md` rhythm rules exactly. Do not invent new patterns.
-- Follow `writing.md` banned patterns. Run the Stop Slop QA checklist before finalizing.
-- Use the product mention style defined in `account-brief.md`. Do not make product claims that are not in `product/claim-bank.md`.
-- Flag any claims that need source verification per `sources.md`.
-- The product slide must feel native to the story. Do not force w(inner) if the flow does not support it.
-
-Show the user the draft flow and ask:
-
-- Does the rhythm match the account style?
-- Is the product mention native or does it break the story?
-- Any claims that feel off or too salesy?
-- Any slide that feels weak or out of order?
-
-Only proceed after user approval.
-
-### Step 3: Map Images to Roles
-
-Using the user's provided photos, assign each image to a slide role.
-
-Rules:
-
-- The user specifies which photo is slide 1 and which is the visualization/peak slide. The agent assigns the rest based on narrative fit.
-- All images must follow the `image.md` design system.
-- If a photo does not fit a role well, flag it and suggest an alternative.
-
-Write the image mapping into `flow.md`.
-
-### Step 4: Process Images
-
-Run the image processing pipeline defined in `references/agents/image-processing.md`.
-
-The pipeline must run in this exact order:
-
-1. **Normalize to 9:16** — Crop and resize every image to 1080x1920.
-2. **Convert to B&W** — Grayscale + 1.3x contrast.
-3. **Apply paper overlay** — Vintage paper texture with sepia grain, dark spots, and vignette.
-4. **Add text overlay** — Centered white text, Arial Bold 36pt, 3px black outline, 16px line spacing, 140px side margins.
-
-Generate `process_images.py` for the post using the slide mapping from `flow.md`.
-
-Run the script and save output to `accounts/{account-name}/{post-name}/processed/`.
-
-Show the user the processed slides and ask:
-
-- Is the text readable against each background?
-- Is the spacing clean and consistent?
-- Does the paper overlay feel right or too strong/too weak?
-- Does the product slide feel native?
-
-Only proceed after user approval.
-
-### Step 5: Final Review
-
-Before delivering, run these checks:
-
-- [ ] Does every slide follow the `writing.md` rhythm rules?
-- [ ] Does every slide follow the `writing.md` banned patterns? Run the Stop Slop QA checklist.
-- [ ] Does the product mention follow `account-brief.md` and `product/claim-bank.md`?
-- [ ] Are all claims flagged per `sources.md` risk levels?
-- [ ] Are all images exactly 1080x1920?
-- [ ] Are all images B&W with paper overlay applied?
-- [ ] Is text centered with 140px side margins?
-- [ ] Is line spacing 16px between lines?
-- [ ] Does the flow follow the account's established slide role structure?
-
-Deliver the final `processed/` folder with all slides.
-
----
-
 ## Agent Rules
 
 - Do not invent final account rules when user input is missing.
@@ -423,6 +310,3 @@ Deliver the final `processed/` folder with all slides.
 - Copy competitor structure only, not wording, identity, or assets.
 - Do not force w(inner) into the slideshow.
 - Flag unapproved product claims.
-- When creating a new post for an existing account, always read the account's `writing.md`, `image.md`, and `sources.md` before writing any copy.
-- When processing images, always follow the pipeline order in `references/agents/image-processing.md`. Never skip the normalize step.
-- Never auto-wrap text. Respect manual line breaks from `flow.md` exactly.

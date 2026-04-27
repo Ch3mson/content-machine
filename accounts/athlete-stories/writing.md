@@ -1,6 +1,6 @@
 # Writing Rules: Athlete Stories Account
 
-## Style 1: Short → Medium Intensification (Primary)
+## Style 1: LeBron Preset — Short → Medium Intensification
 
 ### Voice Direction
 
@@ -20,6 +20,19 @@
 - **Use short sentences to land the point.** One or two words can close a slide.
 - **Read copy aloud.** If it sounds monotonous, rewrite it.
 - **Two-item beats three.** Pairs feel intentional. Triples feel like a list.
+
+### When To Use This Preset
+
+- Use when the story starts in childhood, poverty, instability, or an early identity struggle.
+- Best for athletes whose rise reads like inevitability built through endurance.
+- Use when Slide 1 should open with hard facts, not audience confrontation.
+
+### Preset Markers
+
+- Slide 1 opens with origin facts.
+- Slide 3 often shifts into film study, rehearsal, or obsessive preparation.
+- Slide 4 reveals visualization as an extension of work already in motion.
+- Slide 5 lands on transformation and status.
 
 ### Style 1 Sample (McGregor)
 
@@ -48,18 +61,74 @@ Slide 7:
 
 ---
 
-## Style 2: [Pending — to be defined through testing]
+## Style 2: Michael Jordan Preset — Fourth-Wall Pressure → Mental Remedy
 
-## Style 3: [Pending — to be defined through testing]
+### Voice Direction
+
+- **Perspective**: Starts in second person to confront the audience, then shifts into third person for the athlete story. First person only for the product slide.
+- **Tone**: Harder, sharper, more confrontational than LeBron. Still grounded. No hype.
+- **Rhythm**: Slide 1 breaks the standard rule on purpose. It opens with a challenge. Slides 2-4 escalate through failure, pressure, and the limits of physical work. Slide 5 is the long visualization remedy. Slides 6-7 tighten back down.
+- **Density**: Keep the language forceful but clean. No filler. No softening.
+
+### Rhythm Rules
+
+- **Slide 1**: One direct audience challenge. Short. Confrontational. Break the fourth wall.
+- **Slide 2**: Name the opponent, obstacle, or force that beat him.
+- **Slide 3**: Show pressure that stayed with him after the game.
+- **Slide 4**: Show that body work alone was not enough.
+- **Slide 5**: Longest. Visualization becomes the edge.
+- **Slides 6-7**: Tighten. Product echoes the mental method. Closing quote should reinforce expectation, belief, or inner standard.
+
+### When To Use This Preset
+
+- Use when the story is about domination built through obsession, humiliation, revenge, or psychological edge.
+- Best for NBA-era struggle, rivalry arcs, repeat failure, and elite pressure.
+- Use when you want the audience to feel accused, tested, or pulled into the standard.
+
+### Preset Markers
+
+- Slide 1 opens with a second-person challenge.
+- The middle arc moves from public defeat to private unrest.
+- The key turn is not "he trained harder" but "the body wasn't enough."
+- Visualization is framed as the invisible edge.
+- Slide 6 should explicitly echo Slide 5.
+- Slide 7 should be a quote about belief, expectation, mindset, or internal standard.
+
+### Style 2 Sample (Michael Jordan)
+
+```
+Slide 1:
+You want to play like him. Are you willing to bleed for it?
+
+Slide 2:
+Detroit owned him. Three straight years. The Pistons called it the Jordan Rules. He bled in the post and still lost.
+
+Slide 3:
+He played every game like it was his last. The championship weight sat on his chest. He couldn't sleep after the eliminations.
+
+Slide 4:
+He trained his body. Added 25 pounds in one summer. Still couldn't sleep after the losses. The edge had to come from somewhere deeper.
+
+Slide 5:
+He sat with headphones and ran every possession in his mind until the court in his mind felt more familiar than the one under his feet. By the time the game came, he had already been there.
+
+Slide 6:
+I use w(inner) the same way. It builds a visualization track until the game feels familiar before it starts.
+
+Slide 7:
+"You have to expect things of yourself before you can do them." — Michael Jordan
+```
+
+## Style 3: [Open]
 
 ---
 
 ## Testing Plan
 
-- Run Style 1 for 5-10 posts first.
-- Track saves, likes, completion rate.
-- Define Style 2 and 3 based on what Style 1 reveals.
-- A/B test styles against each other once baseline is established.
+- Compare LeBron preset against Michael Jordan preset on completion rate, saves, and shares.
+- Use LeBron when the post needs grounded inevitability and factual origin tension.
+- Use Michael Jordan when the post needs confrontation, psychological edge, and a stronger product bridge.
+- Define Style 3 only after enough posts reveal a third repeatable pattern.
 
 ## Core Rules
 
