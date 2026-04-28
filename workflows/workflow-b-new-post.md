@@ -46,6 +46,10 @@ Work in the folder the user names or the closest existing post folder.
    - Choose the preset that matches the subject's narrative.
    - If no preset fits, use `writing.md` and `image.md` directly and note the
      assumption in `flow.md`.
+   - If the user asks for 3 variants, angle concepts, or brainstorming before a
+     post is locked, use `../references/skills/angle-variants/SKILL.md` and
+     answer in chat. Do not create `flow.md` until the user chooses an angle or
+     asks for a full post.
 
 3. Gather or source images:
    - If raw images already exist, map them to slide roles.

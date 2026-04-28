@@ -10,6 +10,11 @@ Required account files:
 - `sources.md`: claim risk, approved sources, wording to avoid.
 - `presets.md`: optional style presets for repeatable post patterns.
 
+Universal cross-account writing skills live in `../references/skills/`. Use
+`../references/skills/angle-variants/SKILL.md` whenever a user asks for 3
+variants, angle concepts, or brainstorming from an overall idea. It produces
+account-adapted concepts in chat before any slide copy or `flow.md` is written.
+
 Preferred new post folders live under `posts/`:
 
 ```text

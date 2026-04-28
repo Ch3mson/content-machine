@@ -3,9 +3,9 @@
 This file is the first document an agent should read in this workspace.
 
 The user's workflow tag is an instruction, not a topic mention. If the user says
-`workflow a`, `workflow b`, `workflow c`, `source images`, or `process images`,
-start the matching workflow and use the listed tools without waiting for another
-prompt.
+`workflow a`, `workflow b`, `workflow c`, `source images`, `process images`, or
+asks for angle/variant brainstorming, start the matching workflow or skill and
+use the listed tools without waiting for another prompt.
 
 ## Workflow Tags
 
@@ -16,6 +16,7 @@ prompt.
 | `workflow c`, `image processing`, `process images`, `render slides` | `workflows/workflow-c-image-processing.md` | Turn mapped raw images and copy into final 9:16 slides. |
 | `source images`, `find images`, `Pinterest images` | `tools/image-sourcer/README.md` | Use the image sourcing tool and the post `image_preset.json`. |
 | `stop slop`, `anti-AI writing`, `clean copy` | `references/skills/stop-slop/SKILL.md` | Apply writing cleanup and QA rules. |
+| `3 variants`, `three variants`, `3 angles`, `angle concepts`, `brainstorm variants`, `overall angle` | `references/skills/angle-variants/SKILL.md` | Generate three account-adapted angle concepts in chat, not slide copy. |
 | `product`, `w(inner)`, `claim`, `app mention` | `product/app-brief.md` and `product/claim-bank.md` | Check product facts and approved claims before writing. |
 
 If the user tags multiple workflows, run them in the order stated. Example:
@@ -27,7 +28,7 @@ the post once the required account files exist.
 Use the smallest relevant set of files.
 
 1. Read this `AGENTS.md`.
-2. Read the selected workflow in `workflows/`.
+2. Read the selected workflow in `workflows/` or skill in `references/skills/`.
 3. Read `product/app-brief.md` and `product/claim-bank.md` before any product
    mention or product claim.
 4. Read the target account files:

@@ -25,7 +25,13 @@ Examples:
 - `9x16-running.jpg`
 - `16x9-running.jpg`
 
-When the same shot exists in both aspect ratios, the sport name stays the same and only the AR prefix changes.
+When there are multiple shots in the same AR + sport, add a short sequence suffix
+like `-01`, `-02`, etc.
+
+Examples:
+- `9x16-basketball-01.jpg`
+- `16x9-basketball-01.jpg`
+- `9x16-running-02.jpg`
 
 ## Usage
 

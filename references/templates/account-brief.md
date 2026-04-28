@@ -50,6 +50,10 @@ Use this file to capture the conversational onboarding for a new account.
 
 Paste the 3 short samples shown to the user and the user's reaction.
 
+When the user asks for 3 variants or angle concepts from an overall idea, use
+`../skills/angle-variants/SKILL.md`. Capture the winning angle logic here only
+if it becomes a lasting account preference.
+
 ### Sample A
 
 - Direction:
@@ -68,6 +72,17 @@ Paste the 3 short samples shown to the user and the user's reaction.
 - Copy:
 - User reaction:
 
+## Angle Variant Preferences
+
+Use this section to capture account-specific lessons from angle brainstorming.
+Keep the universal method in `../skills/angle-variants/SKILL.md`.
+
+- Strongest desire levers:
+- Weak angle patterns to avoid:
+- Identity gaps that resonate:
+- Viral curiosity patterns that fit the account:
+- Example winning variant:
+
 ## Product Mention Decision
 
 - Default product visibility:
@@ -85,4 +100,3 @@ Paste the 3 short samples shown to the user and the user's reaction.
 ## Open Questions
 
 - 
-

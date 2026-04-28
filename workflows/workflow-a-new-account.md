@@ -66,6 +66,8 @@ Ask in short rounds. Do not ask for every missing item at once.
 
 4. Copy and tone:
    - Use `../references/skills/stop-slop/SKILL.md` as the base writing QA.
+   - Use `../references/skills/angle-variants/SKILL.md` when the user asks for
+     3 variants, angle concepts, or brainstorming around an overall idea.
    - Show three short copy samples if the voice is not already locked.
    - Write `writing.md` with rhythm rules, banned patterns, examples, and QA.
 
