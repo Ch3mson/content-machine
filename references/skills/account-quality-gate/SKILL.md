@@ -39,6 +39,9 @@ Use the smallest relevant set:
   when no image is available.
 - Do not edit `writing.md` or `design.md` by default. Record feedback so the
   main account session can revise the source docs.
+- Save each user-reviewable quality-gate sample in its own attempt folder under
+  `accounts/{account}/quality-gate/attempts/`; never overwrite a prior attempt.
+- Keep `accounts/{account}/quality-gate/index.md` as the attempt ledger.
 - Run the draft sample through the three account refinement personas before
   rendering.
 - If the Athlete Skeptic flags sport terminology, verify only the flagged terms.
@@ -70,23 +73,42 @@ Use the smallest relevant set:
 4. Draft the sample copy.
    - Follow `writing.md` and required subfiles.
    - Apply `writing/refinement-personas.md`.
-   - Record Bored Athlete, Account-Native Scroller, and Athlete Skeptic critique
-     in `iteration-notes.md` before rendering.
+   - Prepare Bored Athlete, Account-Native Scroller, and Athlete Skeptic
+     critique before rendering.
    - Preserve the account's intended rhythm.
    - Do not use a preset unless the baseline docs already say it is validated.
 
-5. Render the PNG.
+5. Create the attempt workspace.
    - Create `accounts/{account}/quality-gate/` if needed.
-   - Save:
+   - Create `accounts/{account}/quality-gate/attempts/` if needed.
+   - Create or update `accounts/{account}/quality-gate/index.md`.
+   - Create a new folder named
+     `attempt-###-YYYY-MM-DD-{short-topic-slug}`, using the next available
+     number from existing attempt folders.
+   - If root-level legacy artifacts exist in `quality-gate/`, leave them in
+     place and add a legacy note to `index.md`.
+
+6. Render the PNG.
+   - Save all files inside the attempt folder:
+     - `attempt-summary.md`
      - `sample-brief.md`
      - `sample-copy.md`
      - `render_sample.py`
      - `sample-slide.png`
      - `iteration-notes.md`
+   - Record Bored Athlete, Account-Native Scroller, and Athlete Skeptic
+     critique in `iteration-notes.md`.
+   - If pre-review fit fixes require multiple renders, keep them in this same
+     attempt folder and document the changes in `iteration-notes.md`.
    - Use Python/Pillow when a renderer is needed.
    - Keep placeholder image spacing faithful to `design.md`.
 
-6. Review with the user.
+7. Update the attempt ledger.
+   - Add or update one row in `quality-gate/index.md` for the attempt.
+   - Track attempt id, date, topic, slide type, status, review decision,
+     blocking persona failures, design findings, and path to the attempt folder.
+
+8. Review with the user.
    - Show or link the PNG.
    - Ask whether the sample proves the docs are strong enough.
    - If approved, record approval in `iteration-notes.md`.
@@ -98,6 +120,9 @@ Use the smallest relevant set:
    - Promote rejection feedback to `writing.md`, `writing/principles.md`,
      `writing/qa.md`, or `design.md` only when it is explicit, repeated, or
      changes durable account rules.
+   - If another user-reviewable sample is generated after feedback, create a new
+     attempt folder. Pre-review fit fixes may stay inside the same attempt as
+     render notes.
 
 ## Approval Criteria
 
@@ -111,6 +136,10 @@ Use the smallest relevant set:
 ## Failure Modes
 
 - Copy fits only because the renderer silently rewrote it.
+- A new attempt overwrites an older sample instead of creating a new attempt
+  folder.
+- `quality-gate/index.md` does not record the attempt status and review
+  decision.
 - The sample uses a hero slide and avoids testing repeatable body structure.
 - The design file lacks exact canvas, typography, spacing, or frame rules.
 - The writing folder contains broad advice but no actionable voice rules.

@@ -52,7 +52,9 @@ Baseline account files:
 - `accounts/{account}/design.md`
 - `accounts/{account}/image.md`
 - `accounts/{account}/sources.md`
-- `accounts/{account}/quality-gate/`, after Workflow A3
+- `accounts/{account}/quality-gate/index.md`, after Workflow A3
+- `accounts/{account}/quality-gate/attempts/{attempt-id}/`, after each
+  Workflow A3 attempt
 
 Supplemental files:
 
@@ -85,6 +87,8 @@ Ask in short rounds. Do not ask for every missing item at once.
 - If the user rejects a quality-gate sample, update
   `writing/refinement-personas.md` with the calibrated criticism before the
   next sample attempt.
+- Every new user-reviewable quality-gate sample must be saved as a new attempt
+  folder under `quality-gate/attempts/`; never overwrite a prior attempt folder.
 - Treat the user's feedback as higher priority than the initial extraction.
 - If the user also tagged Workflow B, continue to Workflow B only after the
   required account docs exist and the baseline writing/design gate is approved.

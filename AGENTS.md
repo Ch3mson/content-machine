@@ -44,6 +44,7 @@ Root `README.md` currently names `accounts/athlete-stories/` as the active locke
 - `writing/refinement-personas.md` customizes the three required refinement personas for the account. Use it before rendering quality-gate samples, and update it when the user rejects a sample.
 - `design.md` is the account source of truth for canvas size, layout, typography, text hierarchy, reference-photo framing, and renderer-facing format rules.
 - `image.md` is for photo direction, visual treatment, and selected-photo suitability; do not rely on it for layout decisions that belong in `design.md`.
+- Quality-gate attempts live in `accounts/{account}/quality-gate/attempts/{attempt-id}/`, with an attempt ledger at `accounts/{account}/quality-gate/index.md`.
 - `presets.md` is supplemental. Create or update it only after baseline `writing.md` and `design.md` pass the quality gate, unless the user explicitly asks for legacy behavior.
 - Legacy post folders such as `accounts/athlete-stories/Lebron/` and `Michael Jordan/` are valid; work in the folder the user names or the closest existing post folder.
 - Standard post files: `flow.md`, `image_preset.json`, `sourced/`, post-specific `process_images.py`, `processed/`.
@@ -64,7 +65,8 @@ Root `README.md` currently names `accounts/athlete-stories/` as the active locke
 - Do not invent product claims; use `product/claim-bank.md`.
 - Do not invent final account rules when Workflow A inputs are missing; ask the smallest next question.
 - Do not lock new account `writing.md` or `design.md` until Workflow A3 or `account-quality-gate` produces an approved non-hero sample slide.
-- If a quality-gate sample is rejected, capture the raw criticism in `quality-gate/iteration-notes.md` and update `writing/refinement-personas.md` before the next attempt.
+- If a quality-gate sample is rejected, capture the raw criticism in the current attempt's `iteration-notes.md` and update `writing/refinement-personas.md` before the next attempt.
+- Do not overwrite prior quality-gate attempts; create a new attempt subfolder for each new user-reviewable quality-gate sample.
 - Do not create `presets.md` before baseline writing/design quality passes; use Workflow A4 for validated angle-to-preset extraction.
 - If a broad post idea is not a locked angle and final copy, use the concept flow before creating `flow.md`.
 - For copy iteration requests like “give me the copy” in `science-athlete`, paste copy in chat first and only write `flow.md` after approval.
