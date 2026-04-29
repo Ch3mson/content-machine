@@ -11,6 +11,11 @@ Start with `AGENTS.md`. It routes user tags like `workflow a`, `workflow b`,
 | User says | Agent starts |
 | --- | --- |
 | `workflow a` | `workflows/workflow-a-new-account.md` |
+| `workflow a0` or `reference map` | `workflows/workflow-a0-account-intake-reference-map.md` |
+| `workflow a1` or `writing extraction` | `workflows/workflow-a1-writing-principle-extraction.md` |
+| `workflow a2` or `design extraction` | `workflows/workflow-a2-design-principle-extraction.md` |
+| `workflow a3` or `quality gate` | `workflows/workflow-a3-writing-design-quality-gate.md` |
+| `workflow a4` or `angle extraction` | `workflows/workflow-a4-angle-extraction-to-presets.md` |
 | `workflow b` | `workflows/workflow-b-new-post.md` |
 | `workflow c` or `process images` | `workflows/workflow-c-image-processing.md` |
 | `source images` | `tools/image-sourcer/README.md` |
@@ -21,9 +26,9 @@ Start with `AGENTS.md`. It routes user tags like `workflow a`, `workflow b`,
 | --- | --- |
 | `AGENTS.md` | Mandatory router and retrieval contract for agents. |
 | `workflows/` | Step-by-step procedures for account setup, post creation, and image processing. |
-| `accounts/` | Account source-of-truth files and post workspaces. |
+| `accounts/` | Account source-of-truth files, indexed writing folders, quality-gate artifacts, and post workspaces. |
 | `product/` | w(inner) app brief, claim bank, and product assets. |
-| `references/` | Research rules, templates, social references, and writing QA skill. |
+| `references/` | Research rules, templates, social references, repo-local skills, and writing QA skill. |
 | `tools/` | Runnable utilities such as image sourcing and browser harness. |
 | `winner-brief.md` | Raw product brief used to build `product/app-brief.md`. |
 
@@ -34,6 +39,7 @@ Start with `AGENTS.md`. It routes user tags like `workflow a`, `workflow b`,
 - `account-brief.md`
 - `presets.md`
 - `writing.md`
+- `design.md`
 - `image.md`
 - `sources.md`
 - example post folders for LeBron and Michael Jordan
@@ -68,6 +74,10 @@ python accounts/athlete-stories/Lebron/process_images.py
 
 - The selected workflow was followed from `workflows/`.
 - Product mentions match `product/app-brief.md` and `product/claim-bank.md`.
-- Account copy follows `writing.md` and the Stop Slop QA rules.
-- Visual output follows `image.md`.
-- Processed slides are exactly 1080x1920 PNG files.
+- Account copy follows `writing.md`, its indexed subfiles when required, and the
+  Stop Slop QA rules.
+- Visual layout follows account `design.md`; photo direction and treatment follow
+  account `image.md`.
+- New account `writing.md` and `design.md` are not locked until a Workflow A3
+  non-hero sample slide is approved.
+- Processed slides match the canvas size in account `design.md`.

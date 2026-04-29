@@ -13,16 +13,17 @@ This account is **not** athlete biography content. It is for the athlete who say
 1. `account-brief.md`
 2. `presets.md`
 3. `writing.md`
-4. `image.md`
-5. `sources.md`
-6. `prompts.md`
-7. The target post folder under `posts/`
+4. `design.md`
+5. `image.md`
+6. `sources.md`
+7. `prompts.md`
+8. The target post folder under `posts/`
 
 ## Primary Inspiration
 
 Use `references/social-accounts/verified_byhumans/` as the core model for:
 
-- clean 3:4 carousel design
+- clean 4:5 carousel design
 - white background
 - high whitespace
 - simple educational slide rhythm
@@ -62,7 +63,7 @@ When the user says "give me the copy" or asks to iterate on copy, **do not write
 | Authority style | Sport language first, research-backed explanation second |
 | Product bridge | w(inner) appears only when visualization or mental reps naturally extend the fix |
 | Hero image | User supplies hero image |
-| Body images | 16:9 middle-frame diagrams, game visuals, neuroscience visuals, habit visuals, product/visualization visuals, or source visuals |
+| Body images | Fixed 16:9 middle-frame reference photos or visuals, framed according to `design.md` |
 
 ## Post Workspace Convention
 

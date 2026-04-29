@@ -8,9 +8,10 @@ Read order for any post:
 1. `account-brief.md`
 2. `presets.md`
 3. `writing.md`
-4. `image.md`
-5. `sources.md`
-6. The target post folder
+4. `design.md`
+5. `image.md`
+6. `sources.md`
+7. The target post folder
 
 Current locked patterns:
 

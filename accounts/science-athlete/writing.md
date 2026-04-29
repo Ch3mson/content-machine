@@ -36,14 +36,14 @@ The post explains why that happens, then gives a fix the athlete can try.
 Do not force a fake stat into every passage. Build authority through one primary
 method per slide.
 
-| Authority method | Use when | Example |
-| --- | --- | --- |
-| Felt experience | The athlete needs to recognize the problem instantly | "You look clean in cone drills and stiff in matches." |
-| Definition | A concept needs a simple name | "Visual exploratory activity [checking the pitch before the ball arrives]." |
+| Authority method      | Use when                                                            | Example                                                                          |
+| --------------------- | ------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Felt experience       | The athlete needs to recognize the problem instantly                | "You look clean in cone drills and stiff in matches."                            |
+| Definition            | A concept needs a simple name                                       | "Visual exploratory activity [checking the pitch before the ball arrives]."      |
 | Neurological sequence | The slide explains pressure, stiffness, freezing, or late decisions | "The amygdala [the brain's threat detector] flags pressure. Your body tightens." |
-| Logical contrast | The drill removes the exact thing the sport demands | "Cone drills give a route. Games force a read." |
-| Selective stat | A number makes the claim more convincing | "Top players scan more before receiving." |
-| Source anchor | A claim needs credibility without overloading the slide | "Jordet's scanning research found..." |
+| Logical contrast      | The drill removes the exact thing the sport demands                 | "Cone drills give a route. Games force a read."                                  |
+| Selective stat        | A number makes the claim more convincing                            | "Top players scan more before receiving."                                        |
+| Source anchor         | A claim needs credibility without overloading the slide             | "Jordet's scanning research found..."                                            |
 
 Use one or two authority methods per slide. Do not stack all of them.
 
@@ -59,11 +59,13 @@ Good:
 
 Good:
 
-> Affordances [the actions your body sees as possible] change when your hips are closed.
+> Affordances [the actions your body sees as possible] change when your hips are
+> closed.
 
 Bad:
 
-> Your hippocampus, prefrontal cortex, basal ganglia, and motor system coordinate affordance selection under threat.
+> Your hippocampus, prefrontal cortex, basal ganglia, and motor system
+> coordinate affordance selection under threat.
 
 ## Stat Rule
 
@@ -77,7 +79,8 @@ Stats can be used in drafts, but final stats must be source-backed or rewritten.
 
 Better:
 
-> Jordet's research on elite footballers found that more pre-receive scanning is linked with better passing and ball retention.
+> Jordet's research on elite footballers found that more pre-receive scanning is
+> linked with better passing and ball retention.
 
 Acceptable draft only:
 
@@ -90,7 +93,8 @@ labels for every part.
 
 1. Top section: name the felt problem, the mechanism, and the consequence.
 2. Middle image or diagram.
-3. Bottom section: use a single visible label, **the fix:**, then give the practical correction and why it works.
+3. Bottom section: use a single visible label, **the fix:**, then give the
+   practical correction and why it works.
 4. Add a short source line only when needed.
 
 Do not use a separate **progression:** section on rendered slides. If a harder
@@ -100,29 +104,39 @@ version matters, fold it into **the fix:** in one short sentence.
 
 For the verified_byhumans-style science slides:
 
-- Each rendered body slide/post image must stay under **130 total words**. This is a hard ceiling.
+- Each rendered body slide/post image must stay under **130 total words**. This
+  is a hard ceiling.
 - The top text section must stay under **70 words**. This is a hard ceiling.
-- The bottom **the fix:** section must stay under **70 words**. This is a hard ceiling.
-- Treat the caps as targets, not permission to under-write. Aim close to the limit when the idea needs explanation.
-- Ideal body slides usually land around **110-130 total words**, with top and bottom sections around **55-68 words** each.
-- If a slide is under 100 words, only keep it that short when the idea is genuinely simple. Otherwise add one concrete mechanism, cue, or fix detail.
-- If both sections are near 70 words, cut until the whole slide is under 130 words.
-- Count visible source text toward the 130-word limit if it appears on the slide.
+- The bottom **the fix:** section must stay under **70 words**. This is a hard
+  ceiling.
+- Treat the caps as targets, not permission to under-write. Aim close to the
+  limit when the idea needs explanation.
+- Ideal body slides usually land around **110-130 total words**, with top and
+  bottom sections around **55-68 words** each.
+- If a slide is under 100 words, only keep it that short when the idea is
+  genuinely simple. Otherwise add one concrete mechanism, cue, or fix detail.
+- If both sections are near 70 words, cut until the whole slide is under 130
+  words.
+- Count visible source text toward the 130-word limit if it appears on the
+  slide.
 - Prefer one compact mechanism and one compact fix over dense explanation.
 
-## Practical Fix Rule
+## Practical Fix Rule (drills)
 
-Every fix must be easy enough to try without a professional setup.
+Every fix must be easy enough to try without a professional setup. The goal is
+to get the athlete to visually see themselves do the fix and be able to
+replicate it with one simple fix in their current drills. It must be framed as
+high value but low effort and described in a way that makes the athlete feel
+like they can immediately implement it.
 
 Prefer:
 
 - scattered cones instead of linear cones
-- random gate choices instead of memorized routes
+- random gate dribble, run exits instead of memorized linear routes
 - one shoulder check before a touch
 - wall pass plus exit gate
 - broken rhythm reps
 - timer or random cue app
-- shadow drill with a simple visual cue
 - mental replay after training
 
 Avoid defaulting to:
@@ -130,7 +144,8 @@ Avoid defaulting to:
 - "add live pressure" if a simpler version exists
 - elite-equipment drills
 - vague "train game-like" advice
-- fixes that require a full team or coach unless the slide is explicitly team-based
+- fixes that require a full team or coach unless the slide is explicitly
+  team-based
 
 ## Product Mention Rule
 
@@ -148,7 +163,8 @@ Natural product contexts:
 
 Approved product sentence:
 
-> w(inner) generates personalized visualization audio for your sport, position, and scenario.
+> w(inner) generates personalized visualization audio for your sport, position,
+> and scenario.
 
 Do not say:
 
@@ -160,25 +176,27 @@ Do not say:
 
 ## Rhythm Rules
 
-- Body slides must use the compressed verified_byhumans-style format: short top section, fixed middle image, short **the fix:** section.
+- Body slides must use the compressed verified_byhumans-style format: short top
+  section, fixed middle image, short **the fix:** section.
 - Use concrete sport language in the first sentence.
 - Avoid abrupt fragment chains.
 - Vary sentence length.
 - Keep one clear point per slide.
 - Use "you" when naming the athlete's felt experience.
-- Use sources at the bottom, not inside every line, and keep them short enough to fit the 130-word slide limit.
+- Use sources at the bottom, not inside every line, and keep them short enough
+  to fit the 130-word slide limit.
 
 ## Banned Patterns
 
-| Pattern | Why | Replacement |
-| --- | --- | --- |
-| Forced stat every slide | Feels fake | Use definition, source, or mechanism instead |
-| Dense brain stacking | Confusing | One term, bracket explanation |
-| "The real secret" | Throat-clearing | State the mechanism |
-| "Not X, but Y" repeated | Formulaic | Use direct contrast once, then explain |
-| "Just add live pressure" | Too broad | Give an accessible drill variant |
-| Generic motivation | Off-brand | Name the mechanism and fix |
-| Product as the whole fix | Salesy | Product extends the fix through mental reps |
+| Pattern                  | Why             | Replacement                                  |
+| ------------------------ | --------------- | -------------------------------------------- |
+| Forced stat every slide  | Feels fake      | Use definition, source, or mechanism instead |
+| Dense brain stacking     | Confusing       | One term, bracket explanation                |
+| "The real secret"        | Throat-clearing | State the mechanism                          |
+| "Not X, but Y" repeated  | Formulaic       | Use direct contrast once, then explain       |
+| "Just add live pressure" | Too broad       | Give an accessible drill variant             |
+| Generic motivation       | Off-brand       | Name the mechanism and fix                   |
+| Product as the whole fix | Salesy          | Product extends the fix through mental reps  |
 
 ## Copy QA Checklist
 

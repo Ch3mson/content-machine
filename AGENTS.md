@@ -1,67 +1,69 @@
 # Agent Router
 
-This file is the first document an agent should read in this workspace.
+This is a docs-first workspace for w(inner) social slideshow playbooks and rendered TikTok/Instagram slides. Start here, then read only the workflow/account/post files needed for the request.
 
-The user's workflow tag is an instruction, not a topic mention. If the user says
-`workflow a`, `workflow b`, `workflow c`, `source images`, `process images`, or
-asks for angle/variant brainstorming, start the matching workflow or skill and
-use the listed tools without waiting for another prompt.
+## Tags Are Commands
 
-## Workflow Tags
+If the user says one of these, start the matching file without waiting for another prompt:
 
-| User tag or intent | Start here | What to do |
-| --- | --- | --- |
-| `workflow a`, `workflow-a`, `new account`, `onboard account` | `workflows/workflow-a-new-account.md` | Create or update a new account playbook. |
-| `workflow b`, `workflow-b`, `new post`, `make post`, `existing account post` | `workflows/workflow-b-new-post.md` | Create a slideshow post for an existing account. |
-| `workflow c`, `image processing`, `process images`, `render slides` | `workflows/workflow-c-image-processing.md` | Turn mapped raw images and copy into final 9:16 slides. |
-| `source images`, `find images`, `Pinterest images` | `tools/image-sourcer/README.md` | Use the image sourcing tool and the post `image_preset.json`. |
-| `stop slop`, `anti-AI writing`, `clean copy` | `references/skills/stop-slop/SKILL.md` | Apply writing cleanup and QA rules. |
-| `3 variants`, `three variants`, `3 angles`, `angle concepts`, `brainstorm variants`, `overall angle` | `references/skills/angle-variants/SKILL.md` | Generate three account-adapted angle concepts in chat, not slide copy. |
-| `product`, `w(inner)`, `claim`, `app mention` | `product/app-brief.md` and `product/claim-bank.md` | Check product facts and approved claims before writing. |
-
-If the user tags multiple workflows, run them in the order stated. Example:
-`workflow a and workflow b` means onboard or update the account first, then create
-the post once the required account files exist.
-
-## Retrieval Order
-
-Use the smallest relevant set of files.
-
-1. Read this `AGENTS.md`.
-2. Read the selected workflow in `workflows/` or skill in `references/skills/`.
-3. Read `product/app-brief.md` and `product/claim-bank.md` before any product
-   mention or product claim.
-4. Read the target account files:
-   - `accounts/{account}/account-brief.md`
-   - `accounts/{account}/presets.md`, if present
-   - `accounts/{account}/writing.md`
-   - `accounts/{account}/image.md`
-   - `accounts/{account}/sources.md`
-5. Read only the post folder being worked on.
-6. Read tool docs only when the workflow calls for a tool.
-
-## Directory Contract
-
-| Directory | Contents |
+| User intent | Start here |
 | --- | --- |
-| `workflows/` | Agent procedures and trigger behavior. |
-| `accounts/` | Account playbooks and post workspaces. |
-| `product/` | Shared w(inner) product facts, claims, and assets. |
-| `references/` | Templates, research rules, inspiration accounts, and vendored writing skills. |
-| `tools/` | Runnable utilities only. Do not store strategy docs here. |
+| `workflow a`, `new account`, `onboard account` | `workflows/workflow-a-new-account.md` |
+| `workflow a0`, `account intake`, `reference map` | `workflows/workflow-a0-account-intake-reference-map.md` |
+| `workflow a1`, `writing extraction`, `writing principles` | `workflows/workflow-a1-writing-principle-extraction.md` |
+| `workflow a2`, `design extraction`, `design principles` | `workflows/workflow-a2-design-principle-extraction.md` |
+| `workflow a3`, `quality gate`, `test writing/design` | `workflows/workflow-a3-writing-design-quality-gate.md` + `references/skills/account-quality-gate/SKILL.md` |
+| `workflow a4`, `angle extraction`, `preset extraction` | `workflows/workflow-a4-angle-extraction-to-presets.md` + `references/skills/angle-extraction/SKILL.md` |
+| `workflow b`, `new post`, `make post` | `workflows/workflow-b-new-post.md` |
+| broad post idea, `post concept`, `VOC research`, avatar + pain point | `references/skills/post-concept-flow/SKILL.md` before final `flow.md` |
+| `workflow c`, `process images`, `render slides` | `workflows/workflow-c-image-processing.md` |
+| `source images`, `find images`, `Pinterest images` | `tools/image-sourcer/README.md` |
+| `3 variants`, `3 angles`, `angle concepts`, brainstorming | `references/skills/angle-variants/SKILL.md`; answer in chat, not `flow.md` |
+| `stop slop`, `anti-AI writing`, `clean copy` | `references/skills/stop-slop/SKILL.md` |
+| product/app/claim/w(inner) mention | `product/app-brief.md` + `product/claim-bank.md` before writing |
 
-## Tool Rules
+If the user tags multiple workflows, run them in order. Workflow B may continue into sourcing and Workflow C; do not stop at a draft when the user asked for an end-to-end post.
 
-- For image sourcing, use `python tools/image-sourcer/source_images.py <path-to-image_preset.json>`.
-- For image processing, use the target post's `process_images.py` if it exists.
-  If it does not exist, create it from `workflows/workflow-c-image-processing.md`
-  and the account `image.md`.
-- If browser image sourcing needs Chrome remote debugging, use
-  `python tools/browser-harness/connect_my_chrome.py` or follow
-  `tools/image-sourcer/README.md`.
-- Do not invent product claims. Use the claim bank.
-- Do not invent final account rules when Workflow A inputs are missing. Ask the
-  smallest next question.
-- Do not stop after drafting when the user asked for an end-to-end post. Continue
-  through sourcing, processing, and verification unless a required input is
-  missing or the user explicitly asks to review first.
+## Read Order
+
+1. Selected workflow or skill.
+2. Product files only if the copy mentions w(inner), the app, or a product claim.
+3. Target account files, including account-specific `README.md` when present:
+   - `account-brief.md`, `writing.md`, `presets.md` if present, `design.md`, `image.md`, `sources.md`
+   - If `writing.md` has an indexed writing folder table of contents, read only the subfiles it names for the current task.
+   - `prompts.md` if the account README lists it, such as `accounts/science-athlete/`
+4. Only the post folder being worked on.
+5. Tool docs only when a workflow calls for that tool.
+
+Root `README.md` currently names `accounts/athlete-stories/` as the active locked account. If the user names another account, use that account instead.
+
+## Workspace Contracts
+
+- Account source-of-truth files live in `accounts/{account}/`; preferred new post workspaces live in `accounts/{account}/posts/{post-slug}/`.
+- `writing.md` is the required entrypoint and highest-authority retrieval map for account copy. For indexed accounts, detailed writing files live under `accounts/{account}/writing/`.
+- `design.md` is the account source of truth for canvas size, layout, typography, text hierarchy, reference-photo framing, and renderer-facing format rules.
+- `image.md` is for photo direction, visual treatment, and selected-photo suitability; do not rely on it for layout decisions that belong in `design.md`.
+- `presets.md` is supplemental. Create or update it only after baseline `writing.md` and `design.md` pass the quality gate, unless the user explicitly asks for legacy behavior.
+- Legacy post folders such as `accounts/athlete-stories/Lebron/` and `Michael Jordan/` are valid; work in the folder the user names or the closest existing post folder.
+- Standard post files: `flow.md`, `image_preset.json`, `sourced/`, post-specific `process_images.py`, `processed/`.
+- `tools/` is only for runnable utilities. Put strategy docs, templates, research notes, and product references in `references/` or `product/`.
+- There is no root app manifest; Python tooling is local to scripts, with `tools/browser-harness/pyproject.toml` requiring Python >=3.11.
+
+## Commands And Gotchas
+
+- Source images: `python tools/image-sourcer/source_images.py <path-to-image_preset.json>`.
+- Browser-backed sourcing needs Chrome running with remote debugging on port 9222, then `python tools/browser-harness/connect_my_chrome.py` if auto-detection fails.
+- `tools/browser-harness/_compat.py` is a local Windows TCP-socket patch for browser-harness; do not remove it as an upstream mismatch.
+- Process images with the target post script: `python accounts/{account}/{post}/process_images.py` or `python accounts/{account}/posts/{post}/process_images.py`.
+- If a post has no processor, create one from `workflows/workflow-c-image-processing.md`, the account `design.md`, and the account `image.md`; keep slide mappings in the post script.
+- Final processed slides must be PNG files named `slide_1.png`, `slide_2.png`, etc., exactly matching the canvas size in account `design.md`.
+
+## Hard Rules
+
+- Do not invent product claims; use `product/claim-bank.md`.
+- Do not invent final account rules when Workflow A inputs are missing; ask the smallest next question.
+- Do not lock new account `writing.md` or `design.md` until Workflow A3 or `account-quality-gate` produces an approved non-hero sample slide.
+- Do not create `presets.md` before baseline writing/design quality passes; use Workflow A4 for validated angle-to-preset extraction.
+- If a broad post idea is not a locked angle and final copy, use the concept flow before creating `flow.md`.
+- For copy iteration requests like “give me the copy” in `science-athlete`, paste copy in chat first and only write `flow.md` after approval.
+- Preserve manual line breaks from `flow.md` during rendering; do not rewrite slide copy inside `process_images.py`.

@@ -10,14 +10,18 @@ the final slides.
 
 1. `../AGENTS.md`
 2. `../accounts/{account}/account-brief.md`
-3. `../accounts/{account}/presets.md`, if present
-4. `../accounts/{account}/writing.md`
-5. `../accounts/{account}/image.md`
-6. `../accounts/{account}/sources.md`
-7. `../product/app-brief.md` and `../product/claim-bank.md` before product copy
+3. `../accounts/{account}/writing.md`
+4. Only the indexed writing subfiles required by `writing.md` for this post
+5. `../accounts/{account}/presets.md`, if present and validated
+6. `../accounts/{account}/design.md`
+7. `../accounts/{account}/image.md`
+8. `../accounts/{account}/sources.md`
+9. `../product/app-brief.md` and `../product/claim-bank.md` before product copy
 
 If required account files are missing, run Workflow A first:
 `workflow-a-new-account.md`.
+If `writing.md` or `design.md` is marked `Pending quality gate`, do not use the
+account for a production post unless the user explicitly accepts draft status.
 
 ## Post Folder
 
@@ -25,6 +29,7 @@ Preferred shape:
 
 ```text
 accounts/{account}/posts/{post-name}/
+  concept/
   flow.md
   image_preset.json
   sourced/
@@ -42,10 +47,20 @@ Work in the folder the user names or the closest existing post folder.
    - If the user only gives a subject, use the active or obvious account.
 
 2. Select account preset:
-   - Read `presets.md` if present.
-   - Choose the preset that matches the subject's narrative.
-   - If no preset fits, use `writing.md` and `image.md` directly and note the
-     assumption in `flow.md`.
+   - Read `writing.md` first. If it has a table of contents for indexed
+     writing subfiles, read only the subfiles relevant to the current post.
+   - Read `presets.md` only after the baseline voice is clear. Treat presets as
+     supplemental angle or flow patterns, not as the source of account voice.
+   - If the user starts from a broad avatar, pain point, or concept instead of
+     an approved post angle and slide copy, run
+     `../references/skills/post-concept-flow/SKILL.md` before creating final
+     `flow.md`.
+   - Store concept-stage research, decisions, and copy options in the post
+     folder's `concept/` directory.
+   - Choose a preset only when it matches the subject's narrative and does not
+     conflict with `writing.md`.
+   - If no preset fits, use `writing.md`, `design.md`, and `image.md` directly
+     and note the assumption in `flow.md`.
    - If the user asks for 3 variants, angle concepts, or brainstorming before a
      post is locked, use `../references/skills/angle-variants/SKILL.md` and
      answer in chat. Do not create `flow.md` until the user chooses an angle or
@@ -64,7 +79,10 @@ Work in the folder the user names or the closest existing post folder.
      blocker.
 
 4. Write `flow.md`:
-   - Follow the selected preset and `writing.md`.
+   - Follow `writing.md` and its relevant indexed subfiles.
+   - Follow the selected preset only as a supplemental structure.
+   - Follow `design.md` for slide format, section limits, typography-driven line
+     breaks, and renderer-facing layout constraints.
    - Use exact slide roles from `image.md`.
    - Keep product mentions native and claim-bank approved.
    - Flag research-sensitive claims per `sources.md`.
@@ -73,10 +91,11 @@ Work in the folder the user names or the closest existing post folder.
 5. Process images:
    - Run Workflow C: `workflow-c-image-processing.md`.
    - Use the post `process_images.py` if it exists.
-   - If it does not exist, create it from the workflow and account `image.md`.
+   - If it does not exist, create it from the workflow, account `design.md`, and
+     account `image.md`.
 
 6. Verify:
-   - Confirm every final PNG is 1080x1920.
+   - Confirm every final PNG matches the canvas size in account `design.md`.
    - Confirm output files are named `slide_1.png`, `slide_2.png`, etc.
    - Check that the image count matches `flow.md`.
    - Report any skipped or missing source images.

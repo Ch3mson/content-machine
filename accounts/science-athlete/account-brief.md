@@ -44,5 +44,5 @@ The reader should feel:
 ## Open Questions
 
 - Final account name and handle.
-- Whether 3:4 remains the only output ratio or if 9:16 variants are needed later.
+- Whether 4:5 remains the only output ratio or if 9:16 variants are needed later.
 - Which sports should be prioritized first after soccer, basketball, and boxing.

@@ -3,35 +3,39 @@
 Use this when the user says `workflow c`, `process images`, `render slides`, or
 when Workflow B reaches image rendering.
 
-Goal: produce final 9:16 PNG slideshow images from mapped raw photos and slide
-copy.
+Goal: produce final PNG slideshow images from mapped raw photos and slide copy,
+using the target account's `design.md` as the layout source of truth.
 
 ## Read First
 
 1. `../AGENTS.md`
-2. Target account `image.md`
-3. Target account `writing.md`, only to preserve copy rhythm and line breaks
-4. Target post `flow.md`
-5. Existing target post `process_images.py`, if present
+2. Target account `design.md`
+3. Target account `image.md`
+4. Target account `writing.md`, only to preserve copy rhythm and line breaks;
+   read indexed writing subfiles only if `writing.md` says they affect rendering
+   or manual line breaks
+5. Target post `flow.md`
+6. Existing target post `process_images.py`, if present
 
 ## Pipeline Order
 
 Run the image operations in this exact order:
 
-1. Normalize every source image to 1080x1920.
-2. Convert to black and white.
-3. Apply the account paper/texture/overlay treatment.
-4. Add text overlay.
+1. Create the final canvas at the size specified in account `design.md`.
+2. Crop or frame each selected photo according to account `design.md`.
+3. Apply the account visual treatment from `image.md`.
+4. Add text overlay according to account `design.md`.
 
 Do not add text before normalization. Text placement depends on the final canvas.
 
 ## Default Processing Rules
 
-Account `image.md` overrides these defaults.
+Account `design.md` overrides canvas, placement, typography, and text layout.
+Account `image.md` overrides photo treatment.
 
 | Setting | Default |
 | --- | --- |
-| Canvas | 1080x1920 PNG |
+| Canvas | Use account `design.md`; fallback `1080x1920` PNG |
 | Crop | Center crop, no stretching |
 | B&W | Grayscale plus 1.3 contrast |
 | Overlay | Same subtle paper overlay for every slide |
@@ -57,7 +61,10 @@ Account `image.md` overrides these defaults.
 3. Create or update `process_images.py`:
    - Keep the script post-specific.
    - Store slide mappings in the script.
-   - Load `C:/Windows/Fonts/arialbd.ttf` if available.
+   - Use canvas dimensions, photo frame placement, typography, margins, and
+     section layout from account `design.md`.
+   - Load `C:/Windows/Fonts/arial.ttf` and `C:/Windows/Fonts/arialbd.ttf` if
+     available.
    - Save outputs to `processed/`.
 
 4. Run the script:
@@ -65,7 +72,8 @@ Account `image.md` overrides these defaults.
    - Do not skip failed images silently. The script should print skipped files.
 
 5. Verify outputs:
-   - Use Pillow or image metadata to confirm every PNG is exactly 1080x1920.
+   - Use Pillow or image metadata to confirm every PNG matches the canvas size in
+     account `design.md`.
    - Check that the number of processed slides matches the flow.
    - If text exceeds margins, edit line breaks in `flow.md` and rerun.
 
@@ -73,6 +81,8 @@ Account `image.md` overrides these defaults.
 
 - Use exact copy from `flow.md`.
 - Do not reword copy inside the image script.
+- Use `design.md` for layout, typography, text hierarchy, reference-photo
+  framing, and final output size.
 - Use the same overlay for all slides in one post.
 - Preserve the account's visual rules even when source photos differ.
 - Report font fallback if Arial Bold is unavailable.
