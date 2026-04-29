@@ -14,9 +14,10 @@ a strong representative non-hero slide before they are locked.
 4. `../accounts/{account}/account-brief.md`
 5. `../accounts/{account}/writing.md`
 6. Only the indexed writing subfiles required by `writing.md`
-7. `../accounts/{account}/design.md`
-8. `../accounts/{account}/image.md`, only for placeholder or photo treatment
-9. `../accounts/{account}/sources.md`, only if factual or product claims appear
+7. `../accounts/{account}/writing/refinement-personas.md`
+8. `../accounts/{account}/design.md`
+9. `../accounts/{account}/image.md`, only for placeholder or photo treatment
+10. `../accounts/{account}/sources.md`, only if factual or product claims appear
 
 ## Procedure
 
@@ -36,6 +37,13 @@ a strong representative non-hero slide before they are locked.
    - Do not use a hero slide, because hero slides can hide weak repeatability.
    - Use the draft `writing.md` and `design.md` exactly as source of truth.
    - Use a placeholder image frame if no real image is available.
+   - Before rendering, run the draft through all three personas in
+     `writing/refinement-personas.md`.
+   - Save the three-persona critique in `quality-gate/iteration-notes.md`.
+   - If the Athlete Skeptic flags sport terminology, verify only the flagged
+     terms. Use teammate/coach plausibility first, then external research if
+     needed. If a term is not clearly `Native` or `Acceptable`, rewrite it into
+     plain, observable athlete language before rendering.
 
 4. Save artifacts in `accounts/{account}/quality-gate/`.
    - `sample-brief.md`
@@ -47,8 +55,17 @@ a strong representative non-hero slide before they are locked.
 5. User reviews the rendered PNG.
    - If approved, mark the latest sample in `iteration-notes.md`.
    - If revisions are requested, update `iteration-notes.md` with exact feedback.
-   - The main account session updates `writing.md`, writing subfiles, or
-     `design.md`, then repeats the gate.
+   - Classify the rejection under The Bored Athlete, The Account-Native
+     Scroller, The Athlete Skeptic, or design feedback.
+   - Update `writing/refinement-personas.md` with the calibrated criticism
+     before the next sample attempt.
+   - Update `writing/sample-posts.md` only if the rejected sample is useful as a
+     cautionary example.
+   - Update `writing/qa.md`, `writing.md`, writing subfiles, or `design.md`
+     only when the feedback changes durable approval criteria, account voice, or
+     design rules.
+   - Do not promote one-off rejection feedback into a locked rule unless the
+     user states it as durable or it repeats across samples.
 
 6. Lock only after approval.
    - Change `writing.md` status to `Locked`.

@@ -22,10 +22,11 @@ only when this table of contents says they are needed.
 | 1 | `writing.md` | Current account voice, retrieval map, non-negotiable rules | Always |
 | 2 | `writing/principles.md` | Stable extracted account principles | Drafting or revising core copy |
 | 3 | `writing/qa.md` | Final copy checks | Before samples, flows, or posts are approved |
-| 4 | `writing/banned-patterns.md` | Account-specific weak moves | Editing, cleanup, or quality review |
-| 5 | `writing/sample-posts.md` | Approved examples in use | Calibrating style or explaining decisions |
-| 6 | `writing/pattern-extractions.md` | Raw or semi-processed observations | Auditing extraction or adding references |
-| 7 | `writing/copywriting-principles.md` | General persuasion logic | Diagnosing why copy works or fails |
+| 4 | `writing/refinement-personas.md` | Account-specific three-persona refinement protocol | Drafting samples, revising rejected samples, or running quality gate |
+| 5 | `writing/banned-patterns.md` | Account-specific weak moves | Editing, cleanup, or quality review |
+| 6 | `writing/sample-posts.md` | Approved examples in use | Calibrating style or explaining decisions |
+| 7 | `writing/pattern-extractions.md` | Raw or semi-processed observations | Auditing extraction or adding references |
+| 8 | `writing/copywriting-principles.md` | General persuasion logic | Diagnosing why copy works or fails |
 
 Conflict rule: if a lower-priority file conflicts with this file, follow this
 file and add the conflict to `writing/qa.md` or the current quality-gate notes.
@@ -37,6 +38,7 @@ file and add the conflict to `writing/qa.md` or the current quality-gate notes.
 | `writing/principles.md` | Stable account-specific principles extracted from references | Raw notes or one-off observations |
 | `writing/pattern-extractions.md` | Reference-by-reference observations and viewer-perspective analysis | Final rules without synthesis |
 | `writing/copywriting-principles.md` | General copy logic behind the account style | Overriding account voice |
+| `writing/refinement-personas.md` | The Bored Athlete, Account-Native Scroller, and Athlete Skeptic calibration | Proving sport terminology by circular reference to account docs |
 | `writing/banned-patterns.md` | Weak moves, banned phrasing, and replacements | Adding new rules without evidence |
 | `writing/sample-posts.md` | Approved samples and annotations | Templates to copy word-for-word |
 | `writing/qa.md` | Quality checks, scoring, and unresolved conflicts | Account strategy or design rules |

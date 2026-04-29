@@ -43,6 +43,7 @@ Baseline account files:
 - `accounts/{account}/extractions/reference-map.md`
 - `accounts/{account}/writing.md`
 - `accounts/{account}/writing/principles.md`
+- `accounts/{account}/writing/refinement-personas.md`
 - `accounts/{account}/writing/pattern-extractions.md`
 - `accounts/{account}/writing/copywriting-principles.md`
 - `accounts/{account}/writing/banned-patterns.md`
@@ -81,6 +82,9 @@ Ask in short rounds. Do not ask for every missing item at once.
 - If the user returns from an isolated quality-gate session with revision notes,
   update the relevant source-of-truth docs before running or accepting another
   quality-gate sample.
+- If the user rejects a quality-gate sample, update
+  `writing/refinement-personas.md` with the calibrated criticism before the
+  next sample attempt.
 - Treat the user's feedback as higher priority than the initial extraction.
 - If the user also tagged Workflow B, continue to Workflow B only after the
   required account docs exist and the baseline writing/design gate is approved.

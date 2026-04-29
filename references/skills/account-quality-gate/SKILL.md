@@ -21,11 +21,12 @@ Use the smallest relevant set:
 3. `accounts/{account}/account-brief.md`
 4. `accounts/{account}/writing.md`
 5. Only indexed writing subfiles required by `writing.md`
-6. `accounts/{account}/design.md`
-7. `accounts/{account}/image.md`, only for placeholder or visual treatment
-8. `accounts/{account}/sources.md`, only if the sample uses claims
-9. `references/skills/stop-slop/SKILL.md`
-10. Product files only if the sample mentions w(inner)
+6. `accounts/{account}/writing/refinement-personas.md`
+7. `accounts/{account}/design.md`
+8. `accounts/{account}/image.md`, only for placeholder or visual treatment
+9. `accounts/{account}/sources.md`, only if the sample uses claims
+10. `references/skills/stop-slop/SKILL.md`
+11. Product files only if the sample mentions w(inner)
 
 ## Contracts
 
@@ -38,6 +39,12 @@ Use the smallest relevant set:
   when no image is available.
 - Do not edit `writing.md` or `design.md` by default. Record feedback so the
   main account session can revise the source docs.
+- Run the draft sample through the three account refinement personas before
+  rendering.
+- If the Athlete Skeptic flags sport terminology, verify only the flagged terms.
+  Use teammate/coach plausibility first, then external research when needed.
+  Terms that are not clearly `Native` or `Acceptable` must be rewritten in
+  plain, observable athlete language.
 - If `design.md` lacks enough geometry to render, stop and report the missing
   design rules instead of inventing them.
 
@@ -62,6 +69,9 @@ Use the smallest relevant set:
 
 4. Draft the sample copy.
    - Follow `writing.md` and required subfiles.
+   - Apply `writing/refinement-personas.md`.
+   - Record Bored Athlete, Account-Native Scroller, and Athlete Skeptic critique
+     in `iteration-notes.md` before rendering.
    - Preserve the account's intended rhythm.
    - Do not use a preset unless the baseline docs already say it is validated.
 
@@ -82,11 +92,18 @@ Use the smallest relevant set:
    - If approved, record approval in `iteration-notes.md`.
    - If revisions are requested, record exact feedback and which source file
      likely needs revision.
+   - Classify rejected-sample criticism under the matching persona or design
+     feedback.
+   - Update `writing/refinement-personas.md` before the next sample attempt.
+   - Promote rejection feedback to `writing.md`, `writing/principles.md`,
+     `writing/qa.md`, or `design.md` only when it is explicit, repeated, or
+     changes durable account rules.
 
 ## Approval Criteria
 
 - The slide looks like it came from the target account.
 - The copy follows the account's voice without sounding templated.
+- The draft passed all blocking checks in the three-persona protocol.
 - The layout follows `design.md` without manual hacks.
 - The placeholder or image frame has the right spacing and visual priority.
 - The sample exposes enough of the system to trust future body slides.
@@ -97,4 +114,6 @@ Use the smallest relevant set:
 - The sample uses a hero slide and avoids testing repeatable body structure.
 - The design file lacks exact canvas, typography, spacing, or frame rules.
 - The writing folder contains broad advice but no actionable voice rules.
+- The three personas contain generic advice instead of account-specific pass
+  criteria, blocking failures, and rewrite actions.
 - The product mention feels like an ad or uses unapproved claims.

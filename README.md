@@ -34,7 +34,9 @@ Start with `AGENTS.md`. It routes user tags like `workflow a`, `workflow b`,
 
 ## Current Account
 
-`accounts/athlete-stories/` is the active locked account. It contains:
+`accounts/athlete-max/` is the active account (A0 intake complete, pending A1-A3).
+
+`accounts/athlete-stories/` is a locked reference account. It contains:
 
 - `account-brief.md`
 - `presets.md`

@@ -36,7 +36,24 @@ Goal: create the indexed account writing system before any presets exist.
    - Keep raw observations out of the top-level `writing.md`.
    - Write `writing/principles.md`.
 
-4. Create supporting writing files.
+4. Create account-specific refinement personas.
+   - Use `../references/templates/writing/refinement-personas.md`.
+   - Keep exactly three personas: The Bored Athlete, The Account-Native
+     Scroller, and The Athlete Skeptic.
+   - Calibrate the personas from the account brief, reference map,
+     writing-relevant references, product relationship, banned patterns, and
+     known audience weak points.
+   - For the Account-Native Scroller, name the specific inspiration accounts or
+     posts and the sentence-flow traits to compare against: hook shape,
+     sentence rhythm, line length, pacing, problem-to-mechanism-to-fix movement,
+     density per slide, smoothness, and swipe momentum.
+   - For the Athlete Skeptic, include target sports or athlete contexts,
+     audience level, banned jargon patterns, claim-risk areas, and the
+     flagged-term verification ladder. Do not treat existing account docs,
+     approved samples, or extracted principles as proof that sport terminology
+     is native.
+
+5. Create supporting writing files.
    - `writing/copywriting-principles.md`: general persuasion logic that explains
      why the style works.
    - `writing/banned-patterns.md`: account-specific weak moves and replacements.
@@ -44,14 +61,16 @@ Goal: create the indexed account writing system before any presets exist.
      they work.
    - `writing/qa.md`: final copy checks and scoring.
 
-5. Write `writing.md` as the retrieval hub.
+6. Write `writing.md` as the retrieval hub.
    - Use `../references/templates/account-writing.md`.
    - Include status: `Pending quality gate`.
    - Include document authority, table of contents, conflict rule, core voice
      snapshot, locked rules, and quality-gate notes.
+   - Link `writing/refinement-personas.md` below `writing/qa.md` in the
+     authority hierarchy.
    - Make `writing.md` the highest-authority copy file.
 
-6. Stop before presets.
+7. Stop before presets.
    - Do not create `presets.md` in this workflow.
    - Angle and flow presets belong to Workflow A4 after baseline quality passes.
 
@@ -60,6 +79,7 @@ Goal: create the indexed account writing system before any presets exist.
 ```text
 accounts/{account}/writing.md
 accounts/{account}/writing/principles.md
+accounts/{account}/writing/refinement-personas.md
 accounts/{account}/writing/pattern-extractions.md
 accounts/{account}/writing/copywriting-principles.md
 accounts/{account}/writing/banned-patterns.md
@@ -77,10 +97,11 @@ higher-priority file and note the conflict for cleanup.
 | 1 | `writing.md` | Current account voice, retrieval map, non-negotiable rules |
 | 2 | `writing/principles.md` | Stable extracted account principles |
 | 3 | `writing/qa.md` | Final copy checks |
-| 4 | `writing/banned-patterns.md` | Account-specific weak moves |
-| 5 | `writing/sample-posts.md` | Approved examples in use |
-| 6 | `writing/pattern-extractions.md` | Raw or semi-processed observations |
-| 7 | `writing/copywriting-principles.md` | General persuasion logic |
+| 4 | `writing/refinement-personas.md` | Account-specific three-persona refinement protocol |
+| 5 | `writing/banned-patterns.md` | Account-specific weak moves |
+| 6 | `writing/sample-posts.md` | Approved examples in use |
+| 7 | `writing/pattern-extractions.md` | Raw or semi-processed observations |
+| 8 | `writing/copywriting-principles.md` | General persuasion logic |
 
 ## Outputs
 
@@ -93,4 +114,7 @@ higher-priority file and note the conflict for cleanup.
 - Do not copy competitor wording.
 - Do not turn raw observations into locked rules unless multiple examples or
   user feedback support them.
+- Do not use existing account language as proof that a sport term is native;
+  Athlete Skeptic term checks need teammate/coach plausibility or external
+  evidence.
 - Mark uncertain rules as candidates until the quality gate validates them.
