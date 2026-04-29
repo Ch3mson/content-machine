@@ -1,23 +1,26 @@
 # Sample Copy
 
 ```text
-what to avoid:
-starting training dehydrated
+performance cost:
 
-if you play forward, your first 5 meters decide the chance.
-mild dehydration makes that first step cost more.
+Why your first touch gets loose
+after repeat sprints
 
-you lose water overnight. when you start practice down
-even 2% of body mass, your blood carries less fluid
-and your heart works harder at the same pace.
+you still see the pass.
+your next read just comes late.
 
-[placeholder image frame: soccer forward hydration cue]
+if you start training low on fluid,
+your body runs hotter and you can process
+the next cue slower once the tempo climbs.
 
-the fix: 500 ml water + electrolytes within 30 min of waking.
-this restores fluid volume before your first high-speed run,
-so your brain and legs are not catching up during finishing drills.
+[placeholder image frame: soccer player receiving a pass after a hard run]
 
-source: journal of the international society of sports nutrition / nih
-medicine & science in sports & exercise / nih
-(pmid: 20799932, 21738326)
+the fix:
+500 mL water + electrolytes 60–90 min before training.
+sip steadily through warmup.
+
+the result:
+cleaner first touch and faster next-pass decisions late in the session.
+
+source: verify hydration + cognition citation before final
 ```

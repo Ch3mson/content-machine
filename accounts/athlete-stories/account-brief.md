@@ -30,19 +30,23 @@
 
 | Reference | Location | Why it matters | Status |
 | --- | --- | --- | --- |
-| Lebron post | `accounts/athlete-stories/Lebron/` | Established 7-slide arc and B&W paper-overlay design | Locked |
+| @asdiscipline McGregor post | `extractions/flow-analysis.md` | Source of 7-slide arc, fact-led opening, B&W treatment | Reviewed |
+| @legendperform | Not yet captured | User-named inspiration account — need posts or screenshots | Missing |
 
 ## Design Inputs
 
 | Reference | Location | What the user likes | Status |
 | --- | --- | --- | --- |
-| Lebron post | `accounts/athlete-stories/Lebron/processed/` | B&W, vintage paper overlay, centered text, 9:16 | Locked |
+| LeBron processed PNGs | `Lebron/processed/` | B&W, vintage paper overlay, centered text, 9:16 | Proof of concept |
+| @asdiscipline visual style | Inferred from flow analysis | Full-bleed photo, centered white text with black outline | Reviewed |
 
 ## Copy Inputs
 
 | Sample | Location or text | Like/dislike | Lesson |
 | --- | --- | --- | --- |
-| Lebron flow | `accounts/athlete-stories/Lebron/flow.md` | Locked | Short → medium intensification arc |
+| LeBron flow | `Lebron/flow.md` | Approved | Short → medium intensification arc works |
+| Michael Jordan flow | `Michael Jordan/flow.md` | Approved | Fourth-wall opening + mental edge arc works |
+| Messi flow | `Messi/flow.md` | Not yet reviewed | Needs quality gate review |
 
 ## Product Mention Decision
 
