@@ -55,11 +55,21 @@ Baseline account files:
 - `accounts/{account}/quality-gate/index.md`, after Workflow A3
 - `accounts/{account}/quality-gate/attempts/{attempt-id}/`, after each
   Workflow A3 attempt
+- `accounts/{account}/post-status.md`, after the post tracker is refreshed
+- `accounts/{account}/ready-to-post/README.md`, after the post tracker is
+  refreshed
 
 Supplemental files:
 
 - `accounts/{account}/presets.md`, only after Workflow A4 validates repeatable
   angle or flow patterns.
+
+After creating or changing an account folder, refresh the cross-account
+dashboard and account funnel:
+
+```powershell
+python tools/post-tracker/update_post_status.py
+```
 
 ## Required Inputs
 
@@ -101,3 +111,5 @@ Ask in short rounds. Do not ask for every missing item at once.
 - Keep product claims inside approved claim-bank boundaries.
 - Use fewer, better questions.
 - Prefer iterative workflows over one large account setup pass.
+- Refresh the post tracker after creating a new account folder or changing post
+  workspaces inside the account.

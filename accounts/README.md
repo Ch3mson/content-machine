@@ -30,6 +30,22 @@ Each post folder should contain:
 - `process_images.py`: post-specific processing script.
 - `processed/`: final rendered slides.
 
+Each account also has a post dashboard and a clean publishing funnel:
+
+```text
+accounts/{account}/post-status.md
+accounts/{account}/ready-to-post/{post-slug}/
+```
+
+Use `post-status.md` to see each post's status, stage, next action, source
+workspace, ready pack, and flow. Finished publish packs under `ready-to-post/`
+contain only `flow.md` and final `slide_*.png` files. Keep edits in the source
+workspace, then refresh the dashboard and publish packs:
+
+```powershell
+python tools/post-tracker/update_post_status.py
+```
+
 Use `../workflows/workflow-a-new-account.md` for new accounts and
 `../workflows/workflow-b-new-post.md` for new posts.
 

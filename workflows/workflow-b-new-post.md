@@ -41,6 +41,15 @@ accounts/{account}/posts/{post-name}/
 Existing legacy folders such as `accounts/athlete-stories/Lebron/` are valid.
 Work in the folder the user names or the closest existing post folder.
 
+Status tracking is handled by:
+
+```powershell
+python tools/post-tracker/update_post_status.py
+```
+
+Run it whenever Workflow B leaves a durable artifact such as concept notes,
+approved `flow.md`, sourced images, rendered PNGs, or a finished post.
+
 ## Procedure
 
 1. Resolve the account and subject:
@@ -82,6 +91,8 @@ Work in the folder the user names or the closest existing post folder.
      claim-risk notes when relevant.
    - Optionally store the current review draft in `concept/copy-review.md`, but
      keep `flow.md` for approved final copy only.
+   - If concept files are written, refresh the post tracker so the post appears
+     as in progress.
 
 4. Copy approval loop:
    - Ask the user to approve, revise, combine, or reject the draft copy.
@@ -98,6 +109,7 @@ Work in the folder the user names or the closest existing post folder.
    - Preserve approved manual line breaks.
    - Add image roles, image filenames or sourcing placeholders, and source notes
      needed by Workflow C.
+   - Refresh the post tracker after writing approved `flow.md`.
 
 6. Gather or source images:
    - If raw images already exist, map them to the approved slide roles.
@@ -110,6 +122,7 @@ Work in the folder the user names or the closest existing post folder.
    - If browser sourcing cannot start because Chrome remote debugging is not
      available, follow `../tools/image-sourcer/README.md` and report the exact
      blocker.
+   - Refresh the post tracker after images are sourced or mapped.
 
 7. Process images:
    - Run Workflow C: `workflow-c-image-processing.md`.
@@ -122,6 +135,8 @@ Work in the folder the user names or the closest existing post folder.
    - Confirm output files are named `slide_1.png`, `slide_2.png`, etc.
    - Check that the image count matches `flow.md`.
    - Report any skipped or missing source images.
+   - Refresh the post tracker so done posts are copied into
+     `accounts/{account}/ready-to-post/{post-name}/`.
 
 ## Agent Rules
 
@@ -134,3 +149,5 @@ Work in the folder the user names or the closest existing post folder.
 - Do not invent athlete facts that need sources. Mark them as claims to verify.
 - Use Stop Slop QA before final copy.
 - Respect manual line breaks from `flow.md` during processing.
+- Keep `POST_STATUS.md` current by refreshing the tracker after each durable
+  stage change.

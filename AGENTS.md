@@ -53,6 +53,8 @@ Root `README.md` currently names `accounts/athlete-stories/` as the active locke
 - Standard post files: `flow.md`, `image_preset.json`, `sourced/`, post-specific `process_images.py`, `processed/`.
 - Draft copy review files may live in `accounts/{account}/posts/{post-slug}/concept/`.
   The final `flow.md` is written only after the user approves the full slide copy.
+- Cross-account post status lives in `POST_STATUS.md`; each account also has `accounts/{account}/post-status.md`.
+- Finished publish packs live in `accounts/{account}/ready-to-post/{post-slug}/` and contain only `flow.md` plus final `slide_*.png` files. Do not edit from publish packs; edit the source workspace and refresh the tracker.
 - `tools/` is only for runnable utilities. Put strategy docs, templates, research notes, and product references in `references/` or `product/`.
 - There is no root app manifest; Python tooling is local to scripts, with `tools/browser-harness/pyproject.toml` requiring Python >=3.11.
 
@@ -64,6 +66,7 @@ Root `README.md` currently names `accounts/athlete-stories/` as the active locke
 - Process images with the target post script: `python accounts/{account}/{post}/process_images.py` or `python accounts/{account}/posts/{post}/process_images.py`.
 - If a post has no processor, create one from `workflows/workflow-c-image-processing.md`, the account `design.md`, and the account `image.md`; keep slide mappings in the post script.
 - Final processed slides must be PNG files named `slide_1.png`, `slide_2.png`, etc., exactly matching the canvas size in account `design.md`.
+- Refresh post dashboards and ready-to-post packs after post changes: `python tools/post-tracker/update_post_status.py`.
 
 ## Hard Rules
 

@@ -76,6 +76,9 @@ Account `image.md` overrides photo treatment.
      account `design.md`.
    - Check that the number of processed slides matches the flow.
    - If text exceeds margins, edit line breaks in `flow.md` and rerun.
+   - Refresh the post tracker after verification so finished posts are copied
+     into the account's clean `ready-to-post/` funnel:
+     `python tools/post-tracker/update_post_status.py`.
 
 ## Agent Rules
 
@@ -86,3 +89,4 @@ Account `image.md` overrides photo treatment.
 - Use the same overlay for all slides in one post.
 - Preserve the account's visual rules even when source photos differ.
 - Report font fallback if Arial Bold is unavailable.
+- Refresh `POST_STATUS.md` after rendering or rerendering a post.

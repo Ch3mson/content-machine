@@ -25,6 +25,7 @@ Start with `AGENTS.md`. It routes user tags like `workflow a`, `workflow b`,
 | Path | Purpose |
 | --- | --- |
 | `AGENTS.md` | Mandatory router and retrieval contract for agents. |
+| `POST_STATUS.md` | Cross-account post dashboard showing finished posts, in-progress posts, stage, next action, and ready-to-post packs. |
 | `workflows/` | Step-by-step procedures for account setup, post creation, and image processing. |
 | `accounts/` | Account source-of-truth files, indexed writing folders, quality-gate artifacts, and post workspaces. |
 | `product/` | w(inner) app brief, claim bank, and product assets. |
@@ -70,6 +71,12 @@ Process a post's images:
 
 ```powershell
 python accounts/athlete-stories/Lebron/process_images.py
+```
+
+Refresh the post dashboard and ready-to-post folders:
+
+```powershell
+python tools/post-tracker/update_post_status.py
 ```
 
 ## Definition Of Done
