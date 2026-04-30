@@ -22,7 +22,10 @@ If the user says one of these, start the matching file without waiting for anoth
 | `stop slop`, `anti-AI writing`, `clean copy` | `references/skills/stop-slop/SKILL.md` |
 | product/app/claim/w(inner) mention | `product/app-brief.md` + `product/claim-bank.md` before writing |
 
-If the user tags multiple workflows, run them in order. Workflow B may continue into sourcing and Workflow C; do not stop at a draft when the user asked for an end-to-end post.
+If the user tags multiple workflows, run them in order. Workflow B must pause at
+the copy approval gate before sourcing images or running Workflow C. After the
+user explicitly approves the full copy, continue into sourcing and Workflow C
+when the user asked for an end-to-end post.
 
 ## Read Order
 
@@ -48,6 +51,8 @@ Root `README.md` currently names `accounts/athlete-stories/` as the active locke
 - `presets.md` is supplemental. Create or update it only after baseline `writing.md` and `design.md` pass the quality gate, unless the user explicitly asks for legacy behavior.
 - Legacy post folders such as `accounts/athlete-stories/Lebron/` and `Michael Jordan/` are valid; work in the folder the user names or the closest existing post folder.
 - Standard post files: `flow.md`, `image_preset.json`, `sourced/`, post-specific `process_images.py`, `processed/`.
+- Draft copy review files may live in `accounts/{account}/posts/{post-slug}/concept/`.
+  The final `flow.md` is written only after the user approves the full slide copy.
 - `tools/` is only for runnable utilities. Put strategy docs, templates, research notes, and product references in `references/` or `product/`.
 - There is no root app manifest; Python tooling is local to scripts, with `tools/browser-harness/pyproject.toml` requiring Python >=3.11.
 
@@ -69,5 +74,9 @@ Root `README.md` currently names `accounts/athlete-stories/` as the active locke
 - Do not overwrite prior quality-gate attempts; create a new attempt subfolder for each new user-reviewable quality-gate sample.
 - Do not create `presets.md` before baseline writing/design quality passes; use Workflow A4 for validated angle-to-preset extraction.
 - If a broad post idea is not a locked angle and final copy, use the concept flow before creating `flow.md`.
-- For copy iteration requests like “give me the copy” in `science-athlete`, paste copy in chat first and only write `flow.md` after approval.
+- For Workflow B and copy iteration requests, paste the full slide-by-slide copy
+  in chat first. Do not write final `flow.md`, source images, run Workflow C, or
+  render PNGs until the user explicitly approves the copy.
+- After copy approval, write `flow.md` from the approved copy exactly. Preserve
+  approved wording and manual line breaks during rendering.
 - Preserve manual line breaks from `flow.md` during rendering; do not rewrite slide copy inside `process_images.py`.

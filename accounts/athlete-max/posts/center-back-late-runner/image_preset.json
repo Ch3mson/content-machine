@@ -1,0 +1,67 @@
+{
+  "account": "athlete-max",
+  "subject": "center-back-late-runner",
+  "source": "pinterest",
+  "output_dir": "accounts/athlete-max/posts/center-back-late-runner/sourced",
+  "status": "not_sourced_yet",
+  "note": "Created for Workflow B with reference-photo frames only. Do not run sourcing until the user asks.",
+  "slides": [
+    {
+      "slide": 1,
+      "role": "Hero",
+      "source": "ask_user",
+      "queries": [
+        "black and white soccer center back portrait focused expression negative space"
+      ]
+    },
+    {
+      "slide": 2,
+      "role": "What to avoid",
+      "source": "ask_user",
+      "queries": [
+        "soccer defender ball watching runner behind shoulder"
+      ]
+    },
+    {
+      "slide": 3,
+      "role": "Why it happens",
+      "source": "ask_user",
+      "queries": [
+        "soccer visual attention scanning diagram defender"
+      ]
+    },
+    {
+      "slide": 4,
+      "role": "The fix",
+      "source": "ask_user",
+      "queries": [
+        "soccer defender scanning drill passer runner training setup"
+      ]
+    },
+    {
+      "slide": 5,
+      "role": "Game cue",
+      "source": "ask_user",
+      "queries": [
+        "soccer center back checking shoulder striker runner"
+      ]
+    },
+    {
+      "slide": 6,
+      "role": "Source and close",
+      "source": "ask_user",
+      "queries": [
+        "sports science research paper clean white abstract"
+      ]
+    }
+  ],
+  "filters": {
+    "target_ratio": 1.777,
+    "ratio_tolerance": 0.4,
+    "min_width": 500,
+    "min_height": 280,
+    "max_candidates_per_slide": 40,
+    "download_timeout": 15
+  }
+}
+

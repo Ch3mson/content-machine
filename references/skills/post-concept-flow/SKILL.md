@@ -52,12 +52,15 @@ accounts/{account}/posts/{post-name}/
     flow-options.md
     session-state.md
     copy-options.md
+    copy-review.md
   flow.md
 ```
 
 For legacy post folders, create the `concept/` directory inside the existing post folder.
 
-If `{post-name}` is unknown, wait until the intake is confirmed, then create a short slug from the avatar and pain point. Do not create `flow.md` until the user approves a copy direction.
+If `{post-name}` is unknown, wait until the intake is confirmed, then create a
+short slug from the avatar and pain point. Do not create `flow.md` until the user
+approves the final full-copy draft.
 
 ## Approval Gates
 
@@ -70,9 +73,14 @@ Follow these gates in order:
 5. One flow architecture selected by the user.
 6. `session-state.md` written before deeper copy work.
 7. Three copy variations reviewed by the user.
-8. One copy variation selected or combined into final `flow.md`.
+8. One copy variation selected, combined, or revised into a final full-copy draft.
+9. Final full-copy draft explicitly approved before `flow.md`, image sourcing,
+   or rendering.
 
-Accepted confirmations include "confirm", "yes", "agreed", "same page", or a clear selection.
+Accepted confirmations for intake and structure gates include "confirm", "yes",
+"agreed", "same page", or a clear selection. The final copy gate requires
+explicit approval language such as "approved", "approve", "ship it", "make the
+posts", or another clear instruction to proceed from copy to production.
 
 ## Stage 1: Intake And Confirmation
 
@@ -228,9 +236,14 @@ typography hierarchy, manual line breaks, and photo-frame placement.
 
 Present the 3 options in chat with a short recommendation. Ask the user to choose one, combine parts, or request edits.
 
-## Stage 6: Final Flow And Image Handoff
+If the user chooses or combines options, produce one final slide-by-slide copy
+draft in chat and ask for explicit approval before Stage 6. Do not write final
+`flow.md`, source images, or render PNGs from a selected-but-unapproved draft.
+Optionally save the latest review draft in `concept/copy-review.md`.
 
-After the user approves a copy direction:
+## Stage 6: Approved Final Flow And Image Handoff
+
+After the user explicitly approves the final full-copy draft:
 
 1. Write final `flow.md` in the post folder.
 2. Follow Workflow B, the account `design.md` slide format, and the account

@@ -3,8 +3,8 @@
 Use this when the user says `workflow b`, `workflow-b`, `new post`, or asks to
 make a slideshow for an existing account.
 
-Goal: create the post flow, source or map images, process the images, and verify
-the final slides.
+Goal: draft the full slide copy, get user approval, then create the post flow,
+source or map images, process the images, and verify the final slides.
 
 ## Read First
 
@@ -30,6 +30,7 @@ Preferred shape:
 ```text
 accounts/{account}/posts/{post-name}/
   concept/
+    copy-review.md
   flow.md
   image_preset.json
   sourced/
@@ -66,19 +67,7 @@ Work in the folder the user names or the closest existing post folder.
      answer in chat. Do not create `flow.md` until the user chooses an angle or
      asks for a full post.
 
-3. Gather or source images:
-   - If raw images already exist, map them to slide roles.
-   - If an `image_preset.json` exists, run:
-     `python tools/image-sourcer/source_images.py <preset>`.
-   - If no preset exists and the user did not provide images, create a preset
-     from the account slide roles and subject, then run the image sourcer.
-   - If a slide uses `"source": "ask_user"` or a product photo is required, ask
-     only for that missing image.
-   - If browser sourcing cannot start because Chrome remote debugging is not
-     available, follow `../tools/image-sourcer/README.md` and report the exact
-     blocker.
-
-4. Write `flow.md`:
+3. Draft full copy for review:
    - Follow `writing.md` and its relevant indexed subfiles.
    - Follow the selected preset only as a supplemental structure.
    - Follow `design.md` for slide format, section limits, typography-driven line
@@ -87,14 +76,48 @@ Work in the folder the user names or the closest existing post folder.
    - Keep product mentions native and claim-bank approved.
    - Flag research-sensitive claims per `sources.md`.
    - Use manual line breaks when they matter for final rendering.
+   - Run Stop Slop QA before showing the copy.
+   - Present the complete slide-by-slide copy in chat before writing final
+     `flow.md`. Include slide numbers, slide roles, copy, image direction, and
+     claim-risk notes when relevant.
+   - Optionally store the current review draft in `concept/copy-review.md`, but
+     keep `flow.md` for approved final copy only.
 
-5. Process images:
+4. Copy approval loop:
+   - Ask the user to approve, revise, combine, or reject the draft copy.
+   - If the user requests edits, revise the full slide-by-slide copy and present
+     it in chat again.
+   - Do not source images, create final `flow.md`, run Workflow C, or render PNGs
+     until the user explicitly approves the full copy.
+   - Accepted approvals include "approved", "approve", "ship it", "make the
+     posts", or another clear instruction to proceed from copy to production.
+
+5. Write approved `flow.md`:
+   - Create or update `flow.md` only after copy approval.
+   - Use the approved wording exactly.
+   - Preserve approved manual line breaks.
+   - Add image roles, image filenames or sourcing placeholders, and source notes
+     needed by Workflow C.
+
+6. Gather or source images:
+   - If raw images already exist, map them to the approved slide roles.
+   - If an `image_preset.json` exists, run:
+     `python tools/image-sourcer/source_images.py <preset>`.
+   - If no preset exists and the user did not provide images, create a preset
+     from the approved slide roles and subject, then run the image sourcer.
+   - If a slide uses `"source": "ask_user"` or a product photo is required, ask
+     only for that missing image.
+   - If browser sourcing cannot start because Chrome remote debugging is not
+     available, follow `../tools/image-sourcer/README.md` and report the exact
+     blocker.
+
+7. Process images:
    - Run Workflow C: `workflow-c-image-processing.md`.
    - Use the post `process_images.py` if it exists.
    - If it does not exist, create it from the workflow, account `design.md`, and
      account `image.md`.
 
-6. Verify:
+8. Verify:
    - Confirm every final PNG matches the canvas size in account `design.md`.
    - Confirm output files are named `slide_1.png`, `slide_2.png`, etc.
    - Check that the image count matches `flow.md`.
@@ -102,7 +125,10 @@ Work in the folder the user names or the closest existing post folder.
 
 ## Agent Rules
 
-- Do not stop after a draft if the user asked for an end-to-end post.
+- Pause at the copy approval gate even when the user asked for an end-to-end
+  post. Continue into image sourcing and Workflow C only after explicit copy
+  approval.
+- Do not write final `flow.md` or render PNGs from unapproved copy.
 - Do not force w(inner) into a story where the account brief says it should stay
   invisible or caption-only.
 - Do not invent athlete facts that need sources. Mark them as claims to verify.

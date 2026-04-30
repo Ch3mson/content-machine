@@ -14,6 +14,9 @@ Use this file before approving copy samples, `flow.md`, or final post copy.
 - [ ] No banned pattern from `writing/banned-patterns.md` appears.
 - [ ] The slide has one clear job.
 - [ ] The copy fits the account `design.md` layout.
+- [ ] Every text block fills evenly — each line reaches 85-95% of the text
+  column width with no short orphan or trailing lines. If lines are uneven,
+  reword the copy (do not adjust font size or layout).
 - [ ] Claims are sourced, marked for verification, or removed.
 - [ ] Product mentions use only approved claims.
 

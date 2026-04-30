@@ -1,6 +1,6 @@
 # Design System: Athlete Max
 
-Status: `Pending quality gate`
+Status: `Locked` (approved via quality gate attempt-006)
 
 Use this file as the account-level source of truth for slideshow composition,
 format, typography, text hierarchy, reference-photo framing, and renderer-facing
@@ -122,6 +122,20 @@ layout rules. Use `image.md` for photo subject direction and visual treatment.
 - Preserve manual line breaks where the flow marks them as intentional.
 - Body slides may wrap paragraphs to fit fixed text areas, but the renderer must
   not rewrite copy.
+- Before rendering, measure each text block's line widths. If any line in a
+  block fills less than 80% of the longest line, reject the copy back to
+  `flow.md` for rewriting. Do not fix line fill by changing font size, column
+  width, or layout.
+- **Line-fill consistency:** every text block on a slide must form a visual
+  rectangle, not a diamond or ragged triangle. Each line within a paragraph
+  should fill 85-95% of the text column width. Short trailing lines (orphans)
+  and noticeably shorter interior lines break the dense, substantive rhythm of
+  the reference accounts. If a paragraph wraps to create uneven lines, the copy
+  must be reworded in `flow.md` to fill evenly — do not pad with filler words
+  and do not adjust font size or layout to compensate. This is a writing
+  constraint enforced at render time: the renderer checks line widths and
+  rejects blocks where any line falls below 80% of the longest line in the
+  same block.
 - Keep body-slide reference photo frame fixed at `800x450`, centered at `x=140`,
   approximate `y=515`.
 - Do not move the reference photo frame to solve copy overflow; shorten copy or
@@ -139,14 +153,17 @@ layout rules. Use `image.md` for photo subject direction and visual treatment.
 - [ ] Text stays inside safe margins.
 - [ ] Upper text does not overlap the photo frame.
 - [ ] Lower fix/result section does not overlap the source line.
+- [ ] Every text block forms a visual rectangle — no orphan lines, no line
+  falls below 80% of the longest line in the same block.
 - [ ] Bold/highlight choices match hierarchy rules.
 - [ ] Source lines appear on slides with strong biological or causal claims.
 - [ ] Product slides follow the same account design system and do not look like ads.
 
 ## Quality Gate Notes
 
-- Latest approved sample: None yet.
-- Current blocker: Workflow A3 must render and approve a non-hero sample slide
-  before this design system can be marked locked.
+- Latest approved sample: attempt-007-2026-04-29-soccer-centreback-runner (non-hero body slide). Approved 2026-04-29.
+- Current blocker: None. Baseline body-slide design system is approved and locked.
+- Next step: Hero-slide format and 1080x1920 TikTok-safe adaptation can be tested now.
 - Last revision notes: Initial A2 extraction completed from verified_byhumans
   design/image references and chasingpeaks0 contrast references on 2026-04-28.
+  Attempt 007 confirmed the Post 1 listing format (label + title + explanation + photo + fix + source) scales to taller copy blocks with recalculated spacing.

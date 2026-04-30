@@ -31,7 +31,8 @@
 | Reference | Location | Why it matters | Status |
 | --- | --- | --- | --- |
 | @asdiscipline McGregor post | `extractions/flow-analysis.md` | Source of 7-slide arc, fact-led opening, B&W treatment | Reviewed |
-| @legendperform | Not yet captured | User-named inspiration account — need posts or screenshots | Missing |
+| @asdiscipline screenshot folders | `references/social-accounts/asdicipline/Post 1/` through `Post 5/` | Adds broader pressure-hook, discipline, and long-form explainer examples beyond the original McGregor transcript | Captured — needs A1 extraction |
+| @legendperform athlete slideshow posts | `references/social-accounts/legendperform/Post 1/` through `post 5/` | User-named inspiration account for compact athlete fact carousels, achievement proof, and quote closers | Captured — needs A1 extraction |
 
 ## Design Inputs
 
@@ -39,6 +40,7 @@
 | --- | --- | --- | --- |
 | LeBron processed PNGs | `Lebron/processed/` | B&W, vintage paper overlay, centered text, 9:16 | Proof of concept |
 | @asdiscipline visual style | Inferred from flow analysis | Full-bleed photo, centered white text with black outline | Reviewed |
+| @legendperform visual style | `references/social-accounts/legendperform/` | Full-bleed athlete photo, centered bold white text with black outline, fast carousel readability | Captured — needs A2 extraction |
 
 ## Copy Inputs
 
@@ -47,6 +49,8 @@
 | LeBron flow | `Lebron/flow.md` | Approved | Short → medium intensification arc works |
 | Michael Jordan flow | `Michael Jordan/flow.md` | Approved | Fourth-wall opening + mental edge arc works |
 | Messi flow | `Messi/flow.md` | Not yet reviewed | Needs quality gate review |
+| @legendperform image posts | `references/social-accounts/legendperform/` | Inspiration reference | Compact fact density, numbers, training details, and quote endings are central extraction targets |
+| @asdiscipline image posts | `references/social-accounts/asdicipline/` | Inspiration reference | Useful for pressure hooks, reader challenge, discipline framing, and mental edge language |
 
 ## Product Mention Decision
 
@@ -68,3 +72,4 @@
 
 - Which sports should the account prioritize after basketball?
 - Should product mentions ever move to caption/comments instead of Slide 6?
+- Which reference style should dominate baseline copy after A1: @legendperform compact fact carousel, @asdiscipline pressure challenge, or a hybrid with athlete-stories product bridge?

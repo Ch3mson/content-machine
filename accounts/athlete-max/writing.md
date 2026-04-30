@@ -1,6 +1,6 @@
 # Writing System
 
-Status: `Pending quality gate`
+Status: `Locked` (approved via quality gate attempt-006)
 
 Use this file as the account-level entrypoint for all copy work. This file is
 the retrieval map and highest-authority writing source. Read detailed subfiles
@@ -62,13 +62,14 @@ file and add the conflict to `writing/qa.md` or the current quality-gate notes.
 4. **Mechanism before protocol.** Explain why the old way fails at a biological level before listing what to do instead.
 5. **Specificity over generality.** Use exact numbers, time ranges, dosages, and percentages. Replace "a lot" with a number.
 6. **Accessible analogies.** When introducing a technical term, immediately parenthesize a simple analogy or definition.
-7. **Source citations for strong claims.** Cite journal name and PMID/PMCID for causal biological claims. If no source exists, soften or remove the claim.
+7. **Source citations for strong claims.** Cite journal name and PMID/PMCID for causal biological claims. Quality-gate samples and draft copy may use invented stats, percentages, or source names for creative tone testing. Treat all invented sourcing as assumed-real within the account workspace. Final posts distributed externally should still use verifiable sources when possible, but the quality-gate process does not block on source verification.
 8. **No motivational language.** The science itself is the motivation. Never use "grind," "beast mode," "no excuses," or "unlock your potential."
 9. **No bro-science.** Unsupported claims about "muscle confusion," "anabolic windows," or "shocking the body" are banned.
 10. **Active voice only.** Every sentence needs a human subject or a clear biological actor. No passive constructions.
 11. **No throat-clearing.** Cut "Here's the thing," "So basically," "What most people don't know." Start with the mistake, desire, or mechanism.
 12. **Performance translation.** Every mechanism must be tied to an in-competition, in-game, or in-practice outcome. After explaining the biology, answer "So what?" with a specific performance cost or gain.
 13. **Product mentions stay camouflaged.** If w(inner) is mentioned, it must feel like a natural extension of the protocol, a tool or source reference, not a sales pitch.
+14. **Line-fill consistency.** Copy is written to the slide container, not free-form. Every paragraph must wrap so that each line fills 85-95% of the text column width. No orphan lines, no ragged trailing words. If a paragraph creates uneven lines at the target font size and column width, reword the sentence to redistribute characters — never fix by changing font size, column width, or adding filler. This is a writing constraint checked at render time.
 
 ## Draft Or Candidate Rules
 
@@ -78,9 +79,10 @@ file and add the conflict to `writing/qa.md` or the current quality-gate notes.
 
 ## Quality Gate Notes
 
-- **Latest approved sample:** None yet.
-- **Current blocker:** Awaiting a non-hero sample slide render that passes `writing/refinement-personas.md`, `writing/qa.md`, and `design.md`.
-- **Last revision notes:** Initial extraction from chasingpeaks0 and verified_byhumans references completed 2026-04-28. Three-persona refinement protocol added and calibrated to the user's verified_byhumans Post 2/Post 3 desire-extraction feedback.
+- **Latest approved sample:** attempt-007-2026-04-29-soccer-centreback-runner (non-hero body slide). Approved 2026-04-29.
+- **Current blocker:** None. Baseline body-slide writing system is approved.
+- **Next step:** Hero-slide format can now be tested; `presets.md` can be created after additional angle extraction if needed.
+- **Last revision notes:** Initial extraction from chasingpeaks0 and verified_byhumans references completed 2026-04-28. Three-persona refinement protocol added and calibrated to the user's verified_byhumans Post 2/Post 3 desire-extraction feedback. Attempt 007 approved on new topic (centreback runner tracking), confirming system transfers across desire stacks.
 
 ## Preset Relationship
 

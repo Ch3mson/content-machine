@@ -1,5 +1,7 @@
 # Design System: Athlete Stories
 
+Status: `Locked`
+
 This is the account source of truth for slide composition, typography, text
 placement, and renderer-facing layout rules. Use `image.md` for photo subject
 direction and visual treatment details.
@@ -97,3 +99,9 @@ direction and visual treatment details.
 - [ ] White text remains readable against the photo.
 - [ ] Product slide does not look like a separate ad.
 - [ ] Manual line breaks from `flow.md` are preserved.
+
+## Quality Gate Notes
+
+- Latest approved sample: `quality-gate/attempts/attempt-002-2026-04-29-ronaldo-product-bridge/sample-slide.png`.
+- Current blocker: none. Workflow A3 approved a representative non-hero rendered sample on 2026-04-29.
+- Last revision notes: Existing visual system preserved. Design authority remains in this file; `image.md` stays limited to photo direction and visual treatment. The approved sample validated full-bleed B&W treatment, centered Arial Bold text, outline readability, manual line breaks, and safe margins.

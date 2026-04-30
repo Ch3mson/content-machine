@@ -76,10 +76,31 @@
   - allowing minor frame y-position flex (currently locked at y=515) only when source line is omitted.
 - This finding does not block approval of the current sample. It should be folded into `design.md` after the user approves the gate.
 
+## User Review Feedback
+
+- Date: 2026-04-29
+- Criticism: "each line should have a minimum of 9 words. this needs to be consistent throughout as it does not make sense for one line to have 9 words and another line to only have 3. Make sure you edit this for the bottom and top part as well."
+- Classification: Account-Native Scroller / Design feedback
+- Impact: Blocking failure on visual consistency and swipe rhythm. Short lines (3-8 words) break the dense, substantive feel of the reference accounts and create an unprofessional, sparse layout.
+- Affected lines:
+  - Label: "what to avoid:" (3 words)
+  - Title line 1: "your late-game touch" (3 words)
+  - Title line 2: "is not a leg problem" (5 words)
+  - Top line 2: "your touch lands" (3 words) + bold phrase
+  - Top line 3: "than it did in the first half." (8 words)
+  - Top line 4: "your nervous system is dialing precision down" (8 words)
+  - Top line 5: "to protect you from total exhaustion." (7 words)
+  - Fix line 1: "the fix: drill 6-8 first touches into a" (8 words)
+  - Fix line 2: "shoebox-sized target in the last 15 minutes" (8 words)
+  - Fix line 3: "of training, when your legs are gone." (8 words)
+  - Payoff line 3: "you to lose it." (4 words)
+- Rewrite action: Combine or expand every rendered line to a minimum of 9 words. Apply to label, title, top explanation, lower fix/payoff, and source line.
+- Durable rule needed: yes — add to `design.md` as a line-consistency rule.
+
 ## Approval
 
 - Latest approved sample: none yet.
-- User decision: pending.
+- User decision: rejected — line length consistency.
 
 ## Prior Iteration Notes
 

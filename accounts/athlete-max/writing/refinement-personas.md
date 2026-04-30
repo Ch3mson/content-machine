@@ -237,6 +237,17 @@ Only research flagged terms, not every phrase. Flag a term when it is:
 Default action: if a term is not clearly `Native` or `Acceptable`, rewrite it
 into plain, observable athlete language.
 
+### Verb-Adjective Combination Test
+
+Even when individual words are common, flag phrases that sound grammatically
+correct but not locker-room native. Examples:
+- "drops cleanly" → "stays clean"
+- "executes precisely" → "hits clean"
+- "maintains optimal output" → "keeps sharp"
+- "dialing precision down" → "suppresses fine motor output"
+
+Test: would a teammate say this after practice? If no, rewrite.
+
 ### Pass Criteria
 
 - Sport language sounds like something a teammate or coach would recognize.
@@ -273,6 +284,11 @@ into plain, observable athlete language.
   performance effect.
 - Keep the benefit concrete without implying the protocol guarantees a goal,
   roster spot, win, contract, or medical result.
+- When a mechanism action is named, explain the plain purpose in the same
+  sentence or the very next line. Never leave "why?" unanswered.
+- Causal sport language (e.g., "leg problem," "tired legs") must pass the
+  locker-room plausibility test. If a teammate would say "conditioning" instead
+  of "legs," use the teammate version.
 
 ### Strong And Weak Examples
 
@@ -290,5 +306,6 @@ Use this section when a quality-gate sample is rejected.
 
 | Date | Sample | Raw User Criticism | Persona | Classification | Calibration Update | Durable Rule Needed? |
 | --- | --- | --- | --- | --- | --- | --- |
+| 2026-04-29 | attempt-001 soccer first touch | "each line should have a minimum of 9 words. this needs to be consistent throughout as it does not make sense for one line to have 9 words and another line to only have 3. Make sure you edit this for the bottom and top part as well." | Account-Native Scroller / Design | blocking failure | Added minimum words-per-line consistency rule. Every rendered line on a slide must contain at least 9 words. Short lines (3-8 words) look sparse, unprofessional, and break the dense substantive rhythm of verified_byhumans and chasingpeaks0 references. Label, title, body, and source lines are all subject to this minimum. | yes |
 | 2026-04-28 | A3 dehydration sample | "look at verified_byhumans Post 2/Post 3 and how in each slide the benefit to the reader is instant... while post 2 is about a list of benefits, it has an overarching reader in mind... a desire is hazy, and it is our job in cementing their desired outcome through tangible benefits" | Bored Athlete / Account-Native Scroller | candidate preference | Added desire-concretion and one-overarching-reader checks. Every slide must translate mechanism into a tangible benefit for the same athlete avatar. | yes |
 | 2026-04-28 | sample-posts.md hooks and early slides | "I do not know the value I am receiving from the posts INSTANTLY. using jargon such as repeat-sprint engine is a failure. Even when you say 'Why your reaction time drops before game day' it can be better by being more clickbaity/curiosity invoking" | Bored Athlete / Athlete Skeptic | blocking failure | Added 2-second value test and locker-room jargon rule. Hooks must make the problem and payoff instantly clear to a 14-year-old athlete in plain language. Curiosity gaps (quotes, contrarian framing) are allowed only if the value is simultaneously obvious. Technical terms are banned from hooks and first problem slides unless clearly Native. | yes |

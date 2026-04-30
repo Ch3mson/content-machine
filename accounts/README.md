@@ -23,6 +23,7 @@ accounts/{account}/posts/{post-slug}/
 
 Each post folder should contain:
 
+- `concept/`: optional research, draft copy, and review notes before approval.
 - `flow.md`: slide roles, source images, and final copy.
 - `image_preset.json`: optional image sourcing queries.
 - `sourced/`: raw sourced photos.
@@ -31,3 +32,6 @@ Each post folder should contain:
 
 Use `../workflows/workflow-a-new-account.md` for new accounts and
 `../workflows/workflow-b-new-post.md` for new posts.
+
+Workflow B shows the full slide-by-slide copy in chat and waits for explicit
+approval before final `flow.md`, image sourcing, processing, or PNG rendering.

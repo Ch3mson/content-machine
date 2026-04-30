@@ -1,209 +1,117 @@
-# Writing Rules: Athlete Stories Account
+# Writing System: Athlete Stories
 
-## Style 1: LeBron Preset — Short → Medium Intensification
+Status: `Locked`
 
-### Voice Direction
+Use this file as the account-level entrypoint for all copy work. This file is the retrieval map and highest-authority writing source. Read detailed subfiles only when this table of contents says they are needed.
 
-- **Perspective**: Detached editorial narrator. Third person for the athlete story. First person only for the product interjection slide.
-- **Tone**: Blunt, grounded, aspirational. No hype. No inspiration-poster language.
-- **Rhythm**: Short → medium arc that intensifies as the story builds. Slide 1 is staccato facts. Slides 2-3 build context. Slide 4 (visualization peak) is the longest, letting the story breathe. Slides 5-7 tighten back down.
-- **Density**: Every word earns its place. Cut filler. Cut adverbs. Cut throat-clearing.
+## How To Use This Writing Folder
 
-### Rhythm Rules
+1. Read this file first.
+2. Check the status and quality-gate notes.
+3. Read only the subfiles needed for the task.
+4. If a subfile conflicts with this file, follow this file and note the conflict in `writing/qa.md`.
+5. Use `presets.md` only as a supplemental angle or flow structure after baseline voice is understood.
 
-- **Slide 1**: Short. 2-5 words per sentence. Staccato. Facts only.
-- **Slides 2-3**: Medium. 8-14 words. Building context. Tension rising.
-- **Slide 4 (Peak)**: Longest. 15-25 words. The visualization reveal. Let it flow.
-- **Slides 5-7**: Medium to short. Tighten back down. Land the point.
-- **Never stack three short sentences.** Break the pattern with a longer line.
-- **Use long sentences to build tension.** Let the reader lean in.
-- **Use short sentences to land the point.** One or two words can close a slide.
-- **Read copy aloud.** If it sounds monotonous, rewrite it.
-- **Two-item beats three.** Pairs feel intentional. Triples feel like a list.
+## Document Authority
 
-### When To Use This Preset
+| Priority | File | Use For | Read When |
+| --- | --- | --- | --- |
+| 1 | `writing.md` | Current account voice, retrieval map, non-negotiable rules | Always |
+| 2 | `writing/principles.md` | Stable extracted account principles | Drafting or revising core copy |
+| 3 | `writing/qa.md` | Final copy checks | Before samples, flows, or posts are approved |
+| 4 | `writing/refinement-personas.md` | Account-specific three-persona refinement protocol | Drafting samples, revising rejected samples, or running quality gate |
+| 5 | `writing/banned-patterns.md` | Account-specific weak moves | Editing, cleanup, or quality review |
+| 6 | `writing/sample-posts.md` | Approved and candidate examples in use | Calibrating style or explaining decisions |
+| 7 | `writing/pattern-extractions.md` | Raw or semi-processed observations | Auditing extraction or adding references |
+| 8 | `writing/copywriting-principles.md` | General persuasion logic | Diagnosing why copy works or fails |
 
-- Use when the story starts in childhood, poverty, instability, or an early identity struggle.
-- Best for athletes whose rise reads like inevitability built through endurance.
-- Use when Slide 1 should open with hard facts, not audience confrontation.
+Conflict rule: if a lower-priority file conflicts with this file, follow this file and add the conflict to `writing/qa.md` or the current quality-gate notes.
 
-### Preset Markers
+## Table Of Contents
 
-- Slide 1 opens with origin facts.
-- Slide 3 often shifts into film study, rehearsal, or obsessive preparation.
-- Slide 4 reveals visualization as an extension of work already in motion.
-- Slide 5 lands on transformation and status.
+| File | Contains | Do Not Use For |
+| --- | --- | --- |
+| `writing/principles.md` | Stable account-specific principles extracted from @legendperform, @asdicipline, and internal flows | Raw notes or one-off observations |
+| `writing/pattern-extractions.md` | Reference-by-reference observations, screenshot transcripts, and viewer-perspective analysis | Final rules without synthesis |
+| `writing/copywriting-principles.md` | General persuasion logic behind athlete-stories copy | Overriding account voice |
+| `writing/refinement-personas.md` | The Bored Athlete, Account-Native Scroller, and Athlete Skeptic calibration | Proving sport terminology by circular reference to account docs |
+| `writing/banned-patterns.md` | Weak moves, banned phrasing, and replacements | Adding new rules without evidence |
+| `writing/sample-posts.md` | Approved or candidate samples with notes | Templates to copy word-for-word |
+| `writing/qa.md` | Quality checks, scoring, and unresolved conflicts | Account strategy or design rules |
 
-### Style 1 Sample (McGregor)
+## Core Voice Snapshot
 
-```
-Slide 1:
-Dublin flat. No heat. Welfare check on the table. Plumbing tools he'd never use again.
+- Audience: aspiring athletes, sports fans, and young competitors who want proof of what elite preparation looks like.
+- Voice: blunt, grounded, visually readable, athlete-specific. Editorial narrator by default. First person only for the product bridge.
+- Promise: every post reveals how a legendary athlete built the identity before the world saw the outcome.
+- Emotional lever: suspense through pressure, then release when the athlete's inner image becomes visible reality.
+- Authority style: specific routines, public records, sourced quotes, named coaches/opponents, and observable behaviors.
+- Rhythm: compact fact density from @legendperform, with a slippery-slope story arc where each slide makes the next feel necessary.
+- What it should never sound like: generic motivation, wellness content, sports-science jargon, sales copy, or copied discipline-page pressure.
 
-Slide 2:
-Six days a week under John Kavanagh. Zero pay. He studied opponents for hundreds of hours and cut seventeen pounds in twenty-four. Still performed.
+## Format Relationship
 
-Slide 3:
-He kept losing. Timing off. Confidence cracking. The dream was slipping and everyone could see it.
+This writing system defines voice, rhythm, claim safety, and copy behavior. It does not lock flow presets.
 
-Slide 4:
-Then he started visualizing every exchange, every counter, every finish, running the fight in his head until he'd already lived it before stepping in the cage. He called shots before they happened.
+- Follow `design.md` for current canvas, slide count, and renderer-facing layout constraints.
+- Use `presets.md` only as supplemental flow guidance after the baseline writing and design systems pass Workflow A3.
+- Until A4 runs, treat LeBron-style, Michael Jordan-style, @legendperform-style, and @asdicipline-style structures as candidate lessons, not mandatory templates.
+- The only writing-level format rule is that each slide needs one clear proof beat and must fit the visual density defined in `design.md`.
 
-Slide 5:
-They called him Mystic Mac. Two belts followed. The kid from Dublin became the most dangerous man on the planet.
+## Locked Rules
 
-Slide 6:
-I use w(inner) before my fights. It builds a visualization track for my sport and my opponent. I see the shots before they come.
+These non-negotiables are locked by repo, product, and source-safety contracts:
 
-Slide 7:
-"I've already won this fight. I've already lived it." — Conor McGregor
-```
+- Do not invent product claims. Use `product/claim-bank.md` and `product/app-brief.md`.
+- Do not make guaranteed performance, medical, therapy, scholarship, contract, or victory claims.
+- Preserve manual line breaks from final `flow.md` during rendering.
+- Do not rewrite slide copy inside render scripts to make it fit.
+- Do not treat competitor wording, assets, or exact slide order as account property.
+- Do not treat `presets.md` as the voice source before baseline quality gate approval.
 
----
+## Approved Baseline Rules
 
-## Style 2: Michael Jordan Preset — Fourth-Wall Pressure → Mental Remedy
+- Lead with a concrete athlete fact, not a setup phrase.
+- Keep each slide to one proof beat.
+- Do not stack facts as a list. Each fact must raise the stakes, deepen the identity, or answer the question created by the previous slide.
+- Build a slippery-slope arc: distance, threat, obsession, identity rehearsal, impact, product bridge, quote.
+- The mental turn should show the athlete building the identity before the achievement. The reader should feel the future being rehearsed before it becomes public.
+- Add an impact slide between visualization and product when needed. Show what the imagined identity produced before mentioning w(inner).
+- Use numbers, routines, places, opponents, coaches, and records before adjectives.
+- Let hidden routine create awe before explaining the mental edge.
+- Use second-person pressure hooks only for rivalry, humiliation, hardship, or direct-standard posts.
+- Keep product mention brief, first-person, and native to the athlete's mental method. It should feel like the release of the arc, not an inserted feature slide.
+- Prefer quote closers when the quote reinforces the post's mental idea.
+- Source or mark for verification any training routine, visualization habit, quote, diet, sleep, injury, or quantified achievement claim.
 
-### Voice Direction
+## Product Mention Rules
 
-- **Perspective**: Starts in second person to confront the audience, then shifts into third person for the athlete story. First person only for the product slide.
-- **Tone**: Harder, sharper, more confrontational than LeBron. Still grounded. No hype.
-- **Rhythm**: Slide 1 breaks the standard rule on purpose. It opens with a challenge. Slides 2-4 escalate through failure, pressure, and the limits of physical work. Slide 5 is the long visualization remedy. Slides 6-7 tighten back down.
-- **Density**: Keep the language forceful but clean. No filler. No softening.
+- Default product visibility: one late-story bridge slide only when the athlete story earns it. Current account flows have used Slide 6, but final placement must follow the approved flow and `design.md`.
+- Best native placement: after visualization, mental rehearsal, confidence, focus, or pressure preparation appears in the athlete story and after the reader sees the impact of that inner work.
+- Perspective: first person only. The product line should sound like the narrator's training behavior, not a sponsor message.
+- Approved directions:
+  - personalized visualization audio
+  - track built around sport, position, matchup, venue, trigger, or scenario
+  - mental reps before training, sleep, or competition
+- Avoid:
+  - saying w(inner) made the athlete great
+  - claims that guarantee confidence or performance
+  - meditation, therapy, clinical, or wellness framing
 
-### Rhythm Rules
+## Quality Gate Notes
 
-- **Slide 1**: One direct audience challenge. Short. Confrontational. Break the fourth wall.
-- **Slide 2**: Name the opponent, obstacle, or force that beat him.
-- **Slide 3**: Show pressure that stayed with him after the game.
-- **Slide 4**: Show that body work alone was not enough.
-- **Slide 5**: Longest. Visualization becomes the edge.
-- **Slides 6-7**: Tighten. Product echoes the mental method. Closing quote should reinforce expectation, belief, or inner standard.
+- Latest approved sample: `quality-gate/attempts/attempt-002-2026-04-29-ronaldo-product-bridge/sample-slide.png`.
+- Current blocker: none. Workflow A3 approved a representative non-hero product-bridge sample on 2026-04-29.
+- Last revision notes: A0 captured @legendperform and @asdicipline screenshot folders. A1 rebuilt the writing folder and demoted old preset-style rules to candidate samples. A3 copy iteration showed that fact-list quality is not enough; the account needs suspense, identity formation, and a slippery-slope bridge into w(inner). The approved sample validated a brief, first-person product bridge after the mental method is earned.
+- Quality-gate outcome: baseline writing system locked after user approval of `attempt-002-2026-04-29-ronaldo-product-bridge`.
 
-### When To Use This Preset
+## Preset Relationship
 
-- Use when the story is about domination built through obsession, humiliation, revenge, or psychological edge.
-- Best for NBA-era struggle, rivalry arcs, repeat failure, and elite pressure.
-- Use when you want the audience to feel accused, tested, or pulled into the standard.
+`presets.md` is supplemental. It can define repeatable hooks, flows, or angle structures only after this baseline writing system and `design.md` pass the quality gate.
 
-### Preset Markers
+Current preset-like lessons are candidates only:
 
-- Slide 1 opens with a second-person challenge.
-- The middle arc moves from public defeat to private unrest.
-- The key turn is not "he trained harder" but "the body wasn't enough."
-- Visualization is framed as the invisible edge.
-- Slide 6 should explicitly echo Slide 5.
-- Slide 7 should be a quote about belief, expectation, mindset, or internal standard.
-
-### Style 2 Sample (Michael Jordan)
-
-```
-Slide 1:
-You want to play like him. Are you willing to bleed for it?
-
-Slide 2:
-Detroit owned him. Three straight years. The Pistons called it the Jordan Rules. He bled in the post and still lost.
-
-Slide 3:
-He played every game like it was his last. The championship weight sat on his chest. He couldn't sleep after the eliminations.
-
-Slide 4:
-He trained his body. Added 25 pounds in one summer. Still couldn't sleep after the losses. The edge had to come from somewhere deeper.
-
-Slide 5:
-He sat with headphones and ran every possession in his mind until the court in his mind felt more familiar than the one under his feet. By the time the game came, he had already been there.
-
-Slide 6:
-I use w(inner) the same way. It builds a visualization track until the game feels familiar before it starts.
-
-Slide 7:
-"You have to expect things of yourself before you can do them." — Michael Jordan
-```
-
-## Style 3: [Open]
-
----
-
-## Testing Plan
-
-- Compare LeBron preset against Michael Jordan preset on completion rate, saves, and shares.
-- Use LeBron when the post needs grounded inevitability and factual origin tension.
-- Use Michael Jordan when the post needs confrontation, psychological edge, and a stronger product bridge.
-- Define Style 3 only after enough posts reveal a third repeatable pattern.
-
-## Core Rules
-
-1. **One fact per slide.** Each slide delivers a single punch. No multi-point slides.
-2. **Short sentences.** Maximum two sentences per slide. Prefer one.
-3. **Active voice only.** Name the actor. "He trained" not "Training was done."
-4. **No adverbs.** Kill all -ly words. No "really," "just," "actually," "obsessively."
-5. **No binary contrasts.** State the point directly. No "not X, but Y" structures.
-6. **No dramatic fragmentation.** No "That's it. That's the thing." Complete sentences.
-7. **No rhetorical setups.** No "What if," "Think about it," "Here's what I mean."
-8. **No lazy extremes.** Avoid "every," "always," "never," "everyone." Use specifics.
-9. **No narrator-from-a-distance.** Put the reader in the scene. "You" beats "people."
-10. **No em dashes.** Use commas or periods.
-
-## Slide Copy Patterns
-
-### Opening Slide (The Low Point)
-- Start with a specific fact about the athlete's struggle.
-- No throat-clearing. No "Before the fame." Just the fact.
-- Example: "Conor McGregor collected welfare checks in Dublin."
-
-### Middle Slides (The Grind / The Breaking Point)
-- One concrete detail per slide.
-- Numbers work. Specifics work. Vague claims don't.
-- Example: "He trained six days a week under John Kavanagh. Zero pay for years."
-
-### Peak Slide (The Visualization Reveal)
-- This is the turning point. Make it land.
-- Still one to two sentences. Let the fact carry the weight.
-- Example: "He visualized every fight before stepping in the cage. He called shots before they happened."
-
-### Product Interjection Slide
-- First person. Brief. Native to the story.
-- No sales language. No feature lists.
-- Example: "I use w(inner) to do the same thing before my fights. It builds a visualization track for my sport and my opponent."
-
-### Closing Slide (The Quote)
-- Athlete's own words. One line.
-- No narrator commentary after the quote.
-
-## Banned Patterns
-
-| Pattern | Why | Replacement |
-|---------|-----|-------------|
-| "Before the fame, before the belts..." | Throat-clearing | Start with the fact |
-| "Not because X. Because Y." | Binary contrast | State Y directly |
-| "He didn't just train. He visualized." | Negative listing | "He visualized." |
-| "That's when everything changed." | Vague declarative | Show what changed |
-| "The real secret was..." | Throat-clearing | State the thing |
-| "Let that sink in." | Emphasis crutch | Delete |
-| "He trained obsessively." | Adverb | "He trained twice a day." |
-| "Everyone knows McGregor..." | Lazy extreme | Name the specific fact |
-
-## Stop Slop QA Checklist
-
-Before finalizing any slide copy:
-
-- [ ] Any adverbs? Kill them.
-- [ ] Any passive voice? Find the actor.
-- [ ] Any em dashes? Remove them.
-- [ ] Any "here's what/this/that" openers? Cut to the point.
-- [ ] Any "not X, but Y" contrasts? State Y directly.
-- [ ] Three consecutive sentences match length? Break one.
-- [ ] Any lazy extremes (every, always, never)? Use specifics.
-- [ ] Any throat-clearing phrases? Delete them.
-- [ ] Does each slide have one clear point? If two, cut one.
-
-## Scoring
-
-Rate 1-10 on each dimension. Below 35/50: revise.
-
-| Dimension | Question |
-|-----------|----------|
-| Directness | Statements or announcements? |
-| Rhythm | Varied or metronomic? |
-| Trust | Respects reader intelligence? |
-| Authenticity | Sounds human? |
-| Density | Anything cuttable? |
+- LeBron-style origin arc: useful for hardship-to-visualization stories.
+- Michael Jordan-style pressure arc: useful for rivalry, humiliation, and mental edge stories.
+- @legendperform compact fact arc: useful for routine/stat/quote posts, but not yet converted into account presets.
+- @asdicipline pressure challenge arc: useful for hard-standard hooks, but not the baseline voice.

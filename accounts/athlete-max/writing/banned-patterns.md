@@ -17,6 +17,7 @@ Use this file for account-specific weak moves, banned phrases, and replacements.
 | **Vague declaratives** | "The implications are significant" or "This is important" tells the reader what to think instead of showing them why. | Name the specific implication: "This means your recovery window closes after 90 minutes, not 24 hours." |
 | **Over-promising outcomes** | "Unlock your full potential" or "Transform your body in 30 days" sets expectations the science cannot meet. | Promise specific, bounded outcomes: "Increase slow-wave sleep by 15-20% through temperature regulation" |
 | **Mechanism as the benefit** | Explaining biology without translating it into a wanted outcome makes the slide feel educational but not desirable. | Tie the mechanism to a concrete moment: "you beat the center back to the near-post run in minute 70" instead of "your aerobic system improves." |
+| **Orphan and ragged lines** | A text block where lines are wildly uneven in length — some full-width, others trailing off with 2-4 words — looks amateur and breaks the dense authority rhythm of the reference accounts. Center-aligned text with uneven lines creates a diamond/triangle shape instead of a clean rectangle. | Rewrite the sentence to redistribute words so every line fills 85-95% of the column width. Test against the actual font and column width before approving. Never pad with filler words — restructure the sentence instead. |
 
 ## Banned Phrases
 

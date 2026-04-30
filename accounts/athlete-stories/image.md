@@ -47,17 +47,8 @@ The processing pipeline must run in this order:
 - No additional branding or logos on the image.
 - Product mention is woven into the copy, not the design.
 
-## Slide Role Mapping
+## Image Role Notes
 
-Each slideshow follows this role structure. The specific athlete photos change
-per post, but the roles stay the same.
-
-| Slide | Role | Image Direction | Copy Rhythm |
-| --- | --- | --- | --- |
-| 1 | The Beginning | Athlete in struggle/origin context | Short. Staccato. 2-5 words per sentence. |
-| 2 | The Grind | Athlete training/working | Medium. 8-14 words. Building context. |
-| 3 | The Weight | Athlete under pressure/isolated | Medium. Tension rising. |
-| 4 | The Peak | Athlete meditating/visualizing/focused | Longest. 15-25 words. The visualization reveal. |
-| 5 | The Transformation | Athlete triumphant/unleashed | Medium. The payoff. |
-| 6 | The Product | Phone in hand on court/field | Short. Grounded product mention. |
-| 7 | The Legend | Athlete iconic moment | Athlete quote. |
+- Use `design.md` for slide count, layout, typography, text placement, and renderer-facing rules.
+- Use `writing.md` and the target `flow.md` for copy rhythm and slide text.
+- Use this file only to decide whether a selected photo fits the intended slide role and visual treatment.
