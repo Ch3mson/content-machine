@@ -23,7 +23,7 @@ slides = [
     ("1.jpg", "He played every game like it was his last.\nThe championship weight sat on his chest.\nHe couldn't sleep after the eliminations."),
     ("2.jpg", "He trained his body.\nAdded 25 pounds in one summer.\nStill couldn't sleep after the losses.\nThe edge had to come from somewhere deeper."),
     ("4.jpg", "He sat with headphones\nand ran every possession in his mind\nuntil the court in his mind\nfelt more familiar than\nthe one under his feet.\nBy the time the game came,\nhe had already been there."),
-    (r"..\Lebron\native hold.jpeg", "I use w(inner) the same way.\nIt builds a visualization track until the game\nfeels familiar before it starts."),
+    (r"..\Lebron\sourced\native hold.jpeg", "I use w(inner) the same way.\nIt builds a visualization track until the game\nfeels familiar before it starts."),
     ("abd6315c9640e16d7bde23130af09dfc.jpg", '"You have to expect things of yourself\nbefore you can do them."\n— Michael Jordan'),
 ]
 

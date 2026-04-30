@@ -23,7 +23,7 @@ slides = [
     ("9b284a10e408e392a9bacca499a399c6.jpg", "He watched film until his eyes burned.\nRehearsed every possession.\nSaw the court before the ball moved.\nWhile other kids played, he studied."),
     ("lebron meditating.jpg", "He visualized every game, every possession,\nevery shot, running through scenarios in his head\nuntil the court felt like home before he even\nstepped on it. He saw it before it happened."),
     ("6e3eb22d3cb436a8bd0466d9e1a6a8bf.jpg", "Number one pick. Straight from high school.\nThe kid from Akron who refused to disappear\nbecame the greatest to ever play."),
-    ("native hold.jpeg", "I use w(inner) before my games.\nIt runs a visualization track built for\nmy position and my matchup."),
+    ("sourced\\native hold.jpeg", "I use w(inner) before my games.\nIt runs a visualization track built for\nmy position and my matchup."),
     ("e59acbc2f78cd411738943d2ce515559.jpg", '"I knew what I was going to be\nbefore I knew what I was."\n\u2014 LeBron James'),
 ]
 
