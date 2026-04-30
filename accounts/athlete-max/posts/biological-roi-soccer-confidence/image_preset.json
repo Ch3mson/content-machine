@@ -1,0 +1,74 @@
+{
+  "account": "athlete-max",
+  "subject": "biological-roi-soccer-confidence",
+  "source": "ask_user",
+  "output_dir": "accounts/athlete-max/posts/biological-roi-soccer-confidence/sourced",
+  "status": "not_sourced_yet",
+  "note": "Placeholder frames only. User will provide images later.",
+  "slides": [
+    {
+      "slide": 1,
+      "role": "Hero",
+      "source": "ask_user",
+      "queries": [
+        "black and white soccer player portrait focused expression pre-game tension negative space"
+      ]
+    },
+    {
+      "slide": 2,
+      "role": "Habit #5 - Sensory Cue",
+      "source": "ask_user",
+      "queries": [
+        "soccer player headphones pre-game playlist ritual"
+      ]
+    },
+    {
+      "slide": 3,
+      "role": "Habit #4 - Process Goal",
+      "source": "ask_user",
+      "queries": [
+        "soccer player scanning field tactical awareness"
+      ]
+    },
+    {
+      "slide": 4,
+      "role": "Habit #3 - Breathing",
+      "source": "ask_user",
+      "queries": [
+        "athlete controlled breathing diaphragmatic lungs"
+      ]
+    },
+    {
+      "slide": 5,
+      "role": "Habit #2 - Visualization",
+      "source": "ask_user",
+      "queries": [
+        "soccer player eyes closed visualization mental rehearsal"
+      ]
+    },
+    {
+      "slide": 6,
+      "role": "Habit #1 - Sprint Bursts",
+      "source": "ask_user",
+      "queries": [
+        "soccer player sprinting warmup training burst"
+      ]
+    },
+    {
+      "slide": 7,
+      "role": "Optimal Routine Summary",
+      "source": "ask_user",
+      "queries": [
+        "soccer player pre-game routine tunnel preparation"
+      ]
+    }
+  ],
+  "filters": {
+    "target_ratio": 1.777,
+    "ratio_tolerance": 0.4,
+    "min_width": 500,
+    "min_height": 280,
+    "max_candidates_per_slide": 40,
+    "download_timeout": 15
+  }
+}

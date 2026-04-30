@@ -4,11 +4,11 @@ Science × athletic performance for competitive athletes.
 
 ## Status
 
-- Stage: A3 — Writing and Design Quality Gate **Passed**
-- writing.md: **Locked** (pending preset creation in Workflow A4)
+- Stage: A4 — First angle preset **Created**
+- writing.md: **Locked**
 - design.md: **Locked**
-- presets.md: **Not yet created** (requires Workflow A4: Angle Extraction to Presets)
-- Next: Workflow A4 (Angle Extraction to Presets) OR Workflow B (New Post)
+- presets.md: **Created** (`Biological ROI Ranking`)
+- Next: Workflow B (New Post) or add more validated presets through Workflow A4
 
 ## Quality Gate
 
@@ -19,6 +19,10 @@ Science × athletic performance for competitive athletes.
   - Equal spacing above and below photo frame
   - Fix + payoff embedded in one block
   - Bold limited to structural labels only (`the fix:`, `constraint:`)
+- First approved preset: `Biological ROI Ranking`
+  - Validated in `posts/biological-roi-soccer-confidence/`
+  - Structure: hero + ranked body slides with `the biological roi (why it works):` → `the result:` → source
+  - Optional final protocol stack slide for routine/product handoff
 
 ## Reference Accounts
 
@@ -32,5 +36,6 @@ Science × athletic performance for competitive athletes.
 - `design.md` — Locked design system (canvas, typography, layout rules)
 - `writing/refinement-personas.md` — Three-persona refinement protocol (TAP-R formula)
 - `writing/principles.md` — Stable account-specific principles
+- `presets.md` — Approved reusable angle/flow structures
 - `quality-gate/index.md` — Attempt ledger with all A3 iterations
 - `extractions/reference-map.md` — All reference material organized

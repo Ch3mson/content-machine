@@ -6,7 +6,7 @@ inspiration, and approved account examples.
 ## Source Summary
 
 - **Primary reference accounts:** chasingpeaks0 (depth, narrative flow, accessible science), verified_byhumans (clean structure, clinical authority, source citations)
-- **Strongest reusable lessons:** Problem-first hooks, desire-led benefit translation, mechanism-before-protocol flow, specific numbers/time ranges, source citations for trust, accessible analogies for complex biology
+- **Strongest reusable lessons:** Problem-first hooks, desire-led benefit translation, biological ROI ranking, mechanism-before-protocol flow, specific numbers/time ranges, source citations for trust, accessible analogies for complex biology
 - **Weak patterns rejected:** Overly dense text blocks without scannability, generic listicles without mechanism, unsourced extreme claims, motivational framing
 
 ## Core Principles
@@ -24,6 +24,8 @@ inspiration, and approved account examples.
 | **Identity aspiration without motivation** | Frame the outcome as becoming a smarter, more optimized athlete — not a "grind harder" warrior | "Like a PEAK Human," "Complete Optimization," "biological ROI" | Use aspirational framing that appeals to intelligence and efficiency, not willpower and suffering |
 | **Performance translation** | Every biological mechanism must be tied to an in-competition, in-game, or in-practice outcome the competitive athlete cares about | "Slower reaction time," "worse fourth-quarter decisions," "missed reads when fatigued," "higher injury risk under load" | After explaining the mechanism, ask: "So what?" and answer with a specific performance cost or gain |
 | **Line-fill writing** | Copy is written to the container, not free-form. Every paragraph must wrap so that each line fills roughly the same width — no short orphan lines, no ragged trailing words | verified_byhumans Post 2 slides 2-6: every text block forms a dense visual rectangle where lines run edge-to-edge at near-equal length | After drafting copy, test it against the font size and column width in the renderer. If a line fills less than 85% of the longest line in the same block, reword the sentence to redistribute characters evenly. This is a writing task, not a layout task — never fix line fill by changing font size or column width |
+| **Biological ROI ranking** | A ranked list should evaluate habits, drills, or routines by their biological return for one specific sport desire | verified_byhumans Post 2 uses "biological ROI" to turn hobbies into nervous-system investments; athlete-max validated the transfer with soccer pre-game confidence | Use `5 [sport-specific habits] ranked by biological ROI:` when the ranking is meaningful. Move from #5 to #1, explain why each item works, then translate the mechanism into a tangible sport outcome. |
+| **Protocol stack handoff** | A final slide can summarize ranked items into one usable routine, including native tools when they belong | The soccer confidence post added an approved slide 7 that stacked playlist, film study, breathing, sprint bursts, and w(inner) visualization audio | Use only when the post needs a routine or product/tool handoff. Keep w(inner) as one natural tool inside the sequence, never the point of the post. |
 
 ## Voice And Rhythm
 
@@ -32,6 +34,7 @@ inspiration, and approved account examples.
 - **Hook behavior:** The hook must name a private frustration the athlete already feels — in plain language, not jargon. The best hooks use curiosity gaps (quoted words, contrarian framing) or reframe a familiar failure as a solvable biological problem. If a 14-year-old athlete cannot instantly understand what the post is about and why they should care, the hook fails.
 - **Explanation style:** Direct, second-person, desire-aware, and mechanism-focused. "When you do X, your brain/body does Y. That is why Z fails in the moment you care about."
 - **CTA or close behavior:** Minimal. If a product mention is needed, it should be camouflaged as a source, tool, or "full protocol" reference. No hard sells.
+- **Preset behavior:** When using Biological ROI Ranking, the default is hero + 5 ranked body slides. Add a final stack slide only when it turns the ranked items into a practical routine or native product/tool handoff.
 
 ## Authority And Trust
 
