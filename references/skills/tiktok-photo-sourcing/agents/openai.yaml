@@ -1,0 +1,4 @@
+interface:
+  display_name: "TikTok Photo Sourcing"
+  short_description: "Download TikTok photo carousels into post folders"
+  default_prompt: "Use $tiktok-photo-sourcing to download a TikTok photo carousel into a slideshow post folder."

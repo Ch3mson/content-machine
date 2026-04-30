@@ -18,6 +18,7 @@ If the user says one of these, start the matching file without waiting for anoth
 | broad post idea, `post concept`, `VOC research`, avatar + pain point | `references/skills/post-concept-flow/SKILL.md` before final `flow.md` |
 | `workflow c`, `process images`, `render slides` | `workflows/workflow-c-image-processing.md` |
 | `source images`, `find images`, `Pinterest images` | `tools/image-sourcer/README.md` |
+| `TikTok photos`, `TikTok carousel`, `source TikTok`, `download TikTok` | `references/skills/tiktok-photo-sourcing/SKILL.md` + `tools/tiktok-photo-sourcer/README.md` |
 | `3 variants`, `3 angles`, `angle concepts`, brainstorming | `references/skills/angle-variants/SKILL.md`; answer in chat, not `flow.md` |
 | `stop slop`, `anti-AI writing`, `clean copy` | `references/skills/stop-slop/SKILL.md` |
 | product/app/claim/w(inner) mention | `product/app-brief.md` + `product/claim-bank.md` before writing |
@@ -61,6 +62,7 @@ Root `README.md` currently names `accounts/athlete-stories/` as the active locke
 ## Commands And Gotchas
 
 - Source images: `python tools/image-sourcer/source_images.py <path-to-image_preset.json>`.
+- Source TikTok photo carousels without cookies: `python tools/tiktok-photo-sourcer/download_tiktok_photos.py --account <reference-account> --post <number-or-label> <tiktok-photo-url>`.
 - Browser-backed sourcing needs Chrome running with remote debugging on port 9222, then `python tools/browser-harness/connect_my_chrome.py` if auto-detection fails.
 - `tools/browser-harness/_compat.py` is a local Windows TCP-socket patch for browser-harness; do not remove it as an upstream mismatch.
 - Process images with the target post script: `python accounts/{account}/{post}/process_images.py` or `python accounts/{account}/posts/{post}/process_images.py`.
