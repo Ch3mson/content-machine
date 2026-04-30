@@ -387,6 +387,28 @@ function buildPermissionEventDedupeKey(properties: unknown): string | null {
 function sendNodeNotification(options: NotificationOptions): void {
 	const { title, message, sound, terminalInfo } = options
 
+	// Windows: call SnoreToast directly to support custom audio URIs
+	if (process.platform === "win32") {
+		try {
+			const snoreToastPath = path.join(
+				path.dirname(require.resolve("node-notifier/package.json")),
+				"vendor",
+				"snoreToast",
+				"snoretoast-x64.exe",
+			)
+			Bun.spawn([
+				snoreToastPath,
+				"-t", title,
+				"-m", message,
+				"-audio", "ms-winsoundevent:Notification.IM",
+			], { stdout: "ignore", stderr: "ignore" })
+		} catch {
+			// Fallback to node-notifier if SnoreToast direct call fails
+			notifier.notify({ title, message, sound })
+		}
+		return
+	}
+
 	// Base notification options
 	const notifyOptions: Record<string, unknown> = {
 		title,
