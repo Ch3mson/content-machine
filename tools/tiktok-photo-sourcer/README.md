@@ -20,6 +20,8 @@ references/social-accounts/legendperform/Post 5/2.jpg
 references/social-accounts/legendperform/Post 5/3.jpg
 ```
 
+If `Post 5` does not exist yet, the script creates it automatically.
+
 Use a direct folder when needed:
 
 ```powershell

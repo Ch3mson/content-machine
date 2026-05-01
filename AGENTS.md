@@ -16,6 +16,7 @@ If the user says one of these, start the matching file without waiting for anoth
 | `workflow a4`, `angle extraction`, `preset extraction` | `workflows/workflow-a4-angle-extraction-to-presets.md` + `references/skills/angle-extraction/SKILL.md` |
 | `workflow b`, `new post`, `make post` | `workflows/workflow-b-new-post.md` |
 | broad post idea, `post concept`, `VOC research`, avatar + pain point | `references/skills/post-concept-flow/SKILL.md` before final `flow.md` |
+| `hook ideas`, `hook bank`, `pull the hook`, `analyze hook`, `transcript inspo`, `slideshow inspo`, TikTok video/slideshow hook analysis | `references/skills/hook-idea-extraction/SKILL.md` + `references/hook-ideas/README.md` |
 | `workflow c`, `process images`, `render slides` | `workflows/workflow-c-image-processing.md` |
 | `source images`, `find images`, `Pinterest images` | `tools/image-sourcer/README.md` |
 | `TikTok photos`, `TikTok carousel`, `source TikTok`, `download TikTok` | `references/skills/tiktok-photo-sourcing/SKILL.md` + `tools/tiktok-photo-sourcer/README.md` |
@@ -50,6 +51,7 @@ Root `README.md` currently names `accounts/athlete-stories/` as the active locke
 - `image.md` is for photo direction, visual treatment, and selected-photo suitability; do not rely on it for layout decisions that belong in `design.md`.
 - Quality-gate attempts live in `accounts/{account}/quality-gate/attempts/{attempt-id}/`, with an attempt ledger at `accounts/{account}/quality-gate/index.md`.
 - `presets.md` is supplemental. Create or update it only after baseline `writing.md` and `design.md` pass the quality gate, unless the user explicitly asks for legacy behavior.
+- Universal hook inspiration lives in `references/hook-ideas/`. Treat those cards as raw inspiration, not account rules, final copy, or validated presets.
 - Legacy post folders such as `accounts/athlete-stories/Lebron/` and `Michael Jordan/` are valid; work in the folder the user names or the closest existing post folder.
 - Standard post files: `flow.md`, `image_preset.json`, `sourced/`, post-specific `process_images.py`, `processed/`.
 - Draft copy review files may live in `accounts/{account}/posts/{post-slug}/concept/`.
@@ -62,7 +64,9 @@ Root `README.md` currently names `accounts/athlete-stories/` as the active locke
 ## Commands And Gotchas
 
 - Source images: `python tools/image-sourcer/source_images.py <path-to-image_preset.json>`.
-- Source TikTok photo carousels without cookies: `python tools/tiktok-photo-sourcer/download_tiktok_photos.py --account <reference-account> --post <number-or-label> <tiktok-photo-url>`.
+- Source TikTok photo carousels without cookies: `python tools/tiktok-photo-sourcer/download_tiktok_photos.py --account <reference-account> --post <number-or-label> <tiktok-photo-url>`. Missing post folders are created automatically.
+- Fetch TikTok video transcripts without downloading video: `python tools/tiktok-transcript-sourcer/download_tiktok_transcript.py <tiktok-video-url>`. Requires `SUPADATA_API_KEY` in the shell or local `.env`.
+- Prepare photo slideshow text transcription: `python tools/slideshow-transcriber/prepare_slideshow_transcript.py <image-folder>`.
 - Browser-backed sourcing needs Chrome running with remote debugging on port 9222, then `python tools/browser-harness/connect_my_chrome.py` if auto-detection fails.
 - `tools/browser-harness/_compat.py` is a local Windows TCP-socket patch for browser-harness; do not remove it as an upstream mismatch.
 - Process images with the target post script: `python accounts/{account}/{post}/process_images.py` or `python accounts/{account}/posts/{post}/process_images.py`.
@@ -78,6 +82,7 @@ Root `README.md` currently names `accounts/athlete-stories/` as the active locke
 - If a quality-gate sample is rejected, capture the raw criticism in the current attempt's `iteration-notes.md` and update `writing/refinement-personas.md` before the next attempt.
 - Do not overwrite prior quality-gate attempts; create a new attempt subfolder for each new user-reviewable quality-gate sample.
 - Do not create `presets.md` before baseline writing/design quality passes; use Workflow A4 for validated angle-to-preset extraction.
+- Do not copy hooks verbatim from `references/hook-ideas/`; abstract the reusable pattern and adapt it through account writing rules.
 - If a broad post idea is not a locked angle and final copy, use the concept flow before creating `flow.md`.
 - For Workflow B and copy iteration requests, paste the full slide-by-slide copy
   in chat first. Do not write final `flow.md`, source images, run Workflow C, or

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hook Idea Extraction"
+  short_description: "Extract reusable hook patterns from videos and slides"
+  default_prompt: "Use $hook-idea-extraction to analyze this transcript or slideshow and save reusable hook ideas."
