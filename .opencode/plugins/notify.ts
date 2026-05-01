@@ -400,7 +400,7 @@ function sendNodeNotification(options: NotificationOptions): void {
 				snoreToastPath,
 				"-t", title,
 				"-m", message,
-				"-audio", "ms-winsoundevent:Notification.IM",
+				"-s", "ms-winsoundevent:Notification.IM",
 			], { stdout: "ignore", stderr: "ignore" })
 		} catch {
 			// Fallback to node-notifier if SnoreToast direct call fails

@@ -20,25 +20,118 @@ references/hook-ideas/
   index.md
   inbox/
     transcripts/   Raw pasted video transcripts or caption exports.
-    slideshows/    Notes pointing to slideshow folders or OCR/manual slide text.
+    slideshows/    Downloaded slideshow images + slide transcript scaffolds.
   cards/           One analyzed hook idea card per source post.
   exports/         Optional grouped digests for reuse sessions.
   templates/       Reusable card templates.
 ```
 
-## Workflow
+## Step-by-Step Workflow
 
-1. Save or reference the raw input.
-   - TikTok video: fetch transcript with `tools/tiktok-transcript-sourcer/`.
-   - TikTok photo carousel: download images with `tools/tiktok-photo-sourcer/`
-     into `inbox/slideshows/{slug}/images/`, then create a slide transcript
-     scaffold with `tools/slideshow-transcriber/`.
-   - Existing image folder: reference its path instead of duplicating images.
-2. Create an analysis card from `templates/hook-card.md` in `cards/`.
-3. Update `index.md` with the source, hook archetype, transferable pattern,
-   tags, and account-fit notes.
-4. When using a card for a real post, run `post-concept-flow` or
-   `angle-variants`; do not copy the original hook verbatim.
+### Step 1: Identify the Source Type
+
+Ask: what did the user provide?
+
+| User gave | Source type | Path to follow |
+| --- | --- | --- |
+| TikTok video URL | Video transcript | Step 2A |
+| TikTok photo/slideshow URL | Slideshow screenshots | Step 2B |
+| Folder of screenshot images | Existing image folder | Step 2C |
+| Pasted transcript or caption text | Raw text | Step 2D |
+
+### Step 2A: TikTok Video URL → Fetch Transcript
+
+Run:
+
+```powershell
+python tools/tiktok-transcript-sourcer/download_tiktok_transcript.py "{tiktok-video-url}"
+```
+
+- Reads `SUPADATA_API_KEY` from `.env` or shell.
+- Saves transcript to `inbox/transcripts/YYYY-MM-DD-tiktok-{video-id}.md`.
+- Do not download the video file.
+- If the video is private, restricted, or unsupported, ask the user for a transcript or caption export.
+
+### Step 2B: TikTok Photo/Slideshow URL → Download + Transcribe
+
+1. Download images into the hook-ideas inbox:
+
+```powershell
+python tools/tiktok-photo-sourcer/download_tiktok_photos.py `
+  --out "references/hook-ideas/inbox/slideshows/{slug}/images" `
+  "{tiktok-photo-url}"
+```
+
+2. Generate a slide transcript scaffold:
+
+```powershell
+python tools/slideshow-transcriber/prepare_slideshow_transcript.py `
+  "references/hook-ideas/inbox/slideshows/{slug}/images" `
+  --source-url "{tiktok-photo-url}" `
+  --slug "{slug}"
+```
+
+3. Inspect each slide image visually and fill the scaffold with the exact visible text. Preserve slide order and meaningful line breaks.
+
+### Step 2C: Existing Image Folder → Transcribe Only
+
+Skip downloading. Run the transcriber directly on the folder:
+
+```powershell
+python tools/slideshow-transcriber/prepare_slideshow_transcript.py "{folder-path}"
+```
+
+Then fill the scaffold with visible text from each slide.
+
+### Step 2D: Pasted Transcript or Caption Text → Save Directly
+
+Save the raw text to `inbox/transcripts/YYYY-MM-DD-{source-slug}.md` with a header noting the source, date, and how it was obtained.
+
+### Step 3: Analyze the Source
+
+Read the full transcript or filled slide scaffold. Extract:
+
+- **Original hook** — the opening line or first-frame promise.
+- **Scroll-stop reason** — why someone pauses on this.
+- **Retention reason** — why someone keeps watching or swiping.
+- **Flow map** — each beat, its job, and the retention mechanic.
+- **Hook archetype** — the category of hook (ranked list, contradiction, story open, etc.).
+- **Emotional lever** — fear, status, identity gap, curiosity, desire, relief, etc.
+- **Curiosity engine** — what question keeps the viewer engaged.
+- **Proof or credibility device** — what makes it feel real.
+- **Idea payload** — surface topic vs. deeper viewer desire vs. private pain.
+- **Transferable pattern** — the abstract move that can be reused safely.
+- **Account fit** — which account types could use it, which should avoid it.
+- **Risks** — claim burden, copycat wording, niche mismatch, weak payoff.
+
+### Step 4: Create the Hook Card
+
+1. Start from `templates/hook-card.md`.
+2. Fill every section based on the analysis.
+3. Save to `cards/YYYY-MM-DD-{source-slug}.md`.
+4. Keep exact source wording only in the "Original Hook" section for reference. All other sections should use abstracted, reusable language.
+
+### Step 5: Update the Index
+
+Add a row to `index.md` with:
+
+| Column | What to put |
+| --- | --- |
+| Date | Capture date (YYYY-MM-DD) |
+| Source | Creator name + platform + video/post ID |
+| Type | Video transcript / Slideshow screenshots / Image carousel / Raw text |
+| Card | Relative path to the card file |
+| Hook Archetype | Short name (e.g. "Escalating ranked code") |
+| Transferable Pattern | One-line summary of the reusable move |
+| Tags | 4-8 hyphenated tags |
+| Account Fit | 3-6 account types that could use this |
+| Status | raw inspiration / candidate for account concept / candidate for angle extraction |
+
+### Step 6: Using a Card for a Real Post
+
+- Run `post-concept-flow` or `angle-variants` to adapt the pattern.
+- Do **not** copy the original hook verbatim into account posts.
+- Use the account's `writing.md`, `design.md`, and `presets.md` to shape the final copy.
 
 ## What To Extract
 

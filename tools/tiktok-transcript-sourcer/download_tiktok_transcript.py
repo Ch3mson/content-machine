@@ -54,7 +54,14 @@ def get_api_key() -> str:
 
 
 def request_json(url: str, api_key: str) -> tuple[int, dict[str, Any], dict[str, str]]:
-    request = urllib.request.Request(url, headers={"x-api-key": api_key})
+    request = urllib.request.Request(
+        url,
+        headers={
+            "x-api-key": api_key,
+            "User-Agent": "Mozilla/5.0",
+            "Accept": "application/json",
+        },
+    )
     try:
         with urllib.request.urlopen(request, timeout=90) as response:
             body = response.read().decode("utf-8")
