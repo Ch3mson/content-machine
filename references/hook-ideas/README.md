@@ -18,12 +18,13 @@ turning an idea into a real post.
 references/hook-ideas/
   README.md
   index.md
+  usage-ledger.md  Tracks where hook cards/patterns were reused.
   inbox/
     transcripts/   Raw pasted video transcripts or caption exports.
     slideshows/    Downloaded slideshow images + slide transcript scaffolds.
   cards/           One analyzed hook idea card per source post.
   exports/         Optional grouped digests for reuse sessions.
-  templates/       Reusable card templates.
+  templates/       Reusable card and extraction manifest templates.
 ```
 
 ## Step-by-Step Workflow
@@ -111,6 +112,17 @@ Read the full transcript or filled slide scaffold. Extract:
 3. Save to `cards/YYYY-MM-DD-{source-slug}.md`.
 4. Keep exact source wording only in the "Original Hook" section for reference. All other sections should use abstracted, reusable language.
 
+For social-account posts, prefer the manifest updater:
+
+```powershell
+python tools/hook-extraction/update_hook_extraction.py `
+  references/hook-ideas/templates/social-post-extraction.json `
+  --dry-run
+```
+
+After the dry run passes, rerun without `--dry-run`. The updater creates the
+card and updates the other memory docs in the same pass.
+
 ### Step 5: Update the Index
 
 Add a row to `index.md` with:
@@ -127,11 +139,15 @@ Add a row to `index.md` with:
 | Account Fit | 3-6 account types that could use this |
 | Status | raw inspiration / candidate for account concept / candidate for angle extraction |
 
+If using `tools/hook-extraction/update_hook_extraction.py`, this step is handled
+by the manifest.
+
 ### Step 6: Using a Card for a Real Post
 
 - Run `post-concept-flow` or `angle-variants` to adapt the pattern.
 - Do **not** copy the original hook verbatim into account posts.
 - Use the account's `writing.md`, `design.md`, and `presets.md` to shape the final copy.
+- After using the pattern, add a row to `usage-ledger.md` so cross-account reuse stays visible.
 
 ## What To Extract
 

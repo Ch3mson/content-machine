@@ -1,0 +1,63 @@
+{
+  "source_id": "user-football-kingdubar--post-1",
+  "date": "2026-05-01",
+  "card_slug": "2026-05-01-example-social-post",
+  "title": "example-social-post",
+  "platform": "TikTok",
+  "creator_account": "@example",
+  "source_label": "@example social-account post (user-football-kingdubar--post-1)",
+  "source_url": "",
+  "raw_input_location": "references/social-accounts/user-football-kingdubar/Post 1",
+  "content_type": "slideshow screenshots",
+  "original_hook": "\"Paste the first-slide hook here.\"",
+  "scroll_stop": [
+    "Explain why the first slide creates immediate attention."
+  ],
+  "retention": [
+    "Explain why the viewer keeps swiping."
+  ],
+  "flow_map": [
+    {
+      "beat": 1,
+      "source_moment": "Opening hook",
+      "job": "Establish the promise",
+      "retention_mechanic": "Creates curiosity"
+    }
+  ],
+  "hook_archetype": "failure-confession",
+  "emotional_lever": "Status threat, regret, identity gap",
+  "curiosity_engine": "Viewer wants to know how to avoid the same outcome.",
+  "proof_device": "Personal experience, concrete mistakes, visible source slides",
+  "idea_payload": {
+    "surface_topic": "Surface topic",
+    "deeper_viewer_desire": "What the viewer secretly wants",
+    "private_pain_or_identity_gap": "What they fear or feel behind the topic",
+    "mechanism_or_explanation": "Why the pattern works",
+    "implied_fix_direction": "What kind of solution the post points toward"
+  },
+  "transferable_pattern": "Personal bad outcome becomes a warning system for the viewer.",
+  "safe_rewrite_formula": "How I became [bad outcome], and how you avoid it.",
+  "example_adapted_direction": "How I wasted my first season, and how you avoid it.",
+  "account_fit": {
+    "best_fit": [
+      "Football",
+      "athlete coaching",
+      "personal account"
+    ],
+    "poor_fit": [
+      "Fact-only biography pages"
+    ],
+    "claim_or_proof_risks": "Avoid unverifiable performance claims unless the account can support them.",
+    "what_not_to_copy": "Do not copy the exact personal story or slide wording."
+  },
+  "tags": [
+    "failure-confession",
+    "cautionary-story",
+    "athlete-mindset"
+  ],
+  "next_use": "Use when a personal failure can credibly teach the audience what to avoid.",
+  "status": "Candidate for account concept",
+  "post_index_status": "hook-carded",
+  "usage": []
+}
+

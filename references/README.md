@@ -14,7 +14,7 @@ Shared materials that inform accounts and workflows.
 | `skills/hook-idea-extraction/` | Extracts reusable hook patterns from transcripts, screenshots, and slideshow inspiration. |
 | `skills/account-quality-gate/` | Tests draft writing/design docs with a rendered non-hero sample slide. |
 | `skills/angle-extraction/` | Extracts repeatable angle patterns from stored post sets and validates them before presets. |
-| `hook-ideas/` | Universal low-authority hook inspiration bank. |
-| `social-accounts/` | Reference slideshow accounts and screenshots for inspiration. |
+| `hook-ideas/` | Universal low-authority hook inspiration bank, including the reuse ledger. |
+| `social-accounts/` | Reference slideshow accounts, screenshots, account map, post index, and hook-pattern taxonomy. |
 
 Do not put runnable scripts here. Scripts belong in `../tools/`.
