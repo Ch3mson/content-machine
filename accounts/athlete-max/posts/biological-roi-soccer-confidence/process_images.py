@@ -185,10 +185,22 @@ def render_hero(slide: dict) -> Image.Image:
     draw = ImageDraw.Draw(img)
 
     sourced = find_sourced_image(slide["slide"])
-    hero_x, hero_y, hero_w, hero_h = 585, 0, 495, H
     if sourced:
-        img.paste(crop_image_to_frame(sourced, hero_w, hero_h), (hero_x, hero_y))
+        hero = Image.open(sourced).convert("RGBA")
+        bbox = hero.getbbox()
+        if bbox:
+            hero = hero.crop(bbox)
+        max_w, max_h = 500, 900
+        scale = min(max_w / hero.width, max_h / hero.height)
+        hero = hero.resize(
+            (int(hero.width * scale), int(hero.height * scale)),
+            Image.Resampling.LANCZOS,
+        )
+        hero_x = W - hero.width - 8
+        hero_y = H - hero.height
+        img.paste(hero.convert("RGB"), (hero_x, hero_y), hero)
     else:
+        hero_x, hero_y, hero_w, hero_h = 585, 0, 495, H
         draw_placeholder_frame(draw, hero_x, hero_y, hero_w, hero_h, "[hero photo]")
 
     y = 270

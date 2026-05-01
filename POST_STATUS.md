@@ -1,6 +1,6 @@
 # Post Status Dashboard
 
-Generated: 2026-04-30
+Generated: 2026-05-01
 
 Use this as the quick view for every account and post. In-progress work stays in the source workspace; finished posting packs are copied to each account's `ready-to-post/` folder.
 
@@ -29,4 +29,4 @@ Use this as the quick view for every account and post. In-progress work stays in
 
 - [athlete-max](accounts/athlete-max/post-status.md)
 - [athlete-stories](accounts/athlete-stories/post-status.md)
-- [Athlete-user](accounts/Athlete-user/post-status.md)
+- [Athlete-user-soccer](accounts/Athlete-user-soccer/post-status.md)

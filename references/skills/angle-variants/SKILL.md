@@ -1,3 +1,8 @@
+---
+name: angle-variants
+description: Brainstorm three differentiated slideshow angle concepts from a broad idea, overall angle, or variant request. Use when the user asks for 3 variants, 3 angles, angle concepts, brainstorming, or concept-only alternatives before final slide copy.
+---
+
 # Skill: Angle Variant Brainstorming
 
 Use this when the user asks for variants or angle concepts based on an overall
