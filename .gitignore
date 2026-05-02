@@ -14,6 +14,9 @@ __pycache__/
 *.sqlite3
 tiktok-archive.sqlite3
 
+# Local installers / binaries
+WarpSetup.exe
+
 # Local tool state
 .claude/settings.local.json
 .ocx/
