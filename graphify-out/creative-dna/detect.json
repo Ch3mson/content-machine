@@ -1,0 +1,39 @@
+{
+  "total_files": 29,
+  "total_words": 28689,
+  "needs_graph": true,
+  "warning": null,
+  "files": {
+    "document": [
+      "references/creative-dna/README.md",
+      "references/creative-dna/graphify-instructions.md",
+      "references/creative-dna/creative-dna-workflow-router.md",
+      "references/creative-dna/owned-account-idea-router.md",
+      "references/creative-dna/inferred-edge-qa.md",
+      "references/creative-dna/cross-niche-principle-map.md",
+      "references/creative-dna/account-profiles/README.md",
+      "references/creative-dna/templates/viral-post-creative-dna.md",
+      "references/creative-dna/extractions/2026-05-01-asdicipline-conor-empty-stomach.md",
+      "references/creative-dna/extractions/2026-05-01-chasingpeaks0-highest-roi-habits.md",
+      "references/creative-dna/extractions/2026-05-01-chasingpeaks0-killing-potential.md",
+      "references/creative-dna/extractions/2026-05-01-legendperform-knockout-stat.md",
+      "references/creative-dna/extractions/2026-05-01-user-aura-fit3-illegal-muscle-growth.md",
+      "references/creative-dna/extractions/2026-05-01-user-football-kingdubar-d1-bust.md",
+      "references/creative-dna/extractions/2026-05-01-user-marcogetsfit-evening-habits.md",
+      "references/creative-dna/extractions/2026-05-01-user-soccer-tgaskins3-invisible-competition.md",
+      "references/creative-dna/extractions/2026-05-01-user-sophia-study-ranking-review.md",
+      "references/creative-dna/extractions/2026-05-01-verified-byhumans-body-language-red-flags.md",
+      "references/creative-dna/extractions/README.md",
+      "references/creative-dna/account-profiles/athlete-max.md",
+      "references/creative-dna/account-profiles/athlete-stories.md",
+      "accounts/athlete-max/writing.md",
+      "accounts/athlete-max/design.md",
+      "accounts/athlete-max/image.md",
+      "accounts/athlete-max/presets.md",
+      "accounts/athlete-stories/writing.md",
+      "accounts/athlete-stories/design.md",
+      "accounts/athlete-stories/image.md",
+      "accounts/athlete-stories/presets.md"
+    ]
+  }
+}

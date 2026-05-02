@@ -17,6 +17,7 @@ If the user says one of these, start the matching file without waiting for anoth
 | `workflow b`, `new post`, `make post` | `workflows/workflow-b-new-post.md` |
 | broad post idea, `post concept`, `VOC research`, avatar + pain point | `references/skills/post-concept-flow/SKILL.md` before final `flow.md` |
 | `hook ideas`, `hook bank`, `pull the hook`, `analyze hook`, `transcript inspo`, `slideshow inspo`, TikTok video/slideshow hook analysis | `references/skills/hook-idea-extraction/SKILL.md` + `references/hook-ideas/README.md` |
+| `creative DNA`, out-of-niche hooks, viral principles, cross-niche ideas, mechanism transfer, account-specific ideas from references | `references/creative-dna/README.md` + `references/creative-dna/owned-account-idea-router.md` + target profile in `references/creative-dna/account-profiles/` + `graphify-out/creative-dna/GRAPH_REPORT.md` |
 | `workflow c`, `process images`, `render slides` | `workflows/workflow-c-image-processing.md` |
 | `source images`, `find images`, `Pinterest images` | `tools/image-sourcer/README.md` |
 | `TikTok photos`, `TikTok carousel`, `source TikTok`, `download TikTok` | `references/skills/tiktok-photo-sourcing/SKILL.md` + `tools/tiktok-photo-sourcer/README.md` |
@@ -41,6 +42,63 @@ when the user asked for an end-to-end post.
 5. Tool docs only when a workflow calls for that tool.
 
 Root `README.md` currently names `accounts/athlete-stories/` as the active locked account. If the user names another account, use that account instead.
+
+## Creative DNA Retrieval Rule
+
+Use this rule for any request involving post ideas, hook ideas, angle ideas,
+viral inspiration, out-of-niche examples, cross-niche transfer, creative
+principles, mechanism families, account-specific concepts, or phrases like
+`creative DNA`.
+
+Creative DNA is the repo's cross-niche idea engine. Its job is to connect:
+
+```text
+viral reference post
+→ reusable mechanism family
+→ psychological / emotional lever
+→ hook archetype or proof pattern
+→ target account fit
+→ account-safe concept seed
+→ correct workflow route
+```
+
+Mandatory retrieval path before answering Creative DNA requests:
+
+1. Read `references/creative-dna/README.md`.
+2. Read `references/creative-dna/owned-account-idea-router.md`.
+3. Read `references/creative-dna/cross-niche-principle-map.md`.
+4. Read the target profile in `references/creative-dna/account-profiles/{account}.md`.
+5. Read `graphify-out/creative-dna/GRAPH_REPORT.md` when present.
+6. Read 1-3 relevant extraction files from `references/creative-dna/extractions/`
+   based on the selected mechanism families.
+7. Then read target account source-of-truth files only as needed for constraints:
+   `account-brief.md`, `writing.md`, `design.md`, `image.md`, `sources.md`,
+   and `presets.md` if present.
+
+Required output shape for Creative DNA ideation:
+
+- mechanism family
+- source reference post / niche
+- reusable principle
+- why it transfers to the target account
+- account constraints or risks
+- concept seed or hook direction
+- best workflow route (`post-concept-flow`, `angle-variants`, hook extraction,
+  or Workflow B)
+
+Hard rules for Creative DNA:
+
+- Do not answer from general knowledge alone when the user asks for Creative DNA.
+- Do not invent out-of-niche examples unless clearly labeled as a new hypothesis;
+  prefer existing Creative DNA extractions and hook/reference docs.
+- Do not copy source hooks verbatim. Abstract the mechanism, then adapt it
+  through target account rules.
+- Do not jump to final slide copy unless the user explicitly asks; default to
+  concept seeds / hook directions.
+- If no target account is named, use the active locked account unless the request
+  clearly implies another account.
+- If the target account profile is missing or empty, state that Creative DNA
+  routing is incomplete and ask whether to use normal account files instead.
 
 ## Workspace Contracts
 
@@ -90,3 +148,13 @@ Root `README.md` currently names `accounts/athlete-stories/` as the active locke
 - After copy approval, write `flow.md` from the approved copy exactly. Preserve
   approved wording and manual line breaks during rendering.
 - Preserve manual line breaks from `flow.md` during rendering; do not rewrite slide copy inside `process_images.py`.
+
+## graphify
+
+This project has a graphify knowledge graph at graphify-out/.
+
+Rules:
+- Before answering architecture or codebase questions, read graphify-out/GRAPH_REPORT.md for god nodes and community structure
+- If graphify-out/wiki/index.md exists, navigate it instead of reading raw files
+- For cross-module "how does X relate to Y" questions, prefer `graphify query "<question>"`, `graphify path "<A>" "<B>"`, or `graphify explain "<concept>"` over grep — these traverse the graph's EXTRACTED + INFERRED edges instead of scanning files
+- After modifying code files in this session, run `graphify update .` to keep the graph current (AST-only, no API cost)
