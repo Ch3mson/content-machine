@@ -27,7 +27,7 @@ Start with `AGENTS.md`. It routes user tags like `workflow a`, `workflow b`,
 | `AGENTS.md` | Mandatory router and retrieval contract for agents. |
 | `POST_STATUS.md` | Cross-account post dashboard showing finished posts, in-progress posts, stage, next action, and ready-to-post packs. |
 | `workflows/` | Step-by-step procedures for account setup, post creation, and image processing. |
-| `accounts/` | Account source-of-truth files, indexed writing folders, quality-gate artifacts, and post workspaces. |
+| `accounts/` | Account source-of-truth files, indexed writing folders, quality-gate artifacts, post workspaces, and the quick [accounts index](accounts/INDEX.md). |
 | `product/` | w(inner) app brief, claim bank, and product assets. |
 | `references/` | Research rules, templates, social references, repo-local skills, and writing QA skill. |
 | `tools/` | Runnable utilities such as image sourcing and browser harness. |

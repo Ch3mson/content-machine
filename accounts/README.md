@@ -2,6 +2,17 @@
 
 Each account folder is a source-of-truth playbook plus post workspaces.
 
+## Quick Navigation
+
+- [Accounts index](INDEX.md): fastest page for ready-to-post packs, flows needing review, concept drafts, and account source-of-truth links.
+- [Cross-account post dashboard](../POST_STATUS.md): generated global table of every known post and next action.
+- Account dashboards:
+  - [athlete-max](athlete-max/post-status.md)
+  - [athlete-stories](athlete-stories/post-status.md)
+  - [Athlete-user-soccer](Athlete-user-soccer/post-status.md)
+
+## Folder Contract
+
 Required account files:
 
 - `account-brief.md`: audience, POV, product relationship, open questions.

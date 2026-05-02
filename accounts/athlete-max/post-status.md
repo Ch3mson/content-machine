@@ -1,6 +1,6 @@
 # athlete-max Post Status
 
-Generated: 2026-05-01
+Generated: 2026-05-02
 
 ## Account Funnel
 
@@ -15,3 +15,5 @@ Generated: 2026-05-01
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | biological-roi-soccer-confidence | In Progress | Rendered, assets still marked pending | 7 | Source/map final images or remove pending markers, then rerun tracker | [posts/biological-roi-soccer-confidence](posts/biological-roi-soccer-confidence) | - | [flow](posts/biological-roi-soccer-confidence/flow.md) |
 | center-back-late-runner | In Progress | Rendered draft | 6 | Approve final copy/assets, update flow status, then rerun tracker | [posts/center-back-late-runner](posts/center-back-late-runner) | - | [flow](posts/center-back-late-runner/flow.md) |
+| halftime-restart-flatness | In Progress | Copy review | - | Approve copy, then write final flow.md | [posts/halftime-restart-flatness](posts/halftime-restart-flatness) | - | - |
+| mistake-confidence-loop | In Progress | Rendered draft | 13 | Approve final copy/assets, update flow status, then rerun tracker | [posts/mistake-confidence-loop](posts/mistake-confidence-loop) | - | [flow](posts/mistake-confidence-loop/flow.md) |

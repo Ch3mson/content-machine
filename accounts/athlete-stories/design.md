@@ -89,6 +89,7 @@ direction and visual treatment details.
 - Normalize and crop the selected photo before adding text.
 - Keep text centered on every slide.
 - Keep the same font, outline, line spacing, and safe margins across all slides.
+- Check line width before final render. If any line leaks past the `140px` safe margins, fix the manual line break in the copy source before rendering again; do not let the renderer silently shrink or rewrite copy.
 - Final PNGs must be exactly `1080x1920`.
 
 ## QA Checklist
@@ -96,6 +97,7 @@ direction and visual treatment details.
 - [ ] Every slide is `1080x1920`.
 - [ ] Photo is full bleed and not stretched.
 - [ ] Text is centered and inside the `140px` side margins.
+- [ ] Long lines have been manually split in the copy source before render.
 - [ ] White text remains readable against the photo.
 - [ ] Product slide does not look like a separate ad.
 - [ ] Manual line breaks from `flow.md` are preserved.
@@ -104,4 +106,4 @@ direction and visual treatment details.
 
 - Latest approved sample: `quality-gate/attempts/attempt-002-2026-04-29-ronaldo-product-bridge/sample-slide.png`.
 - Current blocker: none. Workflow A3 approved a representative non-hero rendered sample on 2026-04-29.
-- Last revision notes: Existing visual system preserved. Design authority remains in this file; `image.md` stays limited to photo direction and visual treatment. The approved sample validated full-bleed B&W treatment, centered Arial Bold text, outline readability, manual line breaks, and safe margins.
+- Last revision notes: Existing visual system preserved. Design authority remains in this file; `image.md` stays limited to photo direction and visual treatment. The approved sample validated full-bleed B&W treatment, centered Arial Bold text, outline readability, manual line breaks, and safe margins. Ali/Liston quality-gate redo added a render QA rule: long lines must be manually split before render if they exceed safe margins.

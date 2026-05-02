@@ -76,6 +76,10 @@ These non-negotiables are locked by repo, product, and source-safety contracts:
 - Do not stack facts as a list. Each fact must raise the stakes, deepen the identity, or answer the question created by the previous slide.
 - Build a slippery-slope arc: distance, threat, obsession, identity rehearsal, impact, product bridge, quote.
 - The mental turn should show the athlete building the identity before the achievement. The reader should feel the future being rehearsed before it becomes public.
+- Make the emotional payoff its own beat when needed. Do not combine the identity reveal and the w(inner) bridge if separating them makes the story land harder.
+- It is acceptable to go beyond the default 7-slide structure when suspense, scene-building, payoff, or product separation needs more room. Extra slides must still keep one proof beat each.
+- Avoid forced poetic shorthand where the verb and object do not naturally fit, such as "screaming the future" or "chanting the future." Prefer observable phrasing the viewer can picture, such as "screaming like he was predicting the future."
+- Spoken, shouted, chanted, or quoted words need quotation marks in slide copy.
 - Add an impact slide between visualization and product when needed. Show what the imagined identity produced before mentioning w(inner).
 - Use numbers, routines, places, opponents, coaches, and records before adjectives.
 - Let hidden routine create awe before explaining the mental edge.
@@ -93,6 +97,7 @@ These non-negotiables are locked by repo, product, and source-safety contracts:
   - personalized visualization audio
   - track built around sport, position, matchup, venue, trigger, or scenario
   - mental reps before training, sleep, or competition
+- Common first-person phrases like "rewired my brain" may be acceptable when used as narrator language, but avoid inflated clinical or empty endings such as "for greatness."
 - Avoid:
   - saying w(inner) made the athlete great
   - claims that guarantee confidence or performance
@@ -102,7 +107,7 @@ These non-negotiables are locked by repo, product, and source-safety contracts:
 
 - Latest approved sample: `quality-gate/attempts/attempt-002-2026-04-29-ronaldo-product-bridge/sample-slide.png`.
 - Current blocker: none. Workflow A3 approved a representative non-hero product-bridge sample on 2026-04-29.
-- Last revision notes: A0 captured @legendperform and @asdicipline screenshot folders. A1 rebuilt the writing folder and demoted old preset-style rules to candidate samples. A3 copy iteration showed that fact-list quality is not enough; the account needs suspense, identity formation, and a slippery-slope bridge into w(inner). The approved sample validated a brief, first-person product bridge after the mental method is earned.
+- Last revision notes: A0 captured @legendperform and @asdicipline screenshot folders. A1 rebuilt the writing folder and demoted old preset-style rules to candidate samples. A3 copy iteration showed that fact-list quality is not enough; the account needs suspense, identity formation, and a slippery-slope bridge into w(inner). The Ali/Liston redo added durable feedback: avoid forced poetic shorthand, use more descriptive scene-building, allow extra slides when the arc needs room, separate emotional payoff from product bridge, and mark spoken words with quotation marks.
 - Quality-gate outcome: baseline writing system locked after user approval of `attempt-002-2026-04-29-ronaldo-product-bridge`.
 
 ## Preset Relationship

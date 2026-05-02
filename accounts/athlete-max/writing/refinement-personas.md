@@ -152,6 +152,7 @@ Compare the draft against athlete-max inspiration posts for:
 - The slide density fights the account design system.
 - The post becomes a random list instead of one connected athlete desire stack.
 - The copy borrows verified_byhumans structure but loses its desire extraction.
+- Any slide uses coaching shorthand ("easy read," "play smaller," "slow down," "step up," any "read" used bare) instead of naming the visible physical action.
 
 ### Non-Blocking Improvements
 
@@ -167,6 +168,10 @@ Compare the draft against athlete-max inspiration posts for:
   benefit that reader gets from that slide.
 - Replace generic labels with account-native labels like "what to avoid," "the
   fix," "why it works," or "performance cost" when the flow calls for them.
+- Replace every coaching shorthand with a visible physical action. "You hesitate
+  before the easy read" becomes "You see the opening and do not take it." If a
+  word requires insider knowledge of what a coach means by it, rewrite it as the
+  observable sport action.
 
 ### Strong And Weak Examples
 
@@ -219,8 +224,12 @@ Only research flagged terms, not every phrase. Flag a term when it is:
 ### Verification Ladder
 
 1. **Coach/teammate test**
-   - Would a real teammate or coach plausibly say this out loud?
-   - If no, rewrite into observable performance language.
+    - Would a real teammate or coach plausibly say this out loud?
+    - If no, rewrite into observable performance language.
+    - For protocol steps, would a real athlete do this between plays without
+      feeling weird? If no, replace it with an action that already exists in
+      sport: long exhale, eyes up, locate the ball, recover position, scan over
+      shoulder, track the runner, or make the next simple action.
 2. **External research check**
    - Search the exact phrase with the sport context.
    - Prefer coaching resources, athlete interviews, official sport education,
@@ -248,9 +257,22 @@ correct but not locker-room native. Examples:
 
 Test: would a teammate say this after practice? If no, rewrite.
 
+### Practical Protocol Test
+
+Flag any instruction that sounds like a made-up reset ritual or worksheet cue.
+Examples:
+- "tap your sternum" → "take one long exhale while you recover position"
+- "find your matchup" → "locate the ball and check the player closest to you"
+- "activate your competitive state" → "eyes up, find the ball, next simple action"
+
+Test: would the athlete actually do this during a game, trial, race, or practice
+rep without feeling self-conscious? If no, simplify into a real movement,
+breathing cue, scan, call, or positioning action.
+
 ### Pass Criteria
 
 - Sport language sounds like something a teammate or coach would recognize.
+- Protocol steps sound practical in competition, not invented for the slide.
 - Technical terms are translated into plain performance consequences.
 - Tangible benefits stay realistic and do not become exaggerated guarantees.
 - Strong claims are sourced, softened, or removed.
@@ -260,6 +282,8 @@ Test: would a teammate say this after practice? If no, rewrite.
 ### Blocking Failures
 
 - AI-generated sport jargon.
+- Unnatural reset rituals or generic cue phrases that do not sound like real
+  athlete behavior.
 - Unsupported causal claims.
 - Guaranteed performance, therapy, medical, scholarship, contract, or victory
   claims.
@@ -278,6 +302,12 @@ Test: would a teammate say this after practice? If no, rewrite.
 ### Rewrite Actions
 
 - Replace suspect terms with observable athlete language.
+- Replace uncommon mechanism labels with common words unless the technical term
+  is necessary and immediately translated. Prefer "spiral," "loop," "reaction,"
+  "pattern," or "reset" over clinical-sounding labels like "cascade."
+- Replace invented protocol cues with real in-game actions: breathe, look up,
+  locate the ball, recover position, scan, call, track, or take the next simple
+  action.
 - Add a source or soften the claim.
 - Remove or camouflage product language until it passes `product/claim-bank.md`.
 - Translate technical mechanisms into a coach-visible or teammate-visible

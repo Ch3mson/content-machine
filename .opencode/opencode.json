@@ -2,5 +2,18 @@
   "$schema": "https://opencode.ai/config.json",
   "plugin": [
     ".opencode/plugins/graphify.js"
-  ]
+  ],
+  "permission": {
+    "skill": {
+      "account-quality-gate": "allow",
+      "angle-extraction": "allow",
+      "angle-variants": "allow",
+      "graphify-connection-capture": "allow",
+      "hook-idea-extraction": "allow",
+      "post-concept-flow": "allow",
+      "stop-slop": "allow",
+      "tiktok-photo-sourcing": "allow",
+      "writing-feedback-compounding": "allow"
+    }
+  }
 }

@@ -18,10 +18,12 @@ If the user says one of these, start the matching file without waiting for anoth
 | broad post idea, `post concept`, `VOC research`, avatar + pain point | `references/skills/post-concept-flow/SKILL.md` before final `flow.md` |
 | `hook ideas`, `hook bank`, `pull the hook`, `analyze hook`, `transcript inspo`, `slideshow inspo`, TikTok video/slideshow hook analysis | `references/skills/hook-idea-extraction/SKILL.md` + `references/hook-ideas/README.md` |
 | `creative DNA`, out-of-niche hooks, viral principles, cross-niche ideas, mechanism transfer, account-specific ideas from references | `references/creative-dna/README.md` + `references/creative-dna/owned-account-idea-router.md` + target profile in `references/creative-dna/account-profiles/` + `graphify-out/creative-dna/GRAPH_REPORT.md` |
+| `save this connection`, `graphify this connection`, `remember this link`, `capture this reasoning`, `add this to the graph`, mechanism transfer memory | `references/skills/graphify-connection-capture/SKILL.md` |
 | `workflow c`, `process images`, `render slides` | `workflows/workflow-c-image-processing.md` |
 | `source images`, `find images`, `Pinterest images` | `tools/image-sourcer/README.md` |
 | `TikTok photos`, `TikTok carousel`, `source TikTok`, `download TikTok` | `references/skills/tiktok-photo-sourcing/SKILL.md` + `tools/tiktok-photo-sourcer/README.md` |
 | `3 variants`, `3 angles`, `angle concepts`, brainstorming | `references/skills/angle-variants/SKILL.md`; answer in chat, not `flow.md` |
+| `save this as writing feedback`, `record this writing preference`, `compound my suggestions`, `distill today's feedback`, `strengthen the rule`, repeated copy criticism, user says the agent keeps making the same writing mistake | `references/skills/writing-feedback-compounding/SKILL.md` |
 | `stop slop`, `anti-AI writing`, `clean copy` | `references/skills/stop-slop/SKILL.md` |
 | product/app/claim/w(inner) mention | `product/app-brief.md` + `product/claim-bank.md` before writing |
 
@@ -105,6 +107,7 @@ Hard rules for Creative DNA:
 - Account source-of-truth files live in `accounts/{account}/`; preferred new post workspaces live in `accounts/{account}/posts/{post-slug}/`.
 - `writing.md` is the required entrypoint and highest-authority retrieval map for account copy. For indexed accounts, detailed writing files live under `accounts/{account}/writing/`.
 - `writing/refinement-personas.md` customizes the three required refinement personas for the account. Use it before rendering quality-gate samples, and update it when the user rejects a sample.
+- `writing/pattern-extractions.md` is the account memory for raw, iterative writing feedback. When the user gives reusable critique on hooks, angles, slide copy, voice, wording, or repeated writing mistakes, route it through `references/skills/writing-feedback-compounding/SKILL.md` and write it into the target account's writing files; do not default to `BUGS.md`.
 - `design.md` is the account source of truth for canvas size, layout, typography, text hierarchy, reference-photo framing, and renderer-facing format rules.
 - `image.md` is for photo direction, visual treatment, and selected-photo suitability; do not rely on it for layout decisions that belong in `design.md`.
 - Quality-gate attempts live in `accounts/{account}/quality-gate/attempts/{attempt-id}/`, with an attempt ledger at `accounts/{account}/quality-gate/index.md`.
@@ -136,6 +139,8 @@ Hard rules for Creative DNA:
 
 - Do not invent product claims; use `product/claim-bank.md`.
 - Do not invent final account rules when Workflow A inputs are missing; ask the smallest next question.
+- Writing feedback is not a software bug by default. If feedback reveals a reusable account voice/copy preference, update the account writing memory hierarchy instead: `writing/pattern-extractions.md` for raw notes, `writing/refinement-personas.md` for preflight/self-critique behavior, and `writing.md` only for stable account-level rules.
+- Use `BUGS.md` only for real workflow/tooling failures or implementation bugs. If a writing critique also exposes a process bug, the BUGS entry must point to the account writing files that were updated so the feedback compounds where drafting agents retrieve it.
 - Do not lock new account `writing.md` or `design.md` until Workflow A3 or `account-quality-gate` produces an approved non-hero sample slide.
 - If a quality-gate sample is rejected, capture the raw criticism in the current attempt's `iteration-notes.md` and update `writing/refinement-personas.md` before the next attempt.
 - Do not overwrite prior quality-gate attempts; create a new attempt subfolder for each new user-reviewable quality-gate sample.
@@ -158,3 +163,4 @@ Rules:
 - If graphify-out/wiki/index.md exists, navigate it instead of reading raw files
 - For cross-module "how does X relate to Y" questions, prefer `graphify query "<question>"`, `graphify path "<A>" "<B>"`, or `graphify explain "<concept>"` over grep — these traverse the graph's EXTRACTED + INFERRED edges instead of scanning files
 - After modifying code files in this session, run `graphify update .` to keep the graph current (AST-only, no API cost)
+- After modifying account writing memory files (`accounts/{account}/writing.md`, `writing/refinement-personas.md`, `writing/pattern-extractions.md`) or feedback-routing docs, run `graphify update .` so future account drafting, Creative DNA, and hook ideation can retrieve the new writing preference. If graphify is unavailable, state that the writing memory was updated but graph refresh failed.

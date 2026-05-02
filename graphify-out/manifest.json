@@ -1,4 +1,892 @@
 {
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\process_images.py": {
+    "mtime": 1777647044.1849768,
+    "hash": "5e934fec3804025caf3944cba894e7f2"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\center-back-late-runner\\process_images.py": {
+    "mtime": 1777646145.1759467,
+    "hash": "81f938cc8129ed7b32e5f08febecda3b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\mistake-confidence-loop\\process_images.py": {
+    "mtime": 1777743956.7042134,
+    "hash": "3a8ac470ce619b292bf031870c2f6695"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-001-2026-04-28-soccer-first-touch\\render_sample.py": {
+    "mtime": 1777646145.1910524,
+    "hash": "5a9addb1ff034bb7689f71aa482a3108"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-002-2026-04-29-soccer-first-touch\\render_sample.py": {
+    "mtime": 1777646145.198101,
+    "hash": "95137703e22574b9869097b2f00281c8"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-003-2026-04-29-soccer-first-touch\\render_sample.py": {
+    "mtime": 1777646145.2057188,
+    "hash": "66d9a5ec1951a19adba4eba92c54b381"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-004-2026-04-29-soccer-first-touch\\render_sample.py": {
+    "mtime": 1777646145.2127793,
+    "hash": "bd7f1890657980fc1bc38185d4e72dd3"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-005-2026-04-29-soccer-first-touch\\render_sample.py": {
+    "mtime": 1777646145.2193508,
+    "hash": "dfa6b76daefe5f4fa049f52c33a48308"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-006-2026-04-29-soccer-first-touch\\render_sample.py": {
+    "mtime": 1777646145.2249255,
+    "hash": "c03f51081572bef71ea68cf63fc0dc5c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-007-2026-04-29-soccer-centreback-runner\\render_sample.py": {
+    "mtime": 1777646145.2310066,
+    "hash": "ec42c6703af5338df71b96f74914ce43"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\process_images.py": {
+    "mtime": 1777646145.2618072,
+    "hash": "b9503ee083601fba0ccb4d040d3eadf9"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\process_images.py": {
+    "mtime": 1777646145.311829,
+    "hash": "93e229810eaafc3f3ae2cd18cf4894fa"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-001-2026-04-29-michael-jordan-pressure\\render_sample.py": {
+    "mtime": 1777646145.3505735,
+    "hash": "744c8bd0fe0e65df24d709a671bd8234"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-002-2026-04-29-ronaldo-product-bridge\\render_sample.py": {
+    "mtime": 1777646145.355092,
+    "hash": "d209e4dfddf3926e9ea4e7ac64a45824"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-003-2026-05-02-ali-liston-identity-payoff\\render_sample.py": {
+    "mtime": 1777749683.845735,
+    "hash": "83bb4b9606b4b4a4a28635bd2fdc8916"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\admin.py": {
+    "mtime": 1777309942.650879,
+    "hash": "25a61338b23fd99c60e4fd15d53b85e2"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\connect_my_chrome.py": {
+    "mtime": 1777311027.9030201,
+    "hash": "d6038eaed3b51c68f4e10bc96cb9ee60"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\daemon.py": {
+    "mtime": 1777309885.7221975,
+    "hash": "03ad33559a5dad6965254361381d919d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\helpers.py": {
+    "mtime": 1777309839.317614,
+    "hash": "cf96deb1468a7d9578e84bebbaf792db"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\run.py": {
+    "mtime": 1777309761.2282436,
+    "hash": "49ea7bb887d61716cc15b26776cd99ee"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\test_admin.py": {
+    "mtime": 1777309761.2294338,
+    "hash": "80da30f10eace3824fe31fe78c02168d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\test_ddgo.py": {
+    "mtime": 1777310535.0000708,
+    "hash": "7e58cc2e478a2d6ce758fb3018af8ac8"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\test_js.py": {
+    "mtime": 1777309761.2314594,
+    "hash": "3e945e192fba71a8a23c3f6a302a8017"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\test_run.py": {
+    "mtime": 1777309761.2339466,
+    "hash": "28e6143fb781c832511e65f030959d31"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\windows_setup.py": {
+    "mtime": 1777310470.7773495,
+    "hash": "9167319c0dee1a1c33e82375865feddc"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\_compat.py": {
+    "mtime": 1777309813.2959058,
+    "hash": "36fec69124acd62c63b3bfd88fed5e35"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\hook-extraction\\update_hook_extraction.py": {
+    "mtime": 1777646147.047615,
+    "hash": "61207d987007d6193096cc4d069c0586"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\image-sourcer\\source_images.py": {
+    "mtime": 1777646147.0491338,
+    "hash": "a91b69805309d456398bd41989f3c99f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\image-sourcer\\test_e2e.py": {
+    "mtime": 1777646147.0491338,
+    "hash": "5d5cee0abd613cb2e556928f64a855cd"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\image-sourcer\\test_pinterest.py": {
+    "mtime": 1777646147.0511422,
+    "hash": "92f87adf613c187a44904698ea69ee79"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\image-sourcer\\test_pinterest_large.py": {
+    "mtime": 1777646147.0516534,
+    "hash": "e8be9215bf0c58cdf766949dcd40a717"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\post-tracker\\update_post_status.py": {
+    "mtime": 1777646147.054855,
+    "hash": "cbcec4b72afca0343a1e7c9dcc791ea0"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\slideshow-transcriber\\prepare_slideshow_transcript.py": {
+    "mtime": 1777646147.057056,
+    "hash": "f825390b8cb0d4a0af2cee1b085c63d1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\tiktok-photo-sourcer\\download_tiktok_photos.py": {
+    "mtime": 1777646147.058691,
+    "hash": "3e7cf83455268b529eef72d6eeb477f7"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\tiktok-transcript-sourcer\\download_tiktok_transcript.py": {
+    "mtime": 1777646147.0610836,
+    "hash": "465ed303e3ed4d6ef1e3e6a931efdbbc"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\AGENTS.md": {
+    "mtime": 1777742547.284664,
+    "hash": "b823ca726523f9973ab3ad8872112dba"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\BUGS.md": {
+    "mtime": 1777742547.2892275,
+    "hash": "11bd438367204888a1ff6d24dd2c66c1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\POST_STATUS.md": {
+    "mtime": 1777746166.4769082,
+    "hash": "89747e8ad2766c57c26426f7b1e2f4ec"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\README.md": {
+    "mtime": 1777743037.0305583,
+    "hash": "890b8605386fabf924ad9608cac9b7f2"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\winner-brief.md": {
+    "mtime": 1777646147.0627518,
+    "hash": "df4a4983b7b5cff26b6ad581ab2f69fc"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\INDEX.md": {
+    "mtime": 1777744994.7278924,
+    "hash": "f1aa0873e39dd2ce9e92d163ff04509d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\README.md": {
+    "mtime": 1777743037.0264149,
+    "hash": "f98c94b422d786024afef19bc0e1a86c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\account-brief.md": {
+    "mtime": 1777646145.1309843,
+    "hash": "81120399e47ab86b9ca4cb20c7e756cc"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\design.md": {
+    "mtime": 1777744167.669078,
+    "hash": "803999447349d5b50a3bfece741eb8bd"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\image.md": {
+    "mtime": 1777646145.135504,
+    "hash": "a869f0b23e23f0ce8a6b5e9639f48539"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\post-status.md": {
+    "mtime": 1777746166.4600756,
+    "hash": "6780d7bab652ab8ca5fc37b6a9662018"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\presets.md": {
+    "mtime": 1777646145.187534,
+    "hash": "d78db37b89c6a097c0e164fc2afa3626"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\README.md": {
+    "mtime": 1777646145.1299734,
+    "hash": "0d9b49e531cd75d8e14addd9d86df0a4"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\writing.md": {
+    "mtime": 1777741934.0796213,
+    "hash": "107abd482c0fedddacaf2ac271a8a99c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\extractions\\angle-analysis.md": {
+    "mtime": 1777646145.1335037,
+    "hash": "476d2eca1a4250a2907e4cfc0f285cbf"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\extractions\\design-analysis.md": {
+    "mtime": 1777646145.1345048,
+    "hash": "799a70b927cbcf901f9f3ecac27f2491"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\extractions\\reference-map.md": {
+    "mtime": 1777646145.1345048,
+    "hash": "e79b13a98b3606840f78d3c217738373"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\flow.md": {
+    "mtime": 1777646145.1435828,
+    "hash": "0dc8056013243d73c7cc6df191441f91"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\concept\\copy-options.md": {
+    "mtime": 1777646145.138054,
+    "hash": "dd89dede422d970bc51aafa358e32026"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\concept\\copy-review.md": {
+    "mtime": 1777646145.138054,
+    "hash": "496f422f9120a1dc7202061f4fb98f06"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\concept\\flow-options.md": {
+    "mtime": 1777646145.1390655,
+    "hash": "796f37fa0344d2b711ff39ae632b15fa"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\concept\\intake.md": {
+    "mtime": 1777646145.1400647,
+    "hash": "5ce1af040d6a909cb41c58a9eec3ed52"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\concept\\selected-angle.md": {
+    "mtime": 1777646145.1410651,
+    "hash": "4a4f5517c5497a47668afaf4f4780dd8"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\concept\\session-state.md": {
+    "mtime": 1777646145.1410651,
+    "hash": "b8cd2e35e65d593171e7ebec6de66d90"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\concept\\voc-research.md": {
+    "mtime": 1777646145.1420648,
+    "hash": "257ca00dfb127d1fa8db460bb6eea57e"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\center-back-late-runner\\flow.md": {
+    "mtime": 1777646145.173905,
+    "hash": "8737302657f00b7f81f645e8ed3a84bc"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\center-back-late-runner\\concept\\intake.md": {
+    "mtime": 1777646145.170901,
+    "hash": "d20c3f9c10d496b6259f8b4a21e66dce"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\center-back-late-runner\\concept\\selected-angle.md": {
+    "mtime": 1777646145.171902,
+    "hash": "0761cbad8eaad3db3091865448e3a630"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\halftime-restart-flatness\\concept\\angle-options.md": {
+    "mtime": 1777746162.8285775,
+    "hash": "514558e9323bd9ae95afe01d27457246"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\halftime-restart-flatness\\concept\\intake.md": {
+    "mtime": 1777746096.104378,
+    "hash": "4794241d84fa2cd65a61aa11217ec2fa"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\halftime-restart-flatness\\concept\\voc-research.md": {
+    "mtime": 1777746162.8212104,
+    "hash": "e84addb26f9fc80631424bbbadd68a2e"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\mistake-confidence-loop\\flow.md": {
+    "mtime": 1777744302.0482385,
+    "hash": "2c8389f9e72fd3c7c2eb00aa9c83f77c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\index.md": {
+    "mtime": 1777646145.2345264,
+    "hash": "26038814c6e309a6c3f2d4ef3aa2669b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\README.md": {
+    "mtime": 1777646145.1880412,
+    "hash": "c8886c1e4009942485eabf2e1f0c0269"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-001-2026-04-28-soccer-first-touch\\attempt-summary.md": {
+    "mtime": 1777646145.1890512,
+    "hash": "ebaa47fa0c338e7d9894f9815f59aa56"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-001-2026-04-28-soccer-first-touch\\iteration-notes.md": {
+    "mtime": 1777646145.1900556,
+    "hash": "fcf270b1dd6fc7098cc7e1f7faaa1c5e"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-001-2026-04-28-soccer-first-touch\\sample-brief.md": {
+    "mtime": 1777646145.1920507,
+    "hash": "81ac458eab7f19dd0ca334650ee18e65"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-001-2026-04-28-soccer-first-touch\\sample-copy.md": {
+    "mtime": 1777646145.1930513,
+    "hash": "8d11ba013174a9dd9f2ba0ce493d9bf0"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-002-2026-04-29-soccer-first-touch\\attempt-summary.md": {
+    "mtime": 1777646145.196585,
+    "hash": "173fdc3f410a0574ef6726adb6624f80"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-002-2026-04-29-soccer-first-touch\\iteration-notes.md": {
+    "mtime": 1777646145.198101,
+    "hash": "cc9cd49c1bce17c3ac733861534737ed"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-002-2026-04-29-soccer-first-touch\\sample-brief.md": {
+    "mtime": 1777646145.1996093,
+    "hash": "0ef707fcd533cae5260af828ede27790"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-002-2026-04-29-soccer-first-touch\\sample-copy.md": {
+    "mtime": 1777646145.2006772,
+    "hash": "1d85a0c2d0d0919f2d1abe3e986c0376"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-003-2026-04-29-soccer-first-touch\\attempt-summary.md": {
+    "mtime": 1777646145.2026865,
+    "hash": "369d8d134bfaae338dbf4f1937092f80"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-003-2026-04-29-soccer-first-touch\\iteration-notes.md": {
+    "mtime": 1777646145.2052062,
+    "hash": "9f28783f0b3f9318d46051e6faf4971c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-003-2026-04-29-soccer-first-touch\\sample-brief.md": {
+    "mtime": 1777646145.2067327,
+    "hash": "1872ae12cb249f28a4f5eb7dcabb14a5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-003-2026-04-29-soccer-first-touch\\sample-copy.md": {
+    "mtime": 1777646145.2067327,
+    "hash": "2cac9796e0cd14dc5fa0741268fc4dd4"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-004-2026-04-29-soccer-first-touch\\attempt-summary.md": {
+    "mtime": 1777646145.2107768,
+    "hash": "3f82dc92b591e62d7024d71167f0daac"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-004-2026-04-29-soccer-first-touch\\iteration-notes.md": {
+    "mtime": 1777646145.211779,
+    "hash": "c0e1d99a0131fc1e00678293a2e31b6f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-004-2026-04-29-soccer-first-touch\\sample-brief.md": {
+    "mtime": 1777646145.2127793,
+    "hash": "9c545f4a40bb26ec3f63a3ed8fd303a5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-004-2026-04-29-soccer-first-touch\\sample-copy.md": {
+    "mtime": 1777646145.2137785,
+    "hash": "8b023eefaaccb074e02861101b2514b7"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-005-2026-04-29-soccer-first-touch\\attempt-summary.md": {
+    "mtime": 1777646145.2178073,
+    "hash": "b7f10e47d100e926dabecdf85647389f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-005-2026-04-29-soccer-first-touch\\iteration-notes.md": {
+    "mtime": 1777646145.2183404,
+    "hash": "99d735db4f40afb0f169ec3c2edef584"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-005-2026-04-29-soccer-first-touch\\sample-brief.md": {
+    "mtime": 1777646145.2198582,
+    "hash": "9e7d76e483f0db3af4b03b17ce6e295d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-005-2026-04-29-soccer-first-touch\\sample-copy.md": {
+    "mtime": 1777646145.2208679,
+    "hash": "94117c171e57d6aa7791c6250820f7cd"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-006-2026-04-29-soccer-first-touch\\attempt-summary.md": {
+    "mtime": 1777646145.2238693,
+    "hash": "6351a7f6f0ee854850dc775d19d6db75"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-006-2026-04-29-soccer-first-touch\\iteration-notes.md": {
+    "mtime": 1777646145.2243829,
+    "hash": "4d8aea8a0494a0010dfc21910f62261e"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-006-2026-04-29-soccer-first-touch\\sample-brief.md": {
+    "mtime": 1777646145.2259378,
+    "hash": "5cb89178c706f29991ebd79963ee7a9a"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-006-2026-04-29-soccer-first-touch\\sample-copy.md": {
+    "mtime": 1777646145.2259378,
+    "hash": "891e5a4979606ea709f71c2eb02ddfc2"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-007-2026-04-29-soccer-centreback-runner\\attempt-summary.md": {
+    "mtime": 1777646145.229459,
+    "hash": "64dec1e7a7eb13440b593cb489821405"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-007-2026-04-29-soccer-centreback-runner\\iteration-notes.md": {
+    "mtime": 1777646145.2299955,
+    "hash": "fbda30e13a327fd1f5a2f85292e9bcac"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-007-2026-04-29-soccer-centreback-runner\\sample-brief.md": {
+    "mtime": 1777646145.2310066,
+    "hash": "6788c1eeb801845c518ffc7f73ea8f87"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-007-2026-04-29-soccer-centreback-runner\\sample-copy.md": {
+    "mtime": 1777646145.2310066,
+    "hash": "9043991839939303cf53b375b31e1d93"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\ready-to-post\\README.md": {
+    "mtime": 1777746166.4630725,
+    "hash": "969a884849e97b6524df8da100a65405"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\writing\\banned-patterns.md": {
+    "mtime": 1777742463.702228,
+    "hash": "1432d931dd7e38bc39fc037a3ac2e7ca"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\writing\\copywriting-principles.md": {
+    "mtime": 1777646145.2382803,
+    "hash": "6dc54edf849c19c21a1b504e4c284785"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\writing\\pattern-extractions.md": {
+    "mtime": 1777742423.3636994,
+    "hash": "cb3b394d13f1c2c22e21a237e3ba9582"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\writing\\principles.md": {
+    "mtime": 1777646145.2402916,
+    "hash": "501ffb621e80dbc77315c86276d14d09"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\writing\\qa.md": {
+    "mtime": 1777646145.2412913,
+    "hash": "33ef8dbfd81c9eca867b38a482390831"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\writing\\refinement-personas.md": {
+    "mtime": 1777742489.5970633,
+    "hash": "403af0cff0475e4feb130445c89b0886"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\writing\\sample-posts.md": {
+    "mtime": 1777646145.2427993,
+    "hash": "e570d99e0bfac8b3e7b7f7839f813c7c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\account-brief.md": {
+    "mtime": 1777646145.3409698,
+    "hash": "69fb0e8ee368576853dfcd6afc8375b8"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\design.md": {
+    "mtime": 1777749888.2869751,
+    "hash": "7232713fa9d33304edd3066d66d74eb6"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\image.md": {
+    "mtime": 1777749888.2896538,
+    "hash": "e1ddf204a32a43b4d14eb9786cca8ac0"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\post-status.md": {
+    "mtime": 1777746166.466166,
+    "hash": "93452cb5469a81ab3083d51c94e31d16"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\presets.md": {
+    "mtime": 1777646145.3490644,
+    "hash": "f63ccfc898ca7a25744a3549a04e2617"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\README.md": {
+    "mtime": 1777646145.3409698,
+    "hash": "51816072f3c9347ea7a5083cdc79ce48"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\sources.md": {
+    "mtime": 1777646145.3667161,
+    "hash": "9e0d3a33638fe979d87da7c1996d26f3"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\writing.md": {
+    "mtime": 1777749888.2829275,
+    "hash": "c2d2edb8507cc7beac5e2d4cd6317eb2"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\extractions\\flow-analysis.md": {
+    "mtime": 1777646145.3429987,
+    "hash": "6e9a3131dd6f0199390ff3517360ab94"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\extractions\\reference-map.md": {
+    "mtime": 1777646145.3441496,
+    "hash": "2ce619ab83845fb2c2367e8b2564a1de"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\flow.md": {
+    "mtime": 1777646145.2607958,
+    "hash": "8b5c1e17fd49a4ac49ee54094d1ed799"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\flow.md": {
+    "mtime": 1777646145.297818,
+    "hash": "40f66ce7a1d3b7480f333ef43d84e909"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\concept\\angle-options.md": {
+    "mtime": 1777646145.2924654,
+    "hash": "0182ae83575f807f48c27966887058c5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\concept\\copy-options.md": {
+    "mtime": 1777646145.2929769,
+    "hash": "02fd8c453c860fa63137d611d8fd53ad"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\concept\\flow-options.md": {
+    "mtime": 1777646145.2939982,
+    "hash": "5a1dc3e103a7592a54dd86dbfaaaed33"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\concept\\intake.md": {
+    "mtime": 1777646145.2939982,
+    "hash": "70c9fd9e645d146e4e9ff24000bc8df4"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\concept\\selected-angle.md": {
+    "mtime": 1777646145.2956686,
+    "hash": "c611c9d5491d4b4b8e5569d034b0c0b5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\concept\\session-state.md": {
+    "mtime": 1777646145.2962885,
+    "hash": "320fae8667bfbf2b519b1035deb3b739"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\concept\\voc-research.md": {
+    "mtime": 1777646145.2962885,
+    "hash": "801efbade5931e6dba4b03677ccb5237"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\flow.md": {
+    "mtime": 1777646145.310817,
+    "hash": "a85fec52b2d64057ae927f48f1966993"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\posts\\01-Lebron\\flow.md": {
+    "mtime": 1777646145.3465204,
+    "hash": "8b5c1e17fd49a4ac49ee54094d1ed799"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\posts\\02-Michael Jordan\\flow.md": {
+    "mtime": 1777646145.3480535,
+    "hash": "a85fec52b2d64057ae927f48f1966993"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\index.md": {
+    "mtime": 1777746390.4408567,
+    "hash": "9796706cb3f6a9b7be3a6861b05aaea2"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-001-2026-04-29-michael-jordan-pressure\\attempt-summary.md": {
+    "mtime": 1777646145.3490644,
+    "hash": "42e68e0aa3f92a239a6633260877921c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-001-2026-04-29-michael-jordan-pressure\\iteration-notes.md": {
+    "mtime": 1777646145.3505735,
+    "hash": "aacb5e12c6007f5970917741a50b74b8"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-001-2026-04-29-michael-jordan-pressure\\sample-brief.md": {
+    "mtime": 1777646145.3515859,
+    "hash": "e04efe32230d04c63f8ba4fc6fe47d2b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-001-2026-04-29-michael-jordan-pressure\\sample-copy.md": {
+    "mtime": 1777646145.3525875,
+    "hash": "6200163d7697ebef5a8acd894ca6b594"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-001-2026-04-29-michael-jordan-pressure\\source-checks.md": {
+    "mtime": 1777646145.3525875,
+    "hash": "bffa0e905ab67e47a7360361f338baff"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-002-2026-04-29-ronaldo-product-bridge\\attempt-summary.md": {
+    "mtime": 1777646145.353587,
+    "hash": "4e7141ecdb6e4734118f62a0d719f0c6"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-002-2026-04-29-ronaldo-product-bridge\\iteration-notes.md": {
+    "mtime": 1777646145.3545842,
+    "hash": "f604f909738f76506657ef9457f73bfd"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-002-2026-04-29-ronaldo-product-bridge\\sample-brief.md": {
+    "mtime": 1777646145.3555984,
+    "hash": "f9678715318f3d7c92e353b2322ea358"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-002-2026-04-29-ronaldo-product-bridge\\sample-copy.md": {
+    "mtime": 1777646145.3561268,
+    "hash": "5fddd9fc936172f8bc09f6bd7e1a5e9c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-003-2026-05-02-ali-liston-identity-payoff\\attempt-summary.md": {
+    "mtime": 1777747741.4243932,
+    "hash": "983214fd0e905658dbee835b089189ae"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-003-2026-05-02-ali-liston-identity-payoff\\iteration-notes.md": {
+    "mtime": 1777749812.661407,
+    "hash": "ec56b00ef7df209238f129ac3e771bcc"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-003-2026-05-02-ali-liston-identity-payoff\\sample-brief.md": {
+    "mtime": 1777748978.4945793,
+    "hash": "699ae90edd60f19a48a6fa24f50babd1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-003-2026-05-02-ali-liston-identity-payoff\\sample-copy.md": {
+    "mtime": 1777749683.8442168,
+    "hash": "f391b9d5328a1d34a2ac189189c0c19d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\README.md": {
+    "mtime": 1777746166.4691846,
+    "hash": "75dd934ba2dca2dca1f9a3ebdd8db457"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Lebron\\flow.md": {
+    "mtime": 1777646145.2607958,
+    "hash": "8b5c1e17fd49a4ac49ee54094d1ed799"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Messi\\flow.md": {
+    "mtime": 1777646145.297818,
+    "hash": "40f66ce7a1d3b7480f333ef43d84e909"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Michael Jordan\\flow.md": {
+    "mtime": 1777646145.310817,
+    "hash": "a85fec52b2d64057ae927f48f1966993"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\writing\\banned-patterns.md": {
+    "mtime": 1777646145.3692467,
+    "hash": "3eb161936246c25fd4c8dc264e581297"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\writing\\copywriting-principles.md": {
+    "mtime": 1777646145.36976,
+    "hash": "f4c5dec96b12acb7a8f792326826ff6e"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\writing\\pattern-extractions.md": {
+    "mtime": 1777749888.2803762,
+    "hash": "1026bfb50746397b920ee20649f1f1a5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\writing\\principles.md": {
+    "mtime": 1777646145.370772,
+    "hash": "3b89ac640461300afdde3129ce6c6615"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\writing\\qa.md": {
+    "mtime": 1777646145.3717744,
+    "hash": "2630df663859adf3430c8df83764b226"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\writing\\refinement-personas.md": {
+    "mtime": 1777749888.2864668,
+    "hash": "7f74fb09601b11a09fd79f9f8f1b644a"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\writing\\sample-posts.md": {
+    "mtime": 1777646145.3733015,
+    "hash": "f8abc5357d683acdb6673a9e2e09b193"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\Athlete-user-soccer\\account-brief.md": {
+    "mtime": 1777744249.330806,
+    "hash": "880d8d4171147e4752f2f8786cfb7a93"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\Athlete-user-soccer\\design.md": {
+    "mtime": 1777746147.408006,
+    "hash": "9874e2628c5da7dfca908b179d347c6d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\Athlete-user-soccer\\image.md": {
+    "mtime": 1777745513.3436012,
+    "hash": "f8eb9efe69975b0068fcc5ea28713844"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\Athlete-user-soccer\\post-status.md": {
+    "mtime": 1777746166.4717247,
+    "hash": "fb8d35719a6ed82a3c469a44bfa2eedb"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\Athlete-user-soccer\\sources.md": {
+    "mtime": 1777745519.4666898,
+    "hash": "b2c20798d2c5ba20faf2cbcb942712c4"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\Athlete-user-soccer\\writing.md": {
+    "mtime": 1777745912.5266545,
+    "hash": "1ccecf1e8047ca3eb02c960477e6bc64"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\Athlete-user-soccer\\extractions\\reference-map.md": {
+    "mtime": 1777746147.4110177,
+    "hash": "cb776e703294108828af80ecb4c3668a"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\Athlete-user-soccer\\ready-to-post\\README.md": {
+    "mtime": 1777746166.4732378,
+    "hash": "1980d6f8686e8344e81cae9c4b35f172"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\Athlete-user-soccer\\writing\\banned-patterns.md": {
+    "mtime": 1777746147.400802,
+    "hash": "f14518f20852a9a2ab9c81a3709c8900"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\Athlete-user-soccer\\writing\\copywriting-principles.md": {
+    "mtime": 1777746147.3981574,
+    "hash": "7d8e83fbed79d6251a47d6655d5c09c3"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\Athlete-user-soccer\\writing\\flow-demo.md": {
+    "mtime": 1777746395.5758352,
+    "hash": "8794370b95449a3efab2e1fa4a76acf9"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\Athlete-user-soccer\\writing\\pattern-extractions.md": {
+    "mtime": 1777745912.529694,
+    "hash": "be1970eac8fec849c3bb8a5f79520d50"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\Athlete-user-soccer\\writing\\principles.md": {
+    "mtime": 1777745912.5281765,
+    "hash": "2ee00836d64ee9b25a987d056a0ff348"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\Athlete-user-soccer\\writing\\qa.md": {
+    "mtime": 1777746147.4038346,
+    "hash": "f52917d925544e982026304c0fb50d3c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\Athlete-user-soccer\\writing\\refinement-personas.md": {
+    "mtime": 1777745912.530702,
+    "hash": "c096bff6d6c42c7da5820f405ee02014"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\Athlete-user-soccer\\writing\\sample-posts.md": {
+    "mtime": 1777746147.4059405,
+    "hash": "dccf6e72fcf87bc5716b4cb8eeaaf22b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\product\\app-brief.md": {
+    "mtime": 1777646145.374817,
+    "hash": "637f48dce33d096a475536234e746f27"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\product\\claim-bank.md": {
+    "mtime": 1777646145.4075687,
+    "hash": "02acf2331ab7494070042314a0b04088"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\product\\README.md": {
+    "mtime": 1777646145.374301,
+    "hash": "69d3ce919a6c197c21560d689a486a10"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\product\\assets\\README.md": {
+    "mtime": 1777646145.3764985,
+    "hash": "856fac5769b7a0bea08bee822ad590a9"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\product\\assets\\phone-holding\\README.md": {
+    "mtime": 1777646145.4065645,
+    "hash": "7fc315b64d014335e6c4fe7e1341fb07"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\README.md": {
+    "mtime": 1777646145.409183,
+    "hash": "ddedf2bd47acc57ceb25849e198c558d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\connection-captures\\2026-05-01-slide-value-injection-patterns.md": {
+    "mtime": 1777702772.3037527,
+    "hash": "1c8bee6d8fba8f2026b2bb19863fc5f1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\connection-captures\\2026-05-02-user-soccer-list-spine.md": {
+    "mtime": 1777746147.413538,
+    "hash": "7d3746d63ed5e1f18cede3d71ae18f69"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\creative-dna-workflow-router.md": {
+    "mtime": 1777695478.2488754,
+    "hash": "2c0cf072c1c14b69d4bb42d4e4a3955d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\cross-niche-principle-map.md": {
+    "mtime": 1777695258.9915607,
+    "hash": "2242de2629bca62ca103b1bb258411dc"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\graphify-instructions.md": {
+    "mtime": 1777694672.9522054,
+    "hash": "bf9091eb7c1e93ef2291743d2865409c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\inferred-edge-qa.md": {
+    "mtime": 1777698055.7804945,
+    "hash": "bf6aa02ce5f8d700f2868d1254dd1f1d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\owned-account-idea-router.md": {
+    "mtime": 1777697447.0607028,
+    "hash": "1db1cfc263eb87b294dd2fbbee39687f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\README.md": {
+    "mtime": 1777698055.7804945,
+    "hash": "e2d51409ad07ab8c0accb7e04b34a1b1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\account-profiles\\athlete-max.md": {
+    "mtime": 1777695986.709775,
+    "hash": "a55bec2b93ced3ee826578e3c58068e5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\account-profiles\\athlete-stories.md": {
+    "mtime": 1777698055.7784953,
+    "hash": "6b93163c60f6a7546f50db7cbb4050a9"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\account-profiles\\README.md": {
+    "mtime": 1777697447.0596993,
+    "hash": "e54475824478db533cf3639517412ca8"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\extractions\\2026-05-01-asdicipline-conor-empty-stomach.md": {
+    "mtime": 1777695318.327765,
+    "hash": "d3fb2e193165ed4fd79603f49242bd49"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\extractions\\2026-05-01-chasingpeaks0-highest-roi-habits.md": {
+    "mtime": 1777695293.591478,
+    "hash": "22de172eae1d0edcd4b21c4a4b60ccae"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\extractions\\2026-05-01-chasingpeaks0-killing-potential.md": {
+    "mtime": 1777695293.4666367,
+    "hash": "d92be0677439e7feeeddb6ab7d7e9223"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\extractions\\2026-05-01-legendperform-knockout-stat.md": {
+    "mtime": 1777695318.3528118,
+    "hash": "bca0dca61ad12db7dbe6683f8fb57cbd"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\extractions\\2026-05-01-user-aura-fit3-illegal-muscle-growth.md": {
+    "mtime": 1777695318.3992622,
+    "hash": "5e61c3e2e553b5379bfa7f95546a84f7"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\extractions\\2026-05-01-user-football-kingdubar-d1-bust.md": {
+    "mtime": 1777695318.2741854,
+    "hash": "54f0fae182fc2f2ec336ef5932857c9d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\extractions\\2026-05-01-user-marcogetsfit-evening-habits.md": {
+    "mtime": 1777695318.3747072,
+    "hash": "e20edd0048ea777d8cd4f80511753d04"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\extractions\\2026-05-01-user-soccer-tgaskins3-invisible-competition.md": {
+    "mtime": 1777695318.3065677,
+    "hash": "1dadda7d6597a4332cc84ecfd149d522"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\extractions\\2026-05-01-user-sophia-study-ranking-review.md": {
+    "mtime": 1777695293.5071063,
+    "hash": "7d6fd5e798fd3b996109a3eb2869a3df"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\extractions\\2026-05-01-verified-byhumans-body-language-red-flags.md": {
+    "mtime": 1777695293.4848516,
+    "hash": "b8825f648cdf268e1a442d3c00b20309"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\extractions\\README.md": {
+    "mtime": 1777694648.184923,
+    "hash": "588e61c0aae6bbc6819a675fd8d886f3"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\creative-dna\\templates\\viral-post-creative-dna.md": {
+    "mtime": 1777694648.182923,
+    "hash": "d8f63ffb8c5e29d6dc4b55ab55583771"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\hook-ideas\\index.md": {
+    "mtime": 1777646145.4196725,
+    "hash": "7fb52ccd0bbef2834ab8f01cdf5052c5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\hook-ideas\\README.md": {
+    "mtime": 1777646145.4108465,
+    "hash": "ec5e641d77174ce26c2154bc22a53f16"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\hook-ideas\\usage-ledger.md": {
+    "mtime": 1777646145.4226868,
+    "hash": "e6ec773fb0c0bf36b09ec46877e1f0fd"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\hook-ideas\\cards\\2026-04-30-denis-averbukh-male-hobbies.md": {
+    "mtime": 1777646145.4128604,
+    "hash": "fbb375af93f9b6bd2d45097528d26aea"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\hook-ideas\\cards\\2026-04-30-denis-averbukh-male-rules.md": {
+    "mtime": 1777646145.413861,
+    "hash": "003723ef9567f678fd7ed6e4d70d6c88"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\hook-ideas\\inbox\\transcripts\\2026-04-30-denis-averbukh-7632848845831032072.md": {
+    "mtime": 1777646145.4181209,
+    "hash": "8a32ee257afd212ffe2f8837b5bb43f3"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\hook-ideas\\inbox\\transcripts\\2026-04-30-tiktok-7633989227729947912.md": {
+    "mtime": 1777646145.4191372,
+    "hash": "c7cfbd61f20e021c039396dc6069e230"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\hook-ideas\\templates\\hook-card.md": {
+    "mtime": 1777646145.4206815,
+    "hash": "deb1bd19ca5f011d71eb3df89a75f863"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\research\\README.md": {
+    "mtime": 1777646145.4226868,
+    "hash": "24b94417ee51a19e9a75cc13e2576565"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\skills\\account-quality-gate\\SKILL.md": {
+    "mtime": 1777646145.4241967,
+    "hash": "735cae34b0db6a7f03e44dcf66078bd9"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\skills\\angle-extraction\\SKILL.md": {
+    "mtime": 1777646145.424857,
+    "hash": "2448625fae891358d69068b7a55e4164"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\skills\\angle-variants\\SKILL.md": {
+    "mtime": 1777648872.628559,
+    "hash": "4e5b1182661788f073edc5b528444848"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\skills\\graphify-connection-capture\\SKILL.md": {
+    "mtime": 1777702222.095774,
+    "hash": "1e7ef700d8ba719fed8f5b79583ad0d7"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\skills\\hook-idea-extraction\\SKILL.md": {
+    "mtime": 1777646145.4270573,
+    "hash": "c9acda9017de6e8a7df602fe39645dc7"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\skills\\hook-idea-extraction\\agents\\openai.yaml": {
+    "mtime": 1777646145.4280589,
+    "hash": "5b6693a8b28136b2cebe3d8a92802199"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\skills\\post-concept-flow\\SKILL.md": {
+    "mtime": 1777646145.4285686,
+    "hash": "cbca0404c4c08f0aa724412bb87598b1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\skills\\stop-slop\\CHANGELOG.md": {
+    "mtime": 1777646145.4285686,
+    "hash": "d446aa61e5c6db5aaa25fc266294a182"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\skills\\stop-slop\\README.md": {
+    "mtime": 1777646145.4310887,
+    "hash": "c4fa180a518d8fa5131e0d1e56756a49"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\skills\\stop-slop\\SKILL.md": {
+    "mtime": 1777646145.4310887,
+    "hash": "bd30ea398b7b9a7d93d1c5d2b8d8a2af"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\skills\\stop-slop\\references\\examples.md": {
+    "mtime": 1777646145.4325986,
+    "hash": "b31054549c3440d651dd687034eb2150"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\skills\\stop-slop\\references\\phrases.md": {
+    "mtime": 1777646145.4325986,
+    "hash": "9e363a08e8cb05dd21c419cd5ac2f18b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\skills\\stop-slop\\references\\structures.md": {
+    "mtime": 1777646145.4336104,
+    "hash": "47e9cae0268aa16085a797ef02d39ef4"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\skills\\tiktok-photo-sourcing\\SKILL.md": {
+    "mtime": 1777646145.4346101,
+    "hash": "d51d6a73a385578de33aeb56e76baaf3"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\skills\\tiktok-photo-sourcing\\agents\\openai.yaml": {
+    "mtime": 1777646145.435117,
+    "hash": "ff1bda615d760c3a7b7bc76537589834"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\skills\\writing-feedback-compounding\\SKILL.md": {
+    "mtime": 1777742547.2871828,
+    "hash": "d020eb91302ef55d8617534ccd47d467"
+  },
   "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\social-accounts\\account-map.md": {
     "mtime": 1777646145.4477952,
     "hash": "2beb36113fe98eb6163a935f3734ffdf"
@@ -70,6 +958,1258 @@
   "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\social-accounts\\_review\\README.md": {
     "mtime": 1777646145.4361265,
     "hash": "aff7c6e3f3e2dec533c3a7d6b96ce5f4"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\templates\\account-brief.md": {
+    "mtime": 1777646147.0301702,
+    "hash": "ea5daf5d9904e80e2da2f39f3e9a8330"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\templates\\account-design.md": {
+    "mtime": 1777646147.0312693,
+    "hash": "7a4205f7f12249a1ad28104a58d5584a"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\templates\\account-sources.md": {
+    "mtime": 1777646147.0323741,
+    "hash": "0fe0b4d356ead9183d2b5b016d3dfd17"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\templates\\account-writing.md": {
+    "mtime": 1777646147.0334835,
+    "hash": "3726e63171ff9abb5b811e52b1321e85"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\templates\\writing\\banned-patterns.md": {
+    "mtime": 1777646147.034665,
+    "hash": "ee5ab46a57e36482c408d3cf0b514941"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\templates\\writing\\copywriting-principles.md": {
+    "mtime": 1777646147.0358317,
+    "hash": "3c7d9fe5045a2376785c2b25f3f1de59"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\templates\\writing\\pattern-extractions.md": {
+    "mtime": 1777646147.0358317,
+    "hash": "1208edf9563cf23b5923a2aab1dc523c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\templates\\writing\\principles.md": {
+    "mtime": 1777646147.0372136,
+    "hash": "b6d747fdb11a044bab258faa8628c1b5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\templates\\writing\\qa.md": {
+    "mtime": 1777646147.0387356,
+    "hash": "f6a726bedf4881c6ccaff8f47ad77bb2"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\templates\\writing\\refinement-personas.md": {
+    "mtime": 1777646147.039859,
+    "hash": "027e16d39e0459c7f64676622e716e3e"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\templates\\writing\\sample-posts.md": {
+    "mtime": 1777646147.0409687,
+    "hash": "e7cc854ee68729f95c6b6a0972273b7c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\README.md": {
+    "mtime": 1777646147.0431814,
+    "hash": "9a6387b606d90fe63f8574fc2b98ad65"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\install.md": {
+    "mtime": 1777309761.2088008,
+    "hash": "a910c05a588ae411d7de2d39d6a9dd10"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\README.md": {
+    "mtime": 1777309761.0216875,
+    "hash": "e76bf5359fe287d5a61cba582396ef83"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\SKILL.md": {
+    "mtime": 1777309761.022696,
+    "hash": "e80359c8a48ca3b45796755d663de5c8"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\amazon\\product-search.md": {
+    "mtime": 1777309761.0282793,
+    "hash": "018d7be466470c495a82e5dae8bdf70f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\archive-org\\scraping.md": {
+    "mtime": 1777309761.0299716,
+    "hash": "f18aef13033f4edf528e310accbf1e98"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\atlas\\overview.md": {
+    "mtime": 1777309761.033269,
+    "hash": "4eb8ea0411dd4621ca5ae0b57040f1e3"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\booking-com\\scraping.md": {
+    "mtime": 1777309761.0347743,
+    "hash": "ef7f7ee8852168fce950f3daaaeb6cde"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\capterra\\scraping.md": {
+    "mtime": 1777309761.0357852,
+    "hash": "9b776189ac9984722714ca670c8bed17"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\centilebrain\\generate-estimates.md": {
+    "mtime": 1777309761.036782,
+    "hash": "81eed4934c08b3ff2e2b12e251c02eda"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\coingecko\\scraping.md": {
+    "mtime": 1777309761.0381637,
+    "hash": "923e5300374f65ef9d4e390e1b593ad2"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\coinmarketcap\\scraping.md": {
+    "mtime": 1777309761.0381637,
+    "hash": "37f136462226463eaef3f62618287dd1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\coursera\\scraping.md": {
+    "mtime": 1777309761.0407002,
+    "hash": "3ee793be07be5e9be067cf4ee764ba90"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\craigslist\\scraping.md": {
+    "mtime": 1777309761.0427442,
+    "hash": "87d16435ad110faa283fcab4d0cb09fc"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\dev-to\\scraping.md": {
+    "mtime": 1777309761.0447502,
+    "hash": "cc00fad7e8f67caa4ee0675ea8c62ab5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\duckduckgo\\scraping.md": {
+    "mtime": 1777309761.0462577,
+    "hash": "348ae7111af06fcfd44a43f723f73d66"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\ebay\\scraping.md": {
+    "mtime": 1777309761.047407,
+    "hash": "848f011a45b1ccd44ab824b36d1f1410"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\etsy\\scraping.md": {
+    "mtime": 1777309761.0494213,
+    "hash": "de42cc07ed6108a6444e31aa1c06d7b1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\eventbrite\\scraping.md": {
+    "mtime": 1777309761.0504212,
+    "hash": "80c3f5050524c3a9ca94f3bafa0e9931"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\facebook\\groups.md": {
+    "mtime": 1777309761.0514357,
+    "hash": "454cb644271957a6804e1f86bc61db56"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\facebook\\pages.md": {
+    "mtime": 1777309761.0524457,
+    "hash": "7ea2bde4e41200c78868db575f84172d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\framer\\editor.md": {
+    "mtime": 1777309761.0534441,
+    "hash": "704d2b58b244f9401cdb29c7235579b3"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\fred\\scraping.md": {
+    "mtime": 1777309761.0565288,
+    "hash": "aa21e4c75600bfa29bd6b93b99a36f17"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\g2\\scraping.md": {
+    "mtime": 1777309761.058053,
+    "hash": "56aceb44b460aeeaefd330301b4818c2"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\genius\\scraping.md": {
+    "mtime": 1777309761.0602832,
+    "hash": "a30acb9e41cbe230ea63f2f176f0145e"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\github\\repo-actions.md": {
+    "mtime": 1777309761.0618274,
+    "hash": "a64f06433c80c63bf3b9f393685bec69"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\github\\scraping.md": {
+    "mtime": 1777309761.0623326,
+    "hash": "a488254426f4ba793187a7ca09dbdf22"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\glassdoor\\scraping.md": {
+    "mtime": 1777309761.06334,
+    "hash": "2f1a7f344d5c2782627d02a4c5d35abd"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\gmail\\compose.md": {
+    "mtime": 1777309761.1281734,
+    "hash": "a5aa07c64cd43b3f9aaf2aabfd04c33a"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\goodreads\\scraping.md": {
+    "mtime": 1777309761.1294107,
+    "hash": "8777ba7e76ec5281473330fb627c2747"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\gutenberg\\scraping.md": {
+    "mtime": 1777309761.1304436,
+    "hash": "316c5c05790994f5392880888c507b4d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\hackernews\\scraping.md": {
+    "mtime": 1777309761.131464,
+    "hash": "2b9100959ce966f668d69202cac3cb09"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\howlongtobeat\\scraping.md": {
+    "mtime": 1777309761.1324756,
+    "hash": "79f5115c1e852c19894f9a4b0b2dccb2"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\imdb\\scraping.md": {
+    "mtime": 1777309761.1345818,
+    "hash": "a1a1a43472adf3111bcdbca603fde2f2"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\itch-io\\scraping.md": {
+    "mtime": 1777309761.135679,
+    "hash": "271d61f319c80272f92a541f73ebd77a"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\job-boards\\indeed-glassdoor.md": {
+    "mtime": 1777309761.1379483,
+    "hash": "00ce8b1138ad7d1cd5d9b0eb3653f161"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\letterboxd\\scraping.md": {
+    "mtime": 1777309761.1394,
+    "hash": "c927396e4d2c081897798ce2d3a526ca"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\linkedin\\invitation-manager.md": {
+    "mtime": 1777309761.140959,
+    "hash": "7e7e26225eb9809761fb52d7a4c09efd"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\macrotrends\\scraping.md": {
+    "mtime": 1777309761.1429715,
+    "hash": "a81a35ec59d14b54782ecbcdf851fef1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\medium\\article-hydration.md": {
+    "mtime": 1777309761.1444128,
+    "hash": "3b04d312c278ead9544748496d72c2cc"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\medium\\scraping.md": {
+    "mtime": 1777309761.1444128,
+    "hash": "3dfcb10d889944e98ca3361834d2ef39"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\metacritic\\scraping.md": {
+    "mtime": 1777309761.1464443,
+    "hash": "d40b2708abaa6ae938f482a0c997ba76"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\musicbrainz\\scraping.md": {
+    "mtime": 1777309761.1484716,
+    "hash": "701630392dcbe88d8e39fdab3811682b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\nasa\\scraping.md": {
+    "mtime": 1777309761.149472,
+    "hash": "c348ab7a70174deeb6124f6b8d7d186c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\news-aggregation\\multi-source.md": {
+    "mtime": 1777309761.1511457,
+    "hash": "52ef0c539a728454c7e0b6eea2506f38"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\open-library\\scraping.md": {
+    "mtime": 1777309761.1516728,
+    "hash": "bbfa5b29d7ea84fe57609e92f4f36e0a"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\openstreetmap\\scraping.md": {
+    "mtime": 1777309761.1541119,
+    "hash": "dc801123ce4996f68b80a61df21859eb"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\package-registries\\npm-pypi.md": {
+    "mtime": 1777309761.1567833,
+    "hash": "5a721f7beb108bf8f5f3cd56269e695f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\polymarket\\scraping.md": {
+    "mtime": 1777309761.1589315,
+    "hash": "34f6cd945966b8a1276371323f875c4f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\producthunt\\scraping.md": {
+    "mtime": 1777309761.1604843,
+    "hash": "e771a20e07669f01739ca2e19a57e57c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\pubmed\\scraping.md": {
+    "mtime": 1777309761.1620202,
+    "hash": "aa30458fa6a91d93370c05521da16c2d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\quora\\scraping.md": {
+    "mtime": 1777309761.1640306,
+    "hash": "ab71b372917464d3506d0d9516e55016"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\rawg\\scraping.md": {
+    "mtime": 1777309761.1651707,
+    "hash": "0e29630ad2ff0583ae54b4f01ea7a3fd"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\reddit\\scraping.md": {
+    "mtime": 1777309761.1658032,
+    "hash": "c6c023e760d1d1498a6851a6ff50035f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\rest-countries\\scraping.md": {
+    "mtime": 1777309761.1672497,
+    "hash": "b7f4de6f6c6d8a494cb6598f131a4c6c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\sec-edgar\\scraping.md": {
+    "mtime": 1777309761.1711135,
+    "hash": "0bef9828683efe4e0ca728d0c57bcac7"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\soundcloud\\scraping.md": {
+    "mtime": 1777309761.1731558,
+    "hash": "502e5e65a2b371d936b9f131d143ea9e"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\spotify\\scraping.md": {
+    "mtime": 1777309761.1753733,
+    "hash": "5b7d7c220a5889ab94eaabf3478f9597"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\stackoverflow\\scraping.md": {
+    "mtime": 1777309761.177391,
+    "hash": "58edc752e89528e7f269cc120a74bee7"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\steam\\scraping.md": {
+    "mtime": 1777309761.178899,
+    "hash": "2d39beb4294f9d284f9b718c19ceb909"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\thetechgeeks\\pricing.md": {
+    "mtime": 1777309761.1811104,
+    "hash": "01cf76e0a81bfd65c3828835502a3684"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\tiktok\\upload.md": {
+    "mtime": 1777309761.1816432,
+    "hash": "15aac2d2fdf02356759ba49120b5e295"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\tradingview\\scraping.md": {
+    "mtime": 1777309761.1839385,
+    "hash": "f6838380a2c94dd4953b6ee5408e405d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\trello\\boards-and-lists.md": {
+    "mtime": 1777309761.1849341,
+    "hash": "72a352d3d04fb6c48f85f424ae63b59f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\trustpilot\\scraping.md": {
+    "mtime": 1777309761.186102,
+    "hash": "24547fcff7a97016a63ec154a60e3c85"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\walmart\\scraping.md": {
+    "mtime": 1777309761.1883,
+    "hash": "872a86567e4c1dfcfddbad808c8c6fba"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\wayback-machine\\scraping.md": {
+    "mtime": 1777309761.191871,
+    "hash": "1cb36a6fe7ff922e194d15ab7801b9a4"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\weather\\scraping.md": {
+    "mtime": 1777309761.1938884,
+    "hash": "22e7198511d08e19e70f9b9614c2767a"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\wellfound\\scraping.md": {
+    "mtime": 1777309761.1964471,
+    "hash": "e6e8c88e4a4cc860731256f7fbace25a"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\world-bank\\scraping.md": {
+    "mtime": 1777309761.1985955,
+    "hash": "c181de8a306ea13f3337d2d7e270400f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\youtube\\scraping.md": {
+    "mtime": 1777309761.20123,
+    "hash": "7de32d8a0965543abdd3d35f0eef4bb8"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\zillow\\scraping.md": {
+    "mtime": 1777309761.2041974,
+    "hash": "12b7f9604218461daf3006561eaa8cac"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\interaction-skills\\connection.md": {
+    "mtime": 1777309761.211449,
+    "hash": "7c336cda88b55b1a614ce852f00d61ff"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\interaction-skills\\cookies.md": {
+    "mtime": 1777309761.2124605,
+    "hash": "fda17c54507085e172fa30b99fcaa8de"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\interaction-skills\\cross-origin-iframes.md": {
+    "mtime": 1777309761.213919,
+    "hash": "f52621435c9cbb71438383ea333460a6"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\interaction-skills\\dialogs.md": {
+    "mtime": 1777309761.2149906,
+    "hash": "2024b47fcaac7b24d273e15a1aa0ef4b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\interaction-skills\\downloads.md": {
+    "mtime": 1777309761.2164626,
+    "hash": "d90de609e8b23906f46c2bb5352dbadd"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\interaction-skills\\drag-and-drop.md": {
+    "mtime": 1777309761.2164626,
+    "hash": "24b565e49f0a368a8edf9fb7b60cc4a7"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\interaction-skills\\dropdowns.md": {
+    "mtime": 1777309761.2176008,
+    "hash": "c5ebabc9d13c744f77de3d1e4941c47c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\interaction-skills\\iframes.md": {
+    "mtime": 1777309761.2176008,
+    "hash": "e761dc32593b5608de85d4e3da0900f1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\interaction-skills\\network-requests.md": {
+    "mtime": 1777309761.2185972,
+    "hash": "c54625c201fee55abdc2bad4f3385355"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\interaction-skills\\print-as-pdf.md": {
+    "mtime": 1777309761.2195969,
+    "hash": "91b7f51c6ebf51a36e5b2554bcaa1ad1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\interaction-skills\\profile-sync.md": {
+    "mtime": 1777309761.2195969,
+    "hash": "8761df0358acbc0232eb3a2a191c5284"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\interaction-skills\\screenshots.md": {
+    "mtime": 1777309761.2206101,
+    "hash": "345e3ee096889e0e76202e24ea46cf0c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\interaction-skills\\scrolling.md": {
+    "mtime": 1777309761.2211466,
+    "hash": "2cba2648aa2ef4dfc0935092208b646a"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\interaction-skills\\shadow-dom.md": {
+    "mtime": 1777309761.222161,
+    "hash": "2413aa857d6f57bfcab9977bec139c22"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\interaction-skills\\tabs.md": {
+    "mtime": 1777309761.2231932,
+    "hash": "cb17411825c9e385b602785f9528abad"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\interaction-skills\\uploads.md": {
+    "mtime": 1777309761.2242036,
+    "hash": "1833d5e0bce7e446097b03556b9af4ba"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\interaction-skills\\viewport.md": {
+    "mtime": 1777309761.2252042,
+    "hash": "64150e9ca0c491943c501131b3cd6877"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\hook-extraction\\README.md": {
+    "mtime": 1777646147.0466053,
+    "hash": "309348534c18de37c692d8feb2f74989"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\image-sourcer\\README.md": {
+    "mtime": 1777646147.0481243,
+    "hash": "507cb70b3dfe8eb6dc6deae70ca649a2"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\post-tracker\\README.md": {
+    "mtime": 1777646147.0537486,
+    "hash": "d6a3998186bcb76bc574899c3722ee0b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\slideshow-transcriber\\README.md": {
+    "mtime": 1777646147.0559757,
+    "hash": "4e18c5adad277d15b2ed7de31c6ae312"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\tiktok-photo-sourcer\\README.md": {
+    "mtime": 1777646147.0581393,
+    "hash": "0cde3fd501c8a3cb41db007a7361720b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\tiktok-transcript-sourcer\\README.md": {
+    "mtime": 1777646147.0597856,
+    "hash": "d568455f61d309ebc87ad4d425958e9d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\workflows\\README.md": {
+    "mtime": 1777646147.0643494,
+    "hash": "6476581adc0c707671e9adebd96e4df6"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\workflows\\workflow-a-new-account.md": {
+    "mtime": 1777646147.0655062,
+    "hash": "a74d48e41677f55478d1ee33bfdace41"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\workflows\\workflow-a0-account-intake-reference-map.md": {
+    "mtime": 1777646147.0677783,
+    "hash": "4f8494fddf354c37ad2f52a51c1495d3"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\workflows\\workflow-a1-writing-principle-extraction.md": {
+    "mtime": 1777646147.0690713,
+    "hash": "236aa7b0a9336c020c91761eb8c7eaa6"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\workflows\\workflow-a2-design-principle-extraction.md": {
+    "mtime": 1777646147.0713646,
+    "hash": "556230a5a4d590c9fa711b7b630130ea"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\workflows\\workflow-a3-writing-design-quality-gate.md": {
+    "mtime": 1777646147.0730507,
+    "hash": "6cf5069d5cbaf4f05c7ad200ac4e438f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\workflows\\workflow-a4-angle-extraction-to-presets.md": {
+    "mtime": 1777646147.0741484,
+    "hash": "e438eb8da6405b64a81825587cf0df7c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\workflows\\workflow-b-new-post.md": {
+    "mtime": 1777646147.0752778,
+    "hash": "f298a84f01000851cce5cd35621a0fa7"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\workflows\\workflow-c-image-processing.md": {
+    "mtime": 1777646147.078041,
+    "hash": "a879d90f1126c9d8dca2fcd842cbea3e"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\center-back-late-runner\\concept\\session-state.md": {
+    "mtime": 1777646145.171902,
+    "hash": "8078d22790df45ae13f18c7be923876d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\center-back-late-runner\\concept\\source-check.md": {
+    "mtime": 1777646145.1729052,
+    "hash": "cdd3f93e9ce0d6d7f6dd133b0207c207"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\arxiv\\scraping.md": {
+    "mtime": 1777309761.033269,
+    "hash": "51ea09b5ea425747709de98b40cea2c1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\arxiv-bulk\\scraping.md": {
+    "mtime": 1777309761.0314949,
+    "hash": "8295fe8a1e60cc5e8a04e81d9a59090f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\crossref\\scraping.md": {
+    "mtime": 1777309761.0437508,
+    "hash": "b75a63a9d2153839a2182c2dd896f764"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\domain-skills\\openalex\\scraping.md": {
+    "mtime": 1777309761.1541119,
+    "hash": "817261b1364d85d48a69d8082d9831f6"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\processed\\slide_1.png": {
+    "mtime": 1777647078.76499,
+    "hash": "2feaca9dcf58c41d5749bc7ce8937e9f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\processed\\slide_2.png": {
+    "mtime": 1777647078.8506522,
+    "hash": "d0d3e244bf47227bc85a5aae1117b33d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\processed\\slide_3.png": {
+    "mtime": 1777647078.9650872,
+    "hash": "bcd6e7691e6c3c61cd9920c501aecbe5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\processed\\slide_4.png": {
+    "mtime": 1777647079.1811254,
+    "hash": "bb4a6c64801122acba27c1e8a9813ae4"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\processed\\slide_5.png": {
+    "mtime": 1777647079.3779254,
+    "hash": "1fc789c66f6baa698dbbb1ec63ba0db4"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\processed\\slide_6.png": {
+    "mtime": 1777647079.6102495,
+    "hash": "2f7aabaf1c89183acc7e704e91999d3d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\processed\\slide_7.png": {
+    "mtime": 1777647079.7950926,
+    "hash": "66e737e51283939ba3819880d5710b75"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\sourced\\215c1bd3943946cace9161a01730857a.jpg": {
+    "mtime": 1777646145.168374,
+    "hash": "171f0d6fdc39d55eead5127dc5aed2ba"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\sourced\\slide1hero.png": {
+    "mtime": 1777646941.4652188,
+    "hash": "3bdec4eb36086b51206f0b897ad3a773"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\sourced\\slide4.png": {
+    "mtime": 1777646367.5615125,
+    "hash": "81acd9c081fb10e72ce04f1a7990b85e"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\sourced\\slide5.png": {
+    "mtime": 1777646640.8043551,
+    "hash": "c425386a1daa9a2a9396734a92542946"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\sourced\\slide_1.png": {
+    "mtime": 1777647078.3160954,
+    "hash": "3bdec4eb36086b51206f0b897ad3a773"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\sourced\\slide_2.jpg": {
+    "mtime": 1777646145.1698916,
+    "hash": "7c2ba37cb58481a5f9ee2469bd8cc8bb"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\sourced\\slide_3.jpg": {
+    "mtime": 1777646272.1501918,
+    "hash": "4dd2e08aaaf5a90fbaf39ab48ef9c65d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\sourced\\slide_4.png": {
+    "mtime": 1777646460.5169322,
+    "hash": "81acd9c081fb10e72ce04f1a7990b85e"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\sourced\\slide_5.png": {
+    "mtime": 1777646686.4461105,
+    "hash": "c425386a1daa9a2a9396734a92542946"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\sourced\\slide_6.jpeg": {
+    "mtime": 1777646644.5798416,
+    "hash": "1410d8fa27c87af87cc3d4f3a50e20f7"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\biological-roi-soccer-confidence\\sourced\\slide_7.jpeg": {
+    "mtime": 1777646784.7977214,
+    "hash": "1410d8fa27c87af87cc3d4f3a50e20f7"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\center-back-late-runner\\processed\\slide_1.png": {
+    "mtime": 1777646145.1769454,
+    "hash": "495a626bae2aaa62133ff6570912e9bb"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\center-back-late-runner\\processed\\slide_2.png": {
+    "mtime": 1777646145.1784518,
+    "hash": "500ba2f301edc90ae2fceea45b88ddb9"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\center-back-late-runner\\processed\\slide_3.png": {
+    "mtime": 1777646145.1805003,
+    "hash": "61b6ee5e1dbc71c5ef61c77749997dcf"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\center-back-late-runner\\processed\\slide_4.png": {
+    "mtime": 1777646145.1830184,
+    "hash": "6312ec0e417e8c519b13ba9ded9f42c4"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\center-back-late-runner\\processed\\slide_5.png": {
+    "mtime": 1777646145.1845253,
+    "hash": "62f65b23611389259bae01849dadb377"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\center-back-late-runner\\processed\\slide_6.png": {
+    "mtime": 1777646145.186535,
+    "hash": "c5c8cf362e2c7558eac1c75fd6d626e0"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\mistake-confidence-loop\\processed\\slide_1.png": {
+    "mtime": 1777744315.3708787,
+    "hash": "af50f56c73f66efe1d1296967a2439cf"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\mistake-confidence-loop\\processed\\slide_10.png": {
+    "mtime": 1777744316.8167832,
+    "hash": "65d3a907acb542f643eee8f4d1a64c8e"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\mistake-confidence-loop\\processed\\slide_11.png": {
+    "mtime": 1777744316.941112,
+    "hash": "4166f84f3e6dfa69159148d148e4541d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\mistake-confidence-loop\\processed\\slide_12.png": {
+    "mtime": 1777744317.0629187,
+    "hash": "31a2cbdda8d1e3d3dc01831999e83d03"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\mistake-confidence-loop\\processed\\slide_13.png": {
+    "mtime": 1777744317.1608357,
+    "hash": "642dffae7aab08ae2f611bb164ae5c22"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\mistake-confidence-loop\\processed\\slide_2.png": {
+    "mtime": 1777744315.4870126,
+    "hash": "c2a23b58fe8badab6b35a80f9eb31457"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\mistake-confidence-loop\\processed\\slide_3.png": {
+    "mtime": 1777744315.6245642,
+    "hash": "cd416adfe42f914bc7ed69f2520e661b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\mistake-confidence-loop\\processed\\slide_4.png": {
+    "mtime": 1777744315.8479204,
+    "hash": "ddee4a48aed0b9d870fe25bd403dcd2d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\mistake-confidence-loop\\processed\\slide_5.png": {
+    "mtime": 1777744315.9919302,
+    "hash": "75332853a08ea90cab0ed6fa2b28a820"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\mistake-confidence-loop\\processed\\slide_6.png": {
+    "mtime": 1777744316.1276605,
+    "hash": "e2ce4da30fe7018f4475d7ec7fdb4b9d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\mistake-confidence-loop\\processed\\slide_7.png": {
+    "mtime": 1777744316.3026266,
+    "hash": "92ebab6df4a4c4b4542f8651c3d03bce"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\mistake-confidence-loop\\processed\\slide_8.png": {
+    "mtime": 1777744316.4680073,
+    "hash": "d3153619126ec04604b9fb4327ba2934"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\posts\\mistake-confidence-loop\\processed\\slide_9.png": {
+    "mtime": 1777744316.617128,
+    "hash": "401ced0d441504984accd3087caeb61c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-001-2026-04-28-soccer-first-touch\\sample-slide.png": {
+    "mtime": 1777646145.1960783,
+    "hash": "55ebdb2839051a2e68fa0a05c23abc4f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-002-2026-04-29-soccer-first-touch\\sample-slide.png": {
+    "mtime": 1777646145.2026865,
+    "hash": "7ad5659e4da05387f595d625af86872f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-003-2026-04-29-soccer-first-touch\\sample-slide.png": {
+    "mtime": 1777646145.2097654,
+    "hash": "d0136a8474378cc278c5832b0e4cb700"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-004-2026-04-29-soccer-first-touch\\sample-slide.png": {
+    "mtime": 1777646145.2162998,
+    "hash": "1784e333b6b3fd785ea11460d969f7bf"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-005-2026-04-29-soccer-first-touch\\sample-slide.png": {
+    "mtime": 1777646145.2228677,
+    "hash": "fdd2df39266b34b0a2098b38b4cf59f1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-006-2026-04-29-soccer-first-touch\\sample-slide.png": {
+    "mtime": 1777646145.228448,
+    "hash": "bf1d23428402b18bdecb5d0ed3660f10"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-max\\quality-gate\\attempts\\attempt-007-2026-04-29-soccer-centreback-runner\\sample-slide.png": {
+    "mtime": 1777646145.2335267,
+    "hash": "861eee8fab9bc27615d298204fcd6e7d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\CR7\\sourced\\the-beginning-childhood-family.jpg": {
+    "mtime": 1777646145.245354,
+    "hash": "38e58413d891871ac71c58a75fa1eecb"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\CR7\\sourced\\the-beginning-sporting-lisbon-youth.jpg": {
+    "mtime": 1777646145.2464027,
+    "hash": "144393c9690c0ec9d7f12f6ed2d8b7f9"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\CR7\\sourced\\the-beginning-youth-football-kit.jpg": {
+    "mtime": 1777646145.2489364,
+    "hash": "a2994afe322412538b2587f94ca64427"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\CR7\\sourced\\the-grind-bicycle-kick-training.jpg": {
+    "mtime": 1777646145.2504458,
+    "hash": "01ae4c55f6b5b3f9a022dbc2ee9f14ef"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\CR7\\sourced\\the-grind-bruised-camera.jpg": {
+    "mtime": 1777646145.2522016,
+    "hash": "0b043b673b24ad3f1e604f7b1d89ef79"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\CR7\\sourced\\the-grind-man-united-training-fog.jpg": {
+    "mtime": 1777646145.2542002,
+    "hash": "f0c578e0fbe7e629d03b0a9e562523a4"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\CR7\\sourced\\the-grind-training-ball-control.jpg": {
+    "mtime": 1777646145.2547112,
+    "hash": "7099d6cd66c8bc7964aa616f592f17a0"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\CR7\\sourced\\the-transformation-community-shield.jpg": {
+    "mtime": 1777646145.256731,
+    "hash": "2a8f7e63f81df935bcb7b0434fbd7434"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\CR7\\sourced\\the-transformation-premier-league-trophy.jpg": {
+    "mtime": 1777646145.2577324,
+    "hash": "fe787d561641d19c40e42547d87e15a3"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\CR7\\sourced\\the-weight-crying-portugal.jpg": {
+    "mtime": 1777646145.2582455,
+    "hash": "36851829b52705f18665397b104aef88"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\CR7\\sourced\\the-weight-empty-stadium.jpg": {
+    "mtime": 1777646145.2592561,
+    "hash": "bbcd9b753079ec5e24ae1d9348b941cc"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\processed\\slide_1.png": {
+    "mtime": 1777272761.8104584,
+    "hash": "4eb51a0ad222ad9b983afc1792e6fccd"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\processed\\slide_2.png": {
+    "mtime": 1777272762.7496202,
+    "hash": "56e919f168701ddefe2e2f6f23778fb1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\processed\\slide_3.png": {
+    "mtime": 1777272764.8188202,
+    "hash": "65d77829115e7e42124de086b7cf25e5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\processed\\slide_4.png": {
+    "mtime": 1777272766.4888186,
+    "hash": "7008388dd05451344136d8c0ad808f7c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\processed\\slide_5.png": {
+    "mtime": 1777272767.708251,
+    "hash": "4a761dfff20ad94268c3b321d1fe011c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\processed\\slide_6.png": {
+    "mtime": 1777272768.9325304,
+    "hash": "7d0043f3fcec3c424a8362bf4153bce9"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\processed\\slide_7.png": {
+    "mtime": 1777272770.0876143,
+    "hash": "f145241cff4863fc7366a5c44dd13928"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\native hold.jpeg": {
+    "mtime": 1777270346.260108,
+    "hash": "012f9cf8f9a669abf49700154a8f90a7"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-beginning-crowd-back-camera.jpg": {
+    "mtime": 1777646145.2628064,
+    "hash": "d0b2d0f3db471068f629db7099983453"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-beginning-hands-on-hips.jpg": {
+    "mtime": 1777646145.26488,
+    "hash": "200aad26dcef977607b40f1cde22f66b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-beginning-high-school-focused.jpg": {
+    "mtime": 1777646145.2658894,
+    "hash": "340b778ef8d5f54a1e08f17684c88a16"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-beginning-interview-medal.jpg": {
+    "mtime": 1777646145.268397,
+    "hash": "33ae8c144d6626ef0b17811618dc9a87"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-beginning-locker-room-irish.jpg": {
+    "mtime": 1777646145.2694044,
+    "hash": "ddabcbcafb0b7976f99c88a3765ca5db"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-grind-take-nothing-for-granted.jpg": {
+    "mtime": 1777646145.270416,
+    "hash": "38b200e3388a766622b0bb2648fbee08"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-legend-lakers-dunk-bw.jpg": {
+    "mtime": 1777646145.2724147,
+    "hash": "edb3cc42cb17b62f392395aab963a85f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-peak-locker-room-jersey-headphones.jpg": {
+    "mtime": 1777646145.2739236,
+    "hash": "37234d0acaff0a321023d2261db1c8bc"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-peak-meditating.jpg": {
+    "mtime": 1777646145.2749374,
+    "hash": "bcbde668bed9b30857cdfff2d5003853"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-transformation-2016-trophies.jpg": {
+    "mtime": 1777646145.2754455,
+    "hash": "8074deac61a98783400cb48b3bda8d1f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-transformation-chalk-toss.jpg": {
+    "mtime": 1777646145.276458,
+    "hash": "969dfbe44757f18f620b18d739b29e5f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-transformation-championship-ring.jpg": {
+    "mtime": 1777646145.2781718,
+    "hash": "79720b78bf61174e87890438524fcca7"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-transformation-heat-dunk-finals.jpg": {
+    "mtime": 1777646145.281945,
+    "hash": "682ae7cb4d825683ad8dad18ba0e5208"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-transformation-heat-intro-fire.jpg": {
+    "mtime": 1777646145.2840362,
+    "hash": "9a5d005176045fb614204164fc60fa06"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-transformation-heat-prayer-fire.jpg": {
+    "mtime": 1777646145.2845461,
+    "hash": "149c447a1d98c7d1aa2eb224b3cc8df1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-transformation-lakers-trophies.jpg": {
+    "mtime": 1777646145.2855563,
+    "hash": "5f667c64997434f082be7b8f6761b181"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-weight-cavaliers-interview.jpg": {
+    "mtime": 1777646145.287274,
+    "hash": "51ccec27bc060e2f1286800dac6b8c2b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-weight-media-swarm.jpg": {
+    "mtime": 1777646145.2894683,
+    "hash": "556ad9fd70c0c231d2cb029c8b5daf56"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Lebron\\sourced\\the-weight-walking-away-heat.jpg": {
+    "mtime": 1777646145.2914667,
+    "hash": "dbf49a904f70b6510c265afbafc29a9f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\processed\\slide_1.png": {
+    "mtime": 1777396996.321653,
+    "hash": "fecb516d537d47ac1ec43b5912e13a7d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\processed\\slide_2.png": {
+    "mtime": 1777396996.9522755,
+    "hash": "aa33acc3ef61d6afaafd2193f21d74f5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\processed\\slide_3.png": {
+    "mtime": 1777396997.5323844,
+    "hash": "a45877a58fd18f514d7931e83aac7aa9"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\processed\\slide_4.png": {
+    "mtime": 1777396998.1549532,
+    "hash": "5a77a15fccc2ce0c4f60f5c739ae6e4f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\processed\\slide_5.png": {
+    "mtime": 1777396998.5976415,
+    "hash": "9d64b6f33bb72b41393c0e4d0c7d6893"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\processed\\slide_6.png": {
+    "mtime": 1777396999.2038782,
+    "hash": "482f7142737f73ef376c55dfec55eb4b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\processed\\slide_7.png": {
+    "mtime": 1777396999.6522634,
+    "hash": "f212495332d889c36d2b75befd4359f5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\sourced\\the-beginning-barbershop-posters.jpg": {
+    "mtime": 1777646145.2988348,
+    "hash": "0ced7f240560b3ecdb1a2fa911a32a58"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\sourced\\the-beginning-childhood-football.jpg": {
+    "mtime": 1777646145.300908,
+    "hash": "94412444f959b2b346ba62c168735f46"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\sourced\\the-grind-locker-room-boots.jpg": {
+    "mtime": 1777646145.3019204,
+    "hash": "138a99099a71561d4f6b462697f5d806"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\sourced\\the-peak-sitting-on-ball.jpg": {
+    "mtime": 1777646145.3044443,
+    "hash": "b57a1e1cacce3c7fc20fe28f50854a59"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\sourced\\the-transformation-ballon-dor.webp": {
+    "mtime": 1777646145.3065093,
+    "hash": "5003f3af6ba5e9cbc17cde0739945f79"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\sourced\\the-transformation-trophy-in-bed.jpg": {
+    "mtime": 1777646145.307519,
+    "hash": "51d53314b36210bf24f3e5e2b31f3fa5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\sourced\\the-transformation-world-cup-trophy.jpg": {
+    "mtime": 1777646145.3080478,
+    "hash": "437e5b2d5b762b857dfc7e16559e7410"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Messi\\sourced\\the-weight-sitting-pensive.jpg": {
+    "mtime": 1777646145.3090582,
+    "hash": "a6860f848795ab1c00c176b2a731694c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\processed\\slide_1.png": {
+    "mtime": 1777301203.6316812,
+    "hash": "791113aeb370603cab31ef6a44b7030b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\processed\\slide_2.png": {
+    "mtime": 1777301204.5609968,
+    "hash": "8865606e226e109e2e020ef9dad84c4d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\processed\\slide_3.png": {
+    "mtime": 1777301206.0157375,
+    "hash": "1decd33e1a9568694596058621d143e0"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\processed\\slide_4.png": {
+    "mtime": 1777301206.923475,
+    "hash": "9ef289c194374d87d4e3dc352584cbbd"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\processed\\slide_5.png": {
+    "mtime": 1777301207.7760904,
+    "hash": "de6e350430c86546dfddd188b1665467"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\processed\\slide_6.png": {
+    "mtime": 1777301208.683178,
+    "hash": "0da8b7f548e89409c5caed2e4f5fab3b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\processed\\slide_7.png": {
+    "mtime": 1777301209.4180567,
+    "hash": "2688c7030ce7466f80d9a2bf2c90ca6c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\sourced\\the-beginning-young-air-jordans.jpg": {
+    "mtime": 1777646145.313826,
+    "hash": "445ccb16199bf86b0a51d27aa297b348"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\sourced\\the-beginning-young-portrait.jpg": {
+    "mtime": 1777646145.3148313,
+    "hash": "fdd10798c30530ace0e03356c0ed5ec8"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\sourced\\the-failure-of-body-court-stretching.jpg": {
+    "mtime": 1777646145.3163536,
+    "hash": "07630bdbb2ce1235d77372f902829e94"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\sourced\\the-failure-of-body-exhausted-floor.jpg": {
+    "mtime": 1777646145.317867,
+    "hash": "bfe6ee9a921fcb5056e327c966ed6b2f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\sourced\\the-failure-of-body-locker-room-floor.jpg": {
+    "mtime": 1777646145.3205056,
+    "hash": "bfe6ee9a921fcb5056e327c966ed6b2f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\sourced\\the-grind-pistons-foul.jpg": {
+    "mtime": 1777646145.3240094,
+    "hash": "1fa9933150f151ee69c39a080da3a56f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\sourced\\the-grind-weights-training.jpg": {
+    "mtime": 1777646145.325525,
+    "hash": "6610dda136219562589bc91903e1f8b5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\sourced\\the-legend-dunk-bw.jpg": {
+    "mtime": 1777646145.3265362,
+    "hash": "b0b747b04654ea7e4d3d72a3fed1f190"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\sourced\\the-legend-dunk-from-behind-bw.jpg": {
+    "mtime": 1777646145.3280468,
+    "hash": "deb1ec438d6847c04516f288b0ac509f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\sourced\\the-legend-intense-portrait-bw.webp": {
+    "mtime": 1777646145.3295794,
+    "hash": "69fb08c4c1206c70a5e1e2e3cb735bd5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\sourced\\the-remedy-of-mind-locker-reading.jpg": {
+    "mtime": 1777646145.3312554,
+    "hash": "8cdc1c99f03fbd6589f023c00e22967a"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\sourced\\the-transformation-cigar-three-rings.jpg": {
+    "mtime": 1777646145.3347843,
+    "hash": "91ebda9f5f4ab1d60b2a52751bb01e9d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\sourced\\the-transformation-trophy-celebration-bw.jpg": {
+    "mtime": 1777646145.3357813,
+    "hash": "390c58ddc6f3547016e5d564bf60635e"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\sourced\\the-weight-bench-head-down-finals.jpg": {
+    "mtime": 1777646145.3378441,
+    "hash": "01f2556dcba3f632386873721b302d66"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Michael Jordan\\sourced\\the-weight-postgame-interview-45.jpg": {
+    "mtime": 1777646145.339893,
+    "hash": "e48dc6219cc6a948057f12435f4dd8e3"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Muhammad Ali\\sourced\\ali_fight_1.jpg": {
+    "mtime": 1777747031.255953,
+    "hash": "ef13974f19ab80214732744ea45c8435"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Muhammad Ali\\sourced\\ali_liston_fight.jpg": {
+    "mtime": 1777747004.364706,
+    "hash": "b0698a6529feb89fa52b796483be0a13"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Muhammad Ali\\sourced\\ali_liston_weighin.jpg": {
+    "mtime": 1777746797.6495826,
+    "hash": "25914db9641d89f10708cdb4af68b0df"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Muhammad Ali\\sourced\\ali_portrait.jpg": {
+    "mtime": 1777746920.711632,
+    "hash": "2e65471af11d0f84d71db013e9b74362"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Muhammad Ali\\sourced\\ali_young.png": {
+    "mtime": 1777746663.5227497,
+    "hash": "3abf55c5ca0cb8c01b97aec0aa9629e9"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Muhammad Ali\\sourced\\liston_portrait.png": {
+    "mtime": 1777746652.0459616,
+    "hash": "5d357ac66a24e77c60a3da7dc2acd6b4"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Muhammad Ali\\sourced\\slide_10.jpg": {
+    "mtime": 1777747379.8119838,
+    "hash": "56170187ca2016212ce38850d19186f6"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Muhammad Ali\\sourced\\slide_12.jpg": {
+    "mtime": 1777747420.838876,
+    "hash": "e39987cd334e9493f58cbb8f314d9387"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Muhammad Ali\\sourced\\slide_7.jpg": {
+    "mtime": 1777747114.4276416,
+    "hash": "185e8a22dde4997d899ad6cbfce5b269"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Muhammad Ali\\sourced\\slide_8.jpg": {
+    "mtime": 1777747323.7029476,
+    "hash": "1dde5c962240b5e0d1aad458a5afd578"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\Muhammad Ali\\sourced\\slide_9.jpg": {
+    "mtime": 1777747344.162673,
+    "hash": "2a645a5e9c1057e8d5d7ef5420a82a5d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\posts\\01-Lebron\\slide_1.png": {
+    "mtime": 1777272761.8104584,
+    "hash": "4eb51a0ad222ad9b983afc1792e6fccd"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\posts\\01-Lebron\\slide_2.png": {
+    "mtime": 1777272762.7496202,
+    "hash": "56e919f168701ddefe2e2f6f23778fb1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\posts\\01-Lebron\\slide_3.png": {
+    "mtime": 1777272764.8188202,
+    "hash": "65d77829115e7e42124de086b7cf25e5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\posts\\01-Lebron\\slide_4.png": {
+    "mtime": 1777272766.4888186,
+    "hash": "7008388dd05451344136d8c0ad808f7c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\posts\\01-Lebron\\slide_5.png": {
+    "mtime": 1777272767.708251,
+    "hash": "4a761dfff20ad94268c3b321d1fe011c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\posts\\01-Lebron\\slide_6.png": {
+    "mtime": 1777272768.9325304,
+    "hash": "7d0043f3fcec3c424a8362bf4153bce9"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\posts\\01-Lebron\\slide_7.png": {
+    "mtime": 1777272770.0876143,
+    "hash": "f145241cff4863fc7366a5c44dd13928"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\posts\\02-Michael Jordan\\slide_1.png": {
+    "mtime": 1777301203.6316812,
+    "hash": "791113aeb370603cab31ef6a44b7030b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\posts\\02-Michael Jordan\\slide_2.png": {
+    "mtime": 1777301204.5609968,
+    "hash": "8865606e226e109e2e020ef9dad84c4d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\posts\\02-Michael Jordan\\slide_3.png": {
+    "mtime": 1777301206.0157375,
+    "hash": "1decd33e1a9568694596058621d143e0"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\posts\\02-Michael Jordan\\slide_4.png": {
+    "mtime": 1777301206.923475,
+    "hash": "9ef289c194374d87d4e3dc352584cbbd"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\posts\\02-Michael Jordan\\slide_5.png": {
+    "mtime": 1777301207.7760904,
+    "hash": "de6e350430c86546dfddd188b1665467"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\posts\\02-Michael Jordan\\slide_6.png": {
+    "mtime": 1777301208.683178,
+    "hash": "0da8b7f548e89409c5caed2e4f5fab3b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\posts\\02-Michael Jordan\\slide_7.png": {
+    "mtime": 1777301209.4180567,
+    "hash": "2688c7030ce7466f80d9a2bf2c90ca6c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\sample-slide.png": {
+    "mtime": 1777429182.7850614,
+    "hash": "e85e44efcd5feb4848de884baa7759a7"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-001-2026-04-29-michael-jordan-pressure\\sample-slide.png": {
+    "mtime": 1777487564.5034106,
+    "hash": "b627efafa131fe97693af4b32337c5be"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-002-2026-04-29-ronaldo-product-bridge\\sample-slide.png": {
+    "mtime": 1777646145.3601947,
+    "hash": "f40b0a737b2b06ef1ce334e3f9655c62"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-003-2026-05-02-ali-liston-identity-payoff\\slide_1.png": {
+    "mtime": 1777749706.4948921,
+    "hash": "6fa7cf721c22eace8e2aea0abd7304f3"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-003-2026-05-02-ali-liston-identity-payoff\\slide_10.png": {
+    "mtime": 1777749775.8177607,
+    "hash": "79b6cabc54fa12cc3e49685d16945765"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-003-2026-05-02-ali-liston-identity-payoff\\slide_11.png": {
+    "mtime": 1777749783.8369727,
+    "hash": "630f3ad837328fb07287ded40927da16"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-003-2026-05-02-ali-liston-identity-payoff\\slide_12.png": {
+    "mtime": 1777749791.0496833,
+    "hash": "c1df941519b8b5e22b3ecd7dab110fd0"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-003-2026-05-02-ali-liston-identity-payoff\\slide_2.png": {
+    "mtime": 1777749713.9706283,
+    "hash": "08946f7fbd1bf7129b85da0690361c65"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-003-2026-05-02-ali-liston-identity-payoff\\slide_3.png": {
+    "mtime": 1777749722.1855247,
+    "hash": "30aa47567af1df1aaa9e7c796c63d80a"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-003-2026-05-02-ali-liston-identity-payoff\\slide_4.png": {
+    "mtime": 1777749729.6320782,
+    "hash": "13fd7b984e915c21211b056741392c32"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-003-2026-05-02-ali-liston-identity-payoff\\slide_5.png": {
+    "mtime": 1777749737.6116092,
+    "hash": "c79e69d1868766234419933c60406c92"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-003-2026-05-02-ali-liston-identity-payoff\\slide_6.png": {
+    "mtime": 1777749745.2715578,
+    "hash": "f6280b4b6ee61448a26e5fc8748879c8"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-003-2026-05-02-ali-liston-identity-payoff\\slide_7.png": {
+    "mtime": 1777749753.179455,
+    "hash": "7c1083cd0e9229e820d8ffc859f4c50d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-003-2026-05-02-ali-liston-identity-payoff\\slide_8.png": {
+    "mtime": 1777749760.851541,
+    "hash": "6817121f5b71358e0c822345794c1be1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\quality-gate\\attempts\\attempt-003-2026-05-02-ali-liston-identity-payoff\\slide_9.png": {
+    "mtime": 1777749768.5498955,
+    "hash": "45c7dd5c8b62b1b9c527aaeeb29c5e99"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Lebron\\slide_1.png": {
+    "mtime": 1777272761.8104584,
+    "hash": "4eb51a0ad222ad9b983afc1792e6fccd"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Lebron\\slide_2.png": {
+    "mtime": 1777272762.7496202,
+    "hash": "56e919f168701ddefe2e2f6f23778fb1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Lebron\\slide_3.png": {
+    "mtime": 1777272764.8188202,
+    "hash": "65d77829115e7e42124de086b7cf25e5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Lebron\\slide_4.png": {
+    "mtime": 1777272766.4888186,
+    "hash": "7008388dd05451344136d8c0ad808f7c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Lebron\\slide_5.png": {
+    "mtime": 1777272767.708251,
+    "hash": "4a761dfff20ad94268c3b321d1fe011c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Lebron\\slide_6.png": {
+    "mtime": 1777272768.9325304,
+    "hash": "7d0043f3fcec3c424a8362bf4153bce9"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Lebron\\slide_7.png": {
+    "mtime": 1777272770.0876143,
+    "hash": "f145241cff4863fc7366a5c44dd13928"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Messi\\slide_1.png": {
+    "mtime": 1777396996.321653,
+    "hash": "fecb516d537d47ac1ec43b5912e13a7d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Messi\\slide_2.png": {
+    "mtime": 1777396996.9522755,
+    "hash": "aa33acc3ef61d6afaafd2193f21d74f5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Messi\\slide_3.png": {
+    "mtime": 1777396997.5323844,
+    "hash": "a45877a58fd18f514d7931e83aac7aa9"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Messi\\slide_4.png": {
+    "mtime": 1777396998.1549532,
+    "hash": "5a77a15fccc2ce0c4f60f5c739ae6e4f"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Messi\\slide_5.png": {
+    "mtime": 1777396998.5976415,
+    "hash": "9d64b6f33bb72b41393c0e4d0c7d6893"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Messi\\slide_6.png": {
+    "mtime": 1777396999.2038782,
+    "hash": "482f7142737f73ef376c55dfec55eb4b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Messi\\slide_7.png": {
+    "mtime": 1777396999.6522634,
+    "hash": "f212495332d889c36d2b75befd4359f5"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Michael Jordan\\slide_1.png": {
+    "mtime": 1777301203.6316812,
+    "hash": "791113aeb370603cab31ef6a44b7030b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Michael Jordan\\slide_2.png": {
+    "mtime": 1777301204.5609968,
+    "hash": "8865606e226e109e2e020ef9dad84c4d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Michael Jordan\\slide_3.png": {
+    "mtime": 1777301206.0157375,
+    "hash": "1decd33e1a9568694596058621d143e0"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Michael Jordan\\slide_4.png": {
+    "mtime": 1777301206.923475,
+    "hash": "9ef289c194374d87d4e3dc352584cbbd"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Michael Jordan\\slide_5.png": {
+    "mtime": 1777301207.7760904,
+    "hash": "de6e350430c86546dfddd188b1665467"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Michael Jordan\\slide_6.png": {
+    "mtime": 1777301208.683178,
+    "hash": "0da8b7f548e89409c5caed2e4f5fab3b"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\accounts\\athlete-stories\\ready-to-post\\Michael Jordan\\slide_7.png": {
+    "mtime": 1777301209.4180567,
+    "hash": "2688c7030ce7466f80d9a2bf2c90ca6c"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\product\\assets\\phone-holding\\16x9-americanfootball-02.jpeg": {
+    "mtime": 1777646145.3805943,
+    "hash": "61f2b385ff2911ac0201a1d358b5a404"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\product\\assets\\phone-holding\\16x9-basketball-01.jpeg": {
+    "mtime": 1777315654.208531,
+    "hash": "efe3a3dfbf73538c6f656edd2f40242d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\product\\assets\\phone-holding\\16x9-boxing.jpeg": {
+    "mtime": 1777316217.3715017,
+    "hash": "3a89d1e3689ea6e43e486b6ec46e0f86"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\product\\assets\\phone-holding\\16x9-golf-04.jpeg": {
+    "mtime": 1777646145.382605,
+    "hash": "2f1a6a530b4781c0cc938167244166e6"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\product\\assets\\phone-holding\\16x9-soccer-01.jpeg": {
+    "mtime": 1777315949.1773908,
+    "hash": "1410d8fa27c87af87cc3d4f3a50e20f7"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\product\\assets\\phone-holding\\16x9-soccer-03.jpeg": {
+    "mtime": 1777646145.3875506,
+    "hash": "0e62e09a109f2dfcaac3e6f412e141d1"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\product\\assets\\phone-holding\\9x16-basketball-01.jpeg": {
+    "mtime": 1777315668.028068,
+    "hash": "ef06ea72da7e7a113bd35ac3c207c582"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\product\\assets\\phone-holding\\9x16-boxing-02.jpeg": {
+    "mtime": 1777316175.2944,
+    "hash": "3afe7fa1fc55add85e65f2886c637250"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\product\\assets\\phone-holding\\9x16-golf-01.jpeg": {
+    "mtime": 1777315686.4310927,
+    "hash": "d13d6282e8cad0f96a05d1cc29741a38"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\product\\assets\\phone-holding\\9x16-golf-02.jpeg": {
+    "mtime": 1777646145.3911958,
+    "hash": "00def80f9eb07f45b7086d56cf9c5555"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\product\\assets\\phone-holding\\9x16-soccer-01.jpeg": {
+    "mtime": 1777646145.3955686,
+    "hash": "ed3d5e17eeb29faf2f2bc3f517bd0b26"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\product\\assets\\phone-holding\\9x16-soccer.jpeg": {
+    "mtime": 1777646145.405119,
+    "hash": "64c469d87e05712543af1f3b64881d49"
   },
   "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\social-accounts\\asdicipline\\Post 1\\Post1_slide1.jpeg": {
     "mtime": 1777646145.4508514,
@@ -1426,5 +3566,9 @@
   "C:\\Users\\samue\\Downloads\\Slideshow Test\\references\\social-accounts\\_review\\contact-sheets\\first-slide-overview-2.jpg": {
     "mtime": 1777646145.4472797,
     "hash": "9d7acd085e0359451e2921d9262a1a7d"
+  },
+  "C:\\Users\\samue\\Downloads\\Slideshow Test\\tools\\browser-harness\\docs\\setup-remote-debugging.png": {
+    "mtime": 1777309761.026771,
+    "hash": "680e0e05550d01cab833f069095e6458"
   }
 }

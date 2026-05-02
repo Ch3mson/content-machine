@@ -62,3 +62,62 @@ These notes are lower authority than `writing.md` and `writing/principles.md`.
 - **Generic listicle without mechanism:** "5 tips to recover faster" without explaining the biological mechanism would feel like bro-science.
 - **Part-series dependency:** "Part 1" creates engagement but risks disappointment if the viewer cannot find Part 2. athlete-max posts should be self-contained unless intentionally serialized.
 - **Unsourced extreme claims:** "permanent neurological damage" or "completely hiding your jawline" — these work for shock value but need bulletproof sourcing or softer framing for a science-first account.
+
+---
+
+## 2026-05-01 — Brainstorming feedback (loss-aversion hooks)
+
+### Context
+- Account: athlete-max
+- Post or session: Creative DNA out-of-niche hook ideation for loss-aversion angle
+- Stage: hook ideas → angle variants → pre-flow architecture
+
+### Raw correction 1 — Vague metaphor replaced by precise performance language
+- User quote: "play smaller is bad writing technique. write this down somewhere. instead, use stronger and accurate verbs instead of playing smaller like lose confidence instead of play smaller"
+- Before: "Why one mistake makes you play smaller for the rest of the game"
+- Better direction: "Why one mistake makes you lose confidence on the next play"; prefer verbs like hesitate, second-guess reads, stop attacking space, avoid contact, react late
+- Possible rule: For athlete-max hooks, never use broad metaphorical performance language ("play smaller," "step up," "unlock potential") when a precise observable action or feeling exists. Name what changes in the athlete's body, decision, confidence, timing, or execution.
+- Confidence: High
+
+### Raw correction 2 — Hook scoring must reach 10/10 through persona passes
+- User quote: "these are a 3/10. please refine. use persona passes to reach 10/10 scroll stopping"
+- Before: Restrained, safe hooks (e.g., "Why one mistake makes you hesitate on the next play")
+- Better direction: 10/10 scroll-stopping hooks (e.g., "How One Mistake Is Quietly Killing Your Confidence (Without You Realizing It)") — more accusatory, more specific, parenthetical curiosity gap, chasingpeaks0 DNA
+- Possible rule: Before presenting hooks to the user, self-score via the three refinement personas (Bored Athlete / Account-Native Scroller / Athlete Skeptic). If any persona fails, refine before showing. A 10/10 hook creates immediate identification ("that happens to me") OR a strong curiosity gap in the first 2 seconds.
+- Confidence: High
+
+### Raw correction 3 — Fix slides need equal or greater slide count than problem slides
+- User quote: "there needs to be more slides after 7 because you spent a lot of time talking about the problem, you also need to talk about the solution as well so its convincing"
+- Before: 5 problem slides + 1 fix slide (7 total)
+- Better direction: 3 problem slides + 4 fix slides (10 total). Fix slides carry mechanism depth (why the fix works), not just protocol. Include recognition, interruption, refocus, and training — not just one reset tip.
+- Possible rule: The fix section must be at least equal in slide count to the problem section. A fix is convincing only when it explains HOW and WHY at the same level of detail as the problem. Reference accounts: Sample 1 gives fix 2 slides, verified_byhumans pairs fix on every body slide.
+- Confidence: High
+
+### Raw correction 4 — Every slide must inject immediate value
+- User quote: "there needs to be a clear value curiosity or value give to the user. so look at the reference accounts and make connections on how they are able to add value, even if the slides are talking about something wrong"
+- Before: Problem slides that only named costs or described stages of a spiral
+- Better direction: Every slide injects one of 7 value types: diagnostic relief, self-recognition, mechanism clarity, performance cost translation, competitive urgency, expensive lesson free, or immediate fix. See `references/connection-captures/2026-05-01-slide-value-injection-patterns.md`.
+- Possible rule: Before writing any body slide, define its value injection type. If a slide lacks a clear value give, restructure or combine it. Problem slides earn retention through self-recognition, diagnostic relief, or cost translation — not just through being true.
+- Confidence: High
+
+### Raw correction 5 — Simple scientific language beats scientific-sounding words
+- User quote: "do not write words like \"cascade\" in which are not commonly used in writing. make the writing simpler yet more scientific and practical."
+- Before: "threat cascade," "the cascade locks in," and similar uncommon mechanism labels.
+- Better direction: Use plain terms athletes already understand: "spiral," "loop," "reaction," "pattern," "reset," "threat response." Keep the science in the explanation, not in uncommon labels.
+- Possible rule: athlete-max copy should sound simple on the surface and scientific underneath. Do not use clinical-sounding words when a common word carries the idea without reducing accuracy.
+- Confidence: High
+
+### Raw correction 6 — Protocols must be real in-game actions, not invented rituals
+- User quote: "by that, i mean who really taps there sternum? why would someone tap their sternun?" and "find your matchup too. it just sounds so unnaturla. find the root cause of this unnatrual language"
+- Before: "touch your sternum with two fingers," "find your matchup," and other generic cue phrases that sound like worksheet coaching instead of real athlete behavior.
+- Better direction: Protocol language must come from what athletes actually do between plays: long exhale, eyes up, locate the ball, recover position, scan over shoulder, track the runner, make the next simple action. Avoid abstract cue phrases unless they are real coach/athlete language.
+- Possible rule: Before showing any protocol, ask whether a real athlete would do it in competition without feeling weird and whether a real coach would say it out loud. If not, replace it with a visible sport action.
+- Confidence: High
+
+### Raw correction 7 — Sports shorthand is not concrete performance language
+- User quote: "do not use 'Easy read' it is vague and i do not know what it means. i dont even know what read means. what is causing this weird choice of wording?"
+- Before: "you hesitate before the easy read" — uses insider coaching shorthand ("read" = reading the play) combined with a meaningless adjective ("easy")
+- Root cause: Defaulted to coaching shorthand instead of naming the visible physical action. "Read" only makes sense if you already know it means "reading the defense/play." An athlete scrolling TikTok does not parse that. They see a pass they should have made. They see an opening they spotted and ignored.
+- Better direction: "you see the opening and do not take it," "you see the pass and hold the ball," "you spot the space and do not attack it." Every verb must name a physical, observable action — see, pass, throw, move, cut, shoot, hold, attack, turn — not a coaching abstraction.
+- Possible rule: If a word requires the reader to already know what a coach means by it ("read," "touch," "look," "decision" used bare), replace it with the visible sport action. A teammate in the locker room does not say "my easy reads were off." They say "I saw the pass and didn't throw it." Write the thing they say.
+- Confidence: High

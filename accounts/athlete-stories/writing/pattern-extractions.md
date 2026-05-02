@@ -110,3 +110,58 @@ Representative transcript excerpts:
 - Unverified routine claims without source checks.
 - Sales-style product bridges.
 - Direct competitor wording or slide-for-slide copying.
+
+## 2026-05-02 — Quality gate feedback: Ali/Liston copy flow
+
+### Context
+
+- Account: athlete-stories
+- Post or session: `quality-gate/attempts/attempt-003-2026-05-02-ali-liston-identity-payoff/`
+- Stage: copy draft and render quality gate
+
+### Raw corrections
+
+"The language is not descriptive or suspenseful enough."
+
+"Just a boy chanting the future into a parking lot in Chicago" was awkward.
+
+"A 22-year-old screaming like he was predicting the future" is better than "A 22-year-old screaming the future."
+
+"He was planting the future. Until his mind and body was convinced of the words he shouted" is closer to the desired mental-turn language than "He was rehearsing the image until his body stopped knowing the difference between rehearsal and real."
+
+"Make slide 10 and the w(inner) mention separate to emphasize the payoff even more, the emotional payoff of the whole story."
+
+"Rewired my brain is fine. The reason why 'rewired his nervous system for greatness' got flagged was because of the second part... 'for greatness' sounds awkward and is AI slop."
+
+"When the text of 'Round seven. Round seven.' is a quote from someone, make sure to have the quotations around it."
+
+### Before
+
+Weak patterns that triggered corrections:
+
+- Over-compressed copy that stated the facts but lacked atmosphere, sensory detail, and suspense.
+- Forced poetic constructions where the verb and object do not naturally fit: "chanting the future," "screaming the future."
+- Mixed abstraction and mundane location in a way that exposes artifice: "chanting the future into a parking lot."
+- AI-symmetric mental-language phrasing: "rehearsing the image / difference between rehearsal and real."
+- Product slide doing two jobs at once: emotional identity payoff plus w(inner) bridge.
+- Treating all clinical-sounding language as banned instead of separating plain common phrases from empty inflated endings.
+- Spoken repeated words presented without quote marks.
+
+### Better direction
+
+- Build atmosphere and suspense before explaining meaning. Let the viewer feel the scene first.
+- Use metaphors only when the verb, object, and image naturally fit. If the line sounds poetic but not literal enough to picture, rewrite it.
+- Prefer observable descriptions of behavior: "screaming like he was predicting the future" instead of "screaming the future."
+- The mental-turn slide should feel like identity being forged, not like abstract psychology. Stronger direction: "He was planting the future" and "until his mind and body believed the words he shouted."
+- If the story needs more room, go beyond the strict slide count. Add slides when the payoff, mental turn, or product bridge needs separation.
+- Separate the emotional payoff from the w(inner) mention. The product bridge should come after the reader has felt the story's full identity shift.
+- "Rewired my brain" can be acceptable in first-person narration as a common expression. The issue is inflated empty add-ons like "for greatness."
+- Put quotation marks around chanted, shouted, or spoken words so the reader knows they are not narrator exposition.
+
+### Possible rule
+
+Avoid forced poetic shorthand and over-compressed slide arcs. Use concrete scene language, preserve suspense, split slides when a beat needs room, separate emotional payoff from the product bridge, and mark spoken lines with quotation marks.
+
+### Confidence
+
+High

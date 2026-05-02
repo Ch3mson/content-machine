@@ -84,6 +84,9 @@ Owns account fit, platform behavior, swipe momentum, and sentence flow.
 - Problem-to-mechanism-to-fix movement: pressure or hardship, identity threat, private obsession, mental rehearsal, visible impact, product bridge when earned, quote.
 - Slippery-slope standard: every slide should either raise suspense, reveal the hidden mechanism, or pay off the previous slide.
 - Density per slide: one proof beat. Two sentences max unless a quality-gate sample proves otherwise.
+- Slide-count flexibility: do not force a 7-slide structure when compression weakens suspense, emotional payoff, or product bridge. Add slides if each added slide creates a cleaner beat.
+- Emotional payoff standard: the identity reveal should land before the product appears. If one slide is carrying both emotional payoff and w(inner) mention, split it.
+- Spoken-line standard: shouted, chanted, or quoted words need quotation marks so the viewer understands they are spoken, not narrator exposition.
 - Visual reading constraints from `design.md`: centered white Arial Bold text with black outline on full-bleed 1080x1920 photo.
 
 ### Reference-Flow Comparison
@@ -112,6 +115,8 @@ Compare the draft against the account's inspiration posts for:
 - The slide density fights the account design system.
 - The product slide breaks the native visual and narrative rhythm.
 - The product appears before the athlete story has shown the impact of the mental mechanism.
+- The flow is compressed to fit a default slide count and loses suspense, scene detail, or emotional payoff.
+- The product bridge appears on the same slide as the main emotional identity reveal when separation would make the story stronger.
 
 ### Non-Blocking Improvements
 
@@ -125,6 +130,7 @@ Compare the draft against the account's inspiration posts for:
 - Cut or split sentences that break swipe momentum.
 - Reorder slides so pressure, hidden routine, mental mechanism, and outcome move in the account-native order.
 - Insert an impact slide before w(inner) if the product bridge feels abrupt.
+- Split overloaded slides when one beat needs atmosphere, misdirection, payoff, or a cleaner transition into product.
 
 ### Strong And Weak Examples
 
@@ -145,6 +151,7 @@ Owns realism, terminology, claim safety, and w(inner) camouflage.
 - Audience level: broad athlete audience, from ambitious youth players to semi-pro or elite competitors.
 - Terms likely to be too niche: sport-specific mechanics, specialized training protocols, tactical terms, and physiology claims.
 - Terms likely to be fake or AI-generated: polished phrases like "identity programming," "unshakeable mindset," "neural edge," or clinical-sounding performance claims.
+- Phrase-risk nuance: common first-person expressions like "rewired my brain" can be acceptable when they sound natural and do not make clinical promises. The bigger risk is pairing technical language with empty abstractions such as "for greatness."
 - Claim types that require sourcing: training routines, visualization habits, diet, sleep, quantified achievements, injury/recovery, and athlete quotes.
 - Inner-life claim risk: exact childhood imagination, private self-talk, and scenes the athlete supposedly pictured need sourcing or softer framing.
 - Product-mention risk: w(inner) must sound like a mental reps tool, not a sponsor or guarantee.
@@ -213,6 +220,7 @@ Default action: if a term is not clearly `Native` or `Acceptable`, rewrite it in
 | --- | --- |
 | w(inner) unlocks clutch performance. | I use w(inner) for mental reps before the moment gets loud. |
 | He rewired his nervous system for greatness. | He rehearsed the moment until it felt familiar. |
+| He was chanting the future. | He screamed like he was predicting the future. |
 
 ## Rejection Calibration Log
 
@@ -221,3 +229,4 @@ Use this section when a quality-gate sample is rejected.
 | Date | Sample | Raw User Criticism | Persona | Classification | Calibration Update | Durable Rule Needed? |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2026-04-29 | Ronaldo copy-only flow | Needs more arc, suspense, and Gary Halbert-style slippery slope into w(inner). Slide 5 should build the identity of a winner before anything. Slide 6 should show the impact of imagination/visualization. Slide 7 should make w(inner) the tool for forging the same mentality. It is okay to go past seven slides. | Account-Native Scroller | candidate preference | Future copy must avoid flat fact lists. Build pressure into identity rehearsal, show impact, then bridge to w(inner). | yes |
+| 2026-05-02 | Ali/Liston quality-gate flow | Language was not descriptive or suspenseful enough; forced lines like "chanting the future" felt awkward; okay to go beyond strict slide count; emotional payoff should be separate from w(inner); spoken chants need quotation marks. | Account-Native Scroller | durable rule | Future copy must use concrete scene language, avoid forced poetic verb/object pairings, split overloaded beats, separate identity payoff from product bridge, and mark spoken words with quotes. | yes |

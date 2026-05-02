@@ -140,6 +140,10 @@ layout rules. Use `image.md` for photo subject direction and visual treatment.
   approximate `y=515`.
 - Do not move the reference photo frame to solve copy overflow; shorten copy or
   adjust line breaks in `flow.md`.
+- Body titles must fit inside the 936px safe text width at the chosen title size.
+  Prefer concise titles under ~32 characters at 56px. If the title needs more
+  specificity, move the detail into the label or first top-text line instead of
+  letting the title overflow horizontally.
 - Desaturate hero images to B&W and boost contrast before compositing.
 - Body images should be neutral, desaturated, or B&W unless color is necessary to
   understand the mechanism.

@@ -15,6 +15,7 @@ Use this file for account-specific weak moves, banned phrases, and replacements.
 | **Throat-clearing openers** | "Here's the thing," "So basically," "What most people don't know" waste the first line and signal AI-generated content. | Cut to the point. Start with the mistake or the mechanism. |
 | **Passive voice** | "The muscle is activated" removes the actor and feels clinical in a bad way — distant and impersonal. | Use active voice: "Your brain recruits the muscle" |
 | **Vague declaratives** | "The implications are significant" or "This is important" tells the reader what to think instead of showing them why. | Name the specific implication: "This means your recovery window closes after 90 minutes, not 24 hours." |
+| **Coaching shorthand as copy** | Words that require the reader to already know what a coach means — "read," "touch," "look," "decision" used bare — fail the locker-room test. A scroller does not parse "hesitate before the easy read." They see a pass they should have made. | Replace every shorthand with the visible physical action: "see the opening and do not take it," "spot the space and stop attacking," "hold the ball instead of moving it." Same rule for "play smaller" / "step up" / "slow down" used bare. A teammate says "I saw the pass and didn't throw it," not "my reads were off." Write what they say. |
 | **Over-promising outcomes** | "Unlock your full potential" or "Transform your body in 30 days" sets expectations the science cannot meet. | Promise specific, bounded outcomes: "Increase slow-wave sleep by 15-20% through temperature regulation" |
 | **Mechanism as the benefit** | Explaining biology without translating it into a wanted outcome makes the slide feel educational but not desirable. | Tie the mechanism to a concrete moment: "you beat the center back to the near-post run in minute 70" instead of "your aerobic system improves." |
 | **Orphan and ragged lines** | A text block where lines are wildly uneven in length — some full-width, others trailing off with 2-4 words — looks amateur and breaks the dense authority rhythm of the reference accounts. Center-aligned text with uneven lines creates a diamond/triangle shape instead of a clean rectangle. | Rewrite the sentence to redistribute words so every line fills 85-95% of the column width. Test against the actual font and column width before approving. Never pad with filler words — restructure the sentence instead. |
@@ -34,6 +35,8 @@ Use this file for account-specific weak moves, banned phrases, and replacements.
 - "Here's what/this/that" (throat-clearing)
 - "At the end of the day"
 - "The bottom line is"
+- "Easy read" / "hard read" / any "read" used bare without a physical action
+- "Play smaller" / "step up" / "slow down" / any abstract performance metaphor used without naming the visible action
 
 ## Weak Structures
 

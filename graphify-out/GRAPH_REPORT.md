@@ -1,48 +1,70 @@
-# Graph Report - references/social-accounts  (2026-05-01)
+# Graph Report - Slideshow Test  (2026-05-02)
 
 ## Corpus Check
-- Large corpus: 357 files · ~3,548,794 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.
+- 35 files · ~14,793,755 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 306 nodes · 595 edges · 10 communities detected
-- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 17 edges (avg confidence: 0.8)
+- 702 nodes · 1289 edges · 31 communities detected
+- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 43 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_Science Study Proof|Science Study Proof]]
-- [[_COMMUNITY_Discipline Pressure Hooks|Discipline Pressure Hooks]]
-- [[_COMMUNITY_Elite Athlete Proof|Elite Athlete Proof]]
-- [[_COMMUNITY_Fitness Transformation|Fitness Transformation]]
-- [[_COMMUNITY_Account Memory System|Account Memory System]]
-- [[_COMMUNITY_Soccer Football Training|Soccer Football Training]]
-- [[_COMMUNITY_Learning Protocol Posts|Learning Protocol Posts]]
-- [[_COMMUNITY_Identity Mindset Rules|Identity Mindset Rules]]
-- [[_COMMUNITY_Men Health Red Flags|Men Health Red Flags]]
-- [[_COMMUNITY_Soccer Tactical Tutorials|Soccer Tactical Tutorials]]
+- [[_COMMUNITY_Community 0|Community 0]]
+- [[_COMMUNITY_Community 1|Community 1]]
+- [[_COMMUNITY_Community 2|Community 2]]
+- [[_COMMUNITY_Community 3|Community 3]]
+- [[_COMMUNITY_Community 4|Community 4]]
+- [[_COMMUNITY_Community 5|Community 5]]
+- [[_COMMUNITY_Community 6|Community 6]]
+- [[_COMMUNITY_Community 7|Community 7]]
+- [[_COMMUNITY_Community 8|Community 8]]
+- [[_COMMUNITY_Community 9|Community 9]]
+- [[_COMMUNITY_Community 10|Community 10]]
+- [[_COMMUNITY_Community 11|Community 11]]
+- [[_COMMUNITY_Community 12|Community 12]]
+- [[_COMMUNITY_Community 13|Community 13]]
+- [[_COMMUNITY_Community 14|Community 14]]
+- [[_COMMUNITY_Community 15|Community 15]]
+- [[_COMMUNITY_Community 16|Community 16]]
+- [[_COMMUNITY_Community 17|Community 17]]
+- [[_COMMUNITY_Community 18|Community 18]]
+- [[_COMMUNITY_Community 19|Community 19]]
+- [[_COMMUNITY_Community 20|Community 20]]
+- [[_COMMUNITY_Community 21|Community 21]]
+- [[_COMMUNITY_Community 22|Community 22]]
+- [[_COMMUNITY_Community 23|Community 23]]
+- [[_COMMUNITY_Community 25|Community 25]]
+- [[_COMMUNITY_Community 26|Community 26]]
+- [[_COMMUNITY_Community 27|Community 27]]
+- [[_COMMUNITY_Community 29|Community 29]]
+- [[_COMMUNITY_Community 30|Community 30]]
+- [[_COMMUNITY_Community 36|Community 36]]
+- [[_COMMUNITY_Community 37|Community 37]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Social Account Post Index` - 48 edges
 2. `candidate-hook-card` - 31 edges
 3. `Social Account Hook Taxonomy` - 22 edges
-4. `discipline` - 15 edges
-5. `Study` - 14 edges
-6. `Social Account Map` - 13 edges
-7. `Social Account Visual Index` - 13 edges
-8. `extreme-proof-stack` - 12 edges
-9. `rapid-transformation-listicle` - 12 edges
-10. `chasingpeaks0--post-3` - 11 edges
+4. `cdp()` - 18 edges
+5. `ensure_daemon()` - 15 edges
+6. `discipline` - 15 edges
+7. `Study` - 14 edges
+8. `Social Account Map` - 13 edges
+9. `Social Account Visual Index` - 13 edges
+10. `extreme-proof-stack` - 12 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `user-sophia-study-study--post-1` --conceptually_related_to--> `student productivity`  [EXTRACTED]
-  references/social-accounts/taxonomy.md → references/social-accounts/post-index.md
-- `Social Accounts Reference Memory` --references--> `Social Account Post Index`  [EXTRACTED]
-  references/social-accounts/README.md → references/social-accounts/post-index.md
-- `Social Accounts Reference Memory` --references--> `Social Account Hook Taxonomy`  [EXTRACTED]
-  references/social-accounts/README.md → references/social-accounts/taxonomy.md
-- `Social Account Post Index` --references--> `asdicipline--post-1`  [EXTRACTED]
-  references/social-accounts/post-index.md → references/social-accounts/taxonomy.md
-- `Social Account Post Index` --references--> `asdicipline--post-2`  [EXTRACTED]
-  references/social-accounts/post-index.md → references/social-accounts/taxonomy.md
+- `daemon_alive()` --calls--> `try_connect_daemon()`  [INFERRED]
+  tools\browser-harness\admin.py → tools\browser-harness\_compat.py
+- `ensure_daemon()` --calls--> `main()`  [INFERRED]
+  tools\browser-harness\admin.py → tools\browser-harness\connect_my_chrome.py
+- `ensure_daemon()` --calls--> `main()`  [INFERRED]
+  tools\browser-harness\admin.py → tools\browser-harness\windows_setup.py
+- `ensure_daemon()` --calls--> `run_preset()`  [INFERRED]
+  tools\browser-harness\admin.py → tools\image-sourcer\source_images.py
+- `restart_daemon()` --calls--> `_remove_port()`  [INFERRED]
+  tools\browser-harness\admin.py → tools\browser-harness\_compat.py
 
 ## Hyperedges (group relationships)
 - **Discipline Proof Patterns** — archetype_extreme_proof_stack, archetype_challenge_question, archetype_insane_habits_list, archetype_invisible_competition, archetype_unusual_micro_habits [INFERRED 0.82]
@@ -51,64 +73,152 @@
 
 ## Communities
 
-### Community 0 - "Science Study Proof"
-Cohesion: 0.07
-Nodes (47): authority-borrowed-proof, biology-prevention, failure-confession, insane-habits-list, one-percent-contrast, ranking-review, roi-ranked-list, science-protocol (+39 more)
+### Community 0 - "Community 0"
+Cohesion: 0.03
+Nodes (113): legendperform, Olympic champions, swimmers, runners, boxers, judoka, challenge-question, extreme-proof-stack, failure-confession, identity-transformation, insane-habits-list, invisible-competition (+105 more)
 
-### Community 1 - "Discipline Pressure Hooks"
-Cohesion: 0.08
-Nodes (40): challenge-question, invisible-competition, unusual-micro-habits, anti-laziness, athlete coaching, athlete mindset, Body language, cautionary personal story (+32 more)
+### Community 1 - "Community 1"
+Cohesion: 0.03
+Nodes (88): asdicipline, laviedem30-user-soccer, user-football-ashton.schumann, user-football-kingdubar, user-marcogetsfit-lifestyle, user-soccer-laviedem30, user-soccer-tgaskins3, verified_byhumans (+80 more)
 
-### Community 2 - "Elite Athlete Proof"
+### Community 2 - "Community 2"
+Cohesion: 0.05
+Nodes (64): chasingpeaks0, user-sophia.study-study, Harvard/Oxford authority, study methods, subject-specific techniques, Peak human protocols, neuroscience, dopamine, learning, memory, authority-borrowed-proof, biology-prevention, one-percent-contrast, roi-ranked-list (+56 more)
+
+### Community 3 - "Community 3"
 Cohesion: 0.06
-Nodes (40): asdicipline, legendperform, Olympic champions, swimmers, runners, boxers, judoka, UFC/boxing legends, sacrifice before fame, insane habits, extreme-proof-stack, athlete biography, athlete discipline, athlete habits (+32 more)
+Nodes (59): _browser_use(), _cache_read(), _cache_write(), _cdp_ws_from_url(), check_for_update(), _chrome_running(), daemon_alive(), ensure_daemon() (+51 more)
 
-### Community 3 - "Fitness Transformation"
+### Community 4 - "Community 4"
+Cohesion: 0.08
+Nodes (45): capture_screenshot(), cdp(), click_at_xy(), current_tab(), dispatch_key(), drain_events(), ensure_real_tab(), goto_url() (+37 more)
+
+### Community 5 - "Community 5"
 Cohesion: 0.07
-Nodes (40): user-aura-fit3-fitness, Young male gym transformation, fast physique tips, bro-science commands, journey-chronology, matcher-list, rapid-transformation-listicle, accountability, athlete accounts, beginner transformation (+32 more)
+Nodes (41): user-aura-fit3-fitness, Young male gym transformation, fast physique tips, bro-science commands, journey-chronology, matcher-list, rapid-transformation-listicle, accountability, athlete accounts, beginner transformation (+33 more)
 
-### Community 4 - "Account Memory System"
-Cohesion: 0.08
-Nodes (36): chasingpeaks0, laviedem30-user-soccer, user-football-ashton.schumann, user-football-kingdubar, user-marcogetsfit-lifestyle, user-soccer-tgaskins3, user-sophia.study-study, Creator-led habits, anti-laziness, unusual routines (+28 more)
-
-### Community 5 - "Soccer Football Training"
-Cohesion: 0.08
-Nodes (32): user-soccer-laviedem30, Go-pro training lists, avoid/do-this mechanics, avoid-list, athlete recovery, athlete standards, athlete training, field training, football (+24 more)
-
-### Community 6 - "Learning Protocol Posts"
-Cohesion: 0.1
-Nodes (23): exam prep, language learning, learning systems, memory, None until source is restored., productivity systems, science-athlete, science explainers (+15 more)
-
-### Community 7 - "Identity Mindset Rules"
-Cohesion: 0.12
-Nodes (18): identity-transformation, numbered-identity-rules, athlete identity, competitive identity, confidence, Discipline accounts, masculinity, no-excuse content (+10 more)
-
-### Community 8 - "Men Health Red Flags"
+### Community 6 - "Community 6"
 Cohesion: 0.14
-Nodes (16): verified_byhumans, Red flags, biological ROI, body language, brain focus, red-flag-fix, behavior change, dating, Hygiene, image, Men's health (+8 more)
+Nodes (17): _get_port(), Windows compatibility shim for browser-harness socket paths. Replaces Unix socke, Return the stored TCP port, or None., Best-effort connect to check if daemon is alive. Returns True/False., _remove_port(), _store_port(), try_connect_daemon(), already_running() (+9 more)
 
-### Community 9 - "Soccer Tactical Tutorials"
-Cohesion: 0.14
-Nodes (14): tactical-how-to, business skills, coaching content, skill improvement, skill tutorials, Soccer defenders, Soccer players, Sports training (+6 more)
+### Community 7 - "Community 7"
+Cohesion: 0.24
+Nodes (19): canonical_name(), classify_post(), count_files(), discover_account_posts(), inspect_post(), is_flat_ready_pack(), is_post_candidate(), main() (+11 more)
+
+### Community 8 - "Community 8"
+Cohesion: 0.24
+Nodes (17): append_usage_rows(), as_list(), build_plan(), load_manifest(), main(), md_join(), md_list(), parse_args() (+9 more)
+
+### Community 9 - "Community 9"
+Cohesion: 0.29
+Nodes (13): center_text(), crop_image_to_frame(), draw_centered_rich(), draw_lines(), draw_placeholder_frame(), find_sourced_image(), load_slides(), main() (+5 more)
+
+### Community 10 - "Community 10"
+Cohesion: 0.3
+Nodes (13): center_text(), crop_image_to_frame(), draw_centered_rich(), draw_lines(), draw_placeholder_frame(), find_sourced_image(), load_slides(), main() (+5 more)
+
+### Community 11 - "Community 11"
+Cohesion: 0.3
+Nodes (13): center_text(), crop_image_to_frame(), draw_centered_rich(), draw_lines(), draw_placeholder_frame(), find_sourced_image(), load_slides(), main() (+5 more)
+
+### Community 12 - "Community 12"
+Cohesion: 0.26
+Nodes (12): add_text_overlay(), convert_to_bw(), create_paper_overlay(), find_source_image(), load_font(), main(), normalize_to_9_16(), Render the full 12-slide Ali vs. Liston quality-gate sample.  Usage:     python (+4 more)
+
+### Community 13 - "Community 13"
+Cohesion: 0.33
+Nodes (11): build_slug(), content_to_markdown(), fetch_transcript(), format_time(), get_api_key(), load_dotenv_value(), main(), parse_args() (+3 more)
+
+### Community 14 - "Community 14"
+Cohesion: 0.42
+Nodes (9): center_text(), check_width(), draw_centered_lines(), draw_centered_rich(), draw_placeholder_frame(), draw_rich_paragraph(), main(), A3 quality-gate renderer for athlete-max — attempt 004 soccer body slide.  Fixes (+1 more)
+
+### Community 15 - "Community 15"
+Cohesion: 0.4
+Nodes (8): center_text(), draw_centered_lines(), draw_centered_rich(), draw_placeholder_frame(), draw_rich_paragraph(), main(), A3 quality-gate renderer for athlete-max — isolated soccer body slide.  Source o, text_width()
+
+### Community 16 - "Community 16"
+Cohesion: 0.4
+Nodes (8): center_text(), draw_centered_lines(), draw_centered_rich(), draw_placeholder_frame(), draw_rich_paragraph(), main(), A3 quality-gate renderer for athlete-max — attempt 002 soccer body slide.  Sourc, text_width()
+
+### Community 17 - "Community 17"
+Cohesion: 0.4
+Nodes (8): center_text(), draw_centered_lines(), draw_centered_rich(), draw_placeholder_frame(), draw_rich_paragraph(), main(), A3 quality-gate renderer for athlete-max — attempt 003 soccer body slide.  Sourc, text_width()
+
+### Community 18 - "Community 18"
+Cohesion: 0.42
+Nodes (8): center_text(), check_width(), draw_centered_rich(), draw_placeholder_frame(), draw_rich_paragraph(), main(), A3 quality-gate renderer for athlete-max — attempt 005 soccer body slide.  Struc, text_width()
+
+### Community 19 - "Community 19"
+Cohesion: 0.42
+Nodes (8): center_text(), check_width(), draw_centered_rich(), draw_placeholder_frame(), draw_rich_paragraph(), main(), A3 quality-gate renderer for athlete-max — attempt 006 soccer body slide.  Struc, text_width()
+
+### Community 20 - "Community 20"
+Cohesion: 0.42
+Nodes (8): center_text(), check_width(), draw_centered_rich(), draw_placeholder_frame(), draw_rich_paragraph(), main(), A3 quality-gate renderer for athlete-max — attempt 007 soccer centreback body sl, text_width()
+
+### Community 21 - "Community 21"
+Cohesion: 0.31
+Nodes (9): chrome_has_debugging_port(), find_chrome(), get_ws_url(), main(), Find chrome.exe on Windows., Check if something is already listening on the debug port., Fetch the WebSocket URL from Chrome's debug endpoint., Close existing Chrome and reopen it with remote debugging. (+1 more)
+
+### Community 22 - "Community 22"
+Cohesion: 0.27
+Nodes (8): find_chrome(), main(), Windows bootstrap for browser-harness.  Finds Chrome, starts it with remote-debu, Find chrome.exe or msedge.exe on Windows., Start Chrome with remote debugging on a specific profile., Wait for Chrome remote debugging to be live on the TCP port.     On Windows with, start_chrome_with_debugging(), wait_for_devtools_port()
+
+### Community 23 - "Community 23"
+Cohesion: 0.22
+Nodes (4): apply_paper_overlay(), create_paper_overlay(), Blend paper overlay onto the image., Create a vintage paper texture overlay.
+
+### Community 25 - "Community 25"
+Cohesion: 0.52
+Nodes (6): add_text_overlay(), convert_to_bw(), create_paper_overlay(), load_font(), main(), normalize_to_9_16()
+
+### Community 26 - "Community 26"
+Cohesion: 0.52
+Nodes (6): apply_account_treatment(), center_crop(), draw_centered_text(), fallback_background(), main(), read_copy()
+
+### Community 27 - "Community 27"
+Cohesion: 0.52
+Nodes (6): build_command(), build_output_dir(), main(), normalize_post_label(), parse_args(), resolve_gallery_dl()
+
+### Community 29 - "Community 29"
+Cohesion: 0.73
+Nodes (5): _capture_cdp(), _evaluated_expression(), test_iife_with_internal_return_is_not_double_wrapped(), test_return_statement_gets_wrapped(), test_simple_expression_passes_through()
+
+### Community 30 - "Community 30"
+Cohesion: 0.6
+Nodes (3): list_images(), main(), parse_args()
+
+### Community 36 - "Community 36"
+Cohesion: 1.0
+Nodes (1): Center-crop or pad the image to 9:16, then resize to 1080x1920.
+
+### Community 37 - "Community 37"
+Cohesion: 1.0
+Nodes (1): Improve low-resolution source photos before crop and treatment.
 
 ## Knowledge Gaps
-- **160 isolated node(s):** `Raw Post Folders`, `Account Review Sheets`, `Searchable Post Index`, `Reusable Hook Cards`, `Usage Ledger` (+155 more)
+- **231 isolated node(s):** `Render athlete-max slides with unsourced reference-photo placeholders.  The copy`, `Render athlete-max slides with unsourced reference-photo placeholders.  The copy`, `Render athlete-max slides with unsourced reference-photo placeholders.  The copy`, `A3 quality-gate renderer for athlete-max — isolated soccer body slide.  Source o`, `A3 quality-gate renderer for athlete-max — attempt 002 soccer body slide.  Sourc` (+226 more)
   These have ≤1 connection - possible missing edges or undocumented components.
+- **Thin community `Community 36`** (1 nodes): `Center-crop or pad the image to 9:16, then resize to 1080x1920.`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 37`** (1 nodes): `Improve low-resolution source photos before crop and treatment.`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Social Account Post Index` connect `Learning Protocol Posts` to `Science Study Proof`, `Discipline Pressure Hooks`, `Elite Athlete Proof`, `Fitness Transformation`, `Account Memory System`, `Soccer Football Training`, `Identity Mindset Rules`, `Men Health Red Flags`, `Soccer Tactical Tutorials`?**
-  _High betweenness centrality (0.484) - this node is a cross-community bridge._
-- **Why does `candidate-hook-card` connect `Discipline Pressure Hooks` to `Science Study Proof`, `Elite Athlete Proof`, `Fitness Transformation`, `Soccer Football Training`, `Learning Protocol Posts`, `Identity Mindset Rules`, `Men Health Red Flags`?**
-  _High betweenness centrality (0.121) - this node is a cross-community bridge._
-- **Why does `Social Account Hook Taxonomy` connect `Science Study Proof` to `Discipline Pressure Hooks`, `Elite Athlete Proof`, `Fitness Transformation`, `Account Memory System`, `Soccer Football Training`, `Identity Mindset Rules`, `Men Health Red Flags`, `Soccer Tactical Tutorials`?**
-  _High betweenness centrality (0.100) - this node is a cross-community bridge._
-- **What connects `Raw Post Folders`, `Account Review Sheets`, `Searchable Post Index` to the rest of the system?**
-  _160 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Science Study Proof` be split into smaller, more focused modules?**
-  _Cohesion score 0.07 - nodes in this community are weakly interconnected._
-- **Should `Discipline Pressure Hooks` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
-- **Should `Elite Athlete Proof` be split into smaller, more focused modules?**
-  _Cohesion score 0.06 - nodes in this community are weakly interconnected._
+- **Why does `Social Account Post Index` connect `Community 0` to `Community 1`, `Community 2`, `Community 5`?**
+  _High betweenness centrality (0.091) - this node is a cross-community bridge._
+- **Why does `candidate-hook-card` connect `Community 0` to `Community 1`, `Community 2`, `Community 5`?**
+  _High betweenness centrality (0.023) - this node is a cross-community bridge._
+- **Why does `ensure_daemon()` connect `Community 3` to `Community 4`, `Community 21`, `Community 22`?**
+  _High betweenness centrality (0.022) - this node is a cross-community bridge._
+- **Are the 5 inferred relationships involving `ensure_daemon()` (e.g. with `make_client_socket()` and `main()`) actually correct?**
+  _`ensure_daemon()` has 5 INFERRED edges - model-reasoned connections that need verification._
+- **What connects `Render athlete-max slides with unsourced reference-photo placeholders.  The copy`, `Render athlete-max slides with unsourced reference-photo placeholders.  The copy`, `Render athlete-max slides with unsourced reference-photo placeholders.  The copy` to the rest of the system?**
+  _231 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Community 0` be split into smaller, more focused modules?**
+  _Cohesion score 0.03 - nodes in this community are weakly interconnected._
+- **Should `Community 1` be split into smaller, more focused modules?**
+  _Cohesion score 0.03 - nodes in this community are weakly interconnected._

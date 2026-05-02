@@ -10,6 +10,7 @@ Do not use this file as the source of truth for text layout.
 
 - Convert all selected photos to black and white.
 - Increase contrast by 1.3x so the athlete and text remain readable.
+- Upscale and lightly sharpen low-resolution archival photos before the 9:16 crop when needed. This is a source-quality correction, not a reason to distort or stretch an image.
 - Apply the same vintage paper overlay to every slide in a post.
 - Keep faces, body posture, and the main sport action clear after treatment.
 - Avoid photos where the subject disappears into a dark background after B&W.
@@ -39,6 +40,7 @@ The processing pipeline must run in this order:
 - Keep the athlete, face, or key action in the readable center of the frame.
 - If a source image is too narrow for the canvas, pad with black bars instead of
   stretching.
+- Avoid repeating the same source photo across multiple adjacent story slides unless the repeat is intentional. Use distinct images for different beats whenever the source folder supports it.
 
 ## Product Slide Treatment
 
