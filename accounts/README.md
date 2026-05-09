@@ -10,6 +10,7 @@ Each account folder is a source-of-truth playbook plus post workspaces.
   - [athlete-max](athlete-max/post-status.md)
   - [athlete-stories](athlete-stories/post-status.md)
   - [Athlete-user-soccer](Athlete-user-soccer/post-status.md)
+  - [makebrainrotvideos](makebrainrotvideos/account-brief.md)
 
 ## Folder Contract
 

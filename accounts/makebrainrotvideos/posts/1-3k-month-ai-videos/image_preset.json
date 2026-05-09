@@ -1,0 +1,72 @@
+{
+  "account": "makebrainrotvideos",
+  "subject": "3k-month-ai-videos",
+  "source": "pinterest",
+  "output_dir": "accounts/makebrainrotvideos/posts/3k-month-ai-videos/sourced",
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook money",
+      "source": "pinterest",
+      "queries": [
+        "cash on table aesthetic dark moody",
+        "money stack dark background aesthetic",
+        "hundred dollar bills dark table aesthetic"
+      ]
+    },
+    {
+      "slide": 2,
+      "role": "trending niche",
+      "source": "pinterest",
+      "queries": [
+        "phone tiktok screen dark aesthetic",
+        "smartphone social media dark background",
+        "phone screen glow dark room aesthetic"
+      ]
+    },
+    {
+      "slide": 3,
+      "role": "mass generate",
+      "source": "pinterest",
+      "queries": [
+        "multi monitor setup dark room aesthetic",
+        "tech workspace dark neon aesthetic",
+        "computer setup dark background aesthetic"
+      ]
+    },
+    {
+      "slide": 4,
+      "role": "post daily",
+      "source": "pinterest",
+      "queries": [
+        "content creator phone posting aesthetic dark",
+        "phone social media apps dark aesthetic",
+        "hands phone content creation dark"
+      ]
+    },
+    {
+      "slide": 5,
+      "role": "monetize",
+      "source": "pinterest",
+      "queries": [
+        "earnings dashboard screen dark aesthetic",
+        "payment notification phone dark",
+        "revenue analytics dark screen aesthetic"
+      ]
+    },
+    {
+      "slide": 6,
+      "role": "cta product",
+      "source": "ask_user",
+      "queries": []
+    }
+  ],
+  "filters": {
+    "target_ratio": 0.5625,
+    "ratio_tolerance": 0.35,
+    "min_width": 400,
+    "min_height": 700,
+    "max_candidates_per_slide": 30,
+    "download_timeout": 15
+  }
+}
