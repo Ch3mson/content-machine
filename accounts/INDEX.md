@@ -73,6 +73,7 @@ Concept folders are pre-approval materials: intake, VOC, source checks, selected
 | athlete-stories | [post-status](athlete-stories/post-status.md) | [posts](athlete-stories/posts) | [ready-to-post](athlete-stories/ready-to-post) | Locked reference account with completed examples. |
 | Athlete-user-soccer | [post-status](Athlete-user-soccer/post-status.md) | `posts/` not present yet | `ready-to-post/` not present yet | No post workspaces found yet. |
 | makebrainrotvideos | - | `posts/` not present yet | `ready-to-post/` not present yet | New account. A0 intake complete. Needs references for A1/A2. |
+| antigpt | [post-status](antigpt/post-status.md) | `posts/` not present yet | [ready-to-post](antigpt/ready-to-post) | New account for antigpt.me (study-habits slideshows, AntiGPT on last slide). A0 intake complete. Writing refs text-indexed; design refs pending download (see `references/social-accounts/_download-manifest-antigpt.md`). |
 
 ## Account Source Of Truth
 
@@ -84,6 +85,7 @@ Open these before writing or rendering for an account.
 | athlete-stories | [brief](athlete-stories/account-brief.md) | [writing](athlete-stories/writing.md) | [design](athlete-stories/design.md) | [image](athlete-stories/image.md) | [sources](athlete-stories/sources.md) | [presets](athlete-stories/presets.md) | [README](athlete-stories/README.md) |
 | Athlete-user-soccer | - | - | - | - | - | - | - |
 | makebrainrotvideos | [brief](makebrainrotvideos/account-brief.md) | [writing](makebrainrotvideos/writing.md) | [design](makebrainrotvideos/design.md) | [image](makebrainrotvideos/image.md) | - | - | - |
+| antigpt | [brief](antigpt/account-brief.md) | - | - | - | - | - | - |
 
 ## Standard Folder Map
 

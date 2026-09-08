@@ -12,8 +12,6 @@
 
 Creator block is a choice. Use these frameworks and you'll have a month of content mapped out by tonight. Save this for the next time you're stuck. Link in bio to automate the creation.
 
-## Hashtags
-
 #facelesscontent #contentcreator #tiktokgrowth #makemoneyonline #ai #viral #contentstrategy
 
 ## Slides
