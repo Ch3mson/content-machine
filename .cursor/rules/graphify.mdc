@@ -1,0 +1,17 @@
+---
+description: Use the graphify knowledge graph before architecture searches
+alwaysApply: true
+---
+
+# graphify
+
+This project has a graphify knowledge graph at `graphify-out/`.
+
+- Before architecture or codebase questions, read `graphify-out/GRAPH_REPORT.md`.
+- If `graphify-out/wiki/index.md` exists, navigate it instead of reading raw files.
+- For cross-module "how does X relate to Y" questions, prefer `graphify query`,
+  `graphify path`, or `graphify explain` over grep.
+- After modifying code files, run `graphify update .`.
+- After modifying account writing memory files or feedback-routing docs, run
+  `graphify update .`. If graphify is unavailable, say the writing memory was
+  updated but graph refresh failed.

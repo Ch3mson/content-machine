@@ -1,0 +1,18 @@
+---
+description: Load the Content Machine agent router and workspace contracts
+alwaysApply: true
+---
+
+# Agent Router
+
+Read and follow `AGENTS.md` as the highest-authority workspace contract.
+
+When user intent matches a tagged command in `AGENTS.md`, start that file
+immediately. Do not wait for another prompt.
+
+Canonical skills live in `references/skills/`. Cursor wrappers live in
+`.cursor/skills/`. Load the matching wrapper, then follow the repo skill it
+names.
+
+Do not invent product claims. Do not write `flow.md` until the user approves
+full slide copy.
