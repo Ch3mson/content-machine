@@ -75,8 +75,8 @@ The same account also repeated:
 
 ## Visual Benchmark (Tear Level)
 
-- Golden Reference: `accounts/image-gen/references/test-asian-girl-mirror-crying-v2.jpg`
-- Tear/Emotion standard: single delicate tear track, glassy glistening eyes, soft sadness/vulnerability without bloodshot redness or heavy eyelid swelling.
+- Golden Reference: retired with the old crying-girl stills. antigpt stills now use `accounts/antigpt/avatar/anchor.jpg` face-swapped onto study boards.
+- Tear/Emotion standard: no longer the account look. Keep this card as hook-pattern memory only.
 
 ## Tags
 
@@ -91,5 +91,5 @@ The same account also repeated:
 
 ## Next Use
 
-- Suggested use: test one AntiGPT / study still using the same beat map, not the same job-market copy. Compare against the existing slideshow format.
-- Status: candidate for account concept
+- Suggested use: draft on-image lines for `accounts/antigpt/posts/` using the same beat map (ordinary day → specific study rejection → proof → helpless closer), not the job-market copy.
+- Status: used. This card is the basis of the antigpt selfie + text + CTA format; log each new line in `../usage-ledger.md`.

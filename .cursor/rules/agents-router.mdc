@@ -14,5 +14,5 @@ Canonical skills live in `references/skills/`. Cursor wrappers live in
 `.cursor/skills/`. Load the matching wrapper, then follow the repo skill it
 names.
 
-Do not invent product claims. Do not write `flow.md` until the user approves
-full slide copy.
+Do not invent product claims. Do not render caption text onto a post still
+until the user approves the exact lines in chat.

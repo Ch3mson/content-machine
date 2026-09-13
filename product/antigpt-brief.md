@@ -13,8 +13,9 @@ content choices.
 - Instagram: https://www.instagram.com/antigpt.me/
 - Contact: hello@antigpt.me
 - Codebase: `~/dev/Humanizer` (Next.js 15, Supabase, Stripe, OpenAI)
-- Current priority: build a study-habits slideshow account on Instagram (TikTok
-  second) that promotes AntiGPT on the last slide of every post
+- Current priority: run the antigpt Instagram account (TikTok second) as
+  single stills of the locked avatar plus one first-person study line, with
+  AntiGPT only in the CTA line
 - Pricing model: subscription (monthly and annual), word-based credits
 - Not to be confused with: `antigpt.app` (a different company with a LinkedIn
   and Product Hunt presence). Never cite its posts, stats, or handles.
@@ -146,12 +147,14 @@ confirms which figures are real.
 | Demo videos | `~/dev/Humanizer/public/videos/sound_human.mp4`, `check_authenticity.mp4` | Screen captures of the product |
 
 Brand colors and fonts are not yet recorded here. Pull from
-`~/dev/Humanizer/src/styles/` when design extraction (Workflow A2) starts.
+`~/dev/Humanizer/src/styles/` if the on-image CTA ever needs brand styling. The
+overlay font today is TikTok Sans (`accounts/antigpt/assets/fonts/`).
 
-## Product Mention Rules For Slideshows
+## Product Mention Rules For Stills
 
-- The study-habits account promotes AntiGPT on the last slide only.
-- Slides 1 through N-1 must deliver the study value on their own.
-- The last slide names AntiGPT, says what it does (humanizes AI essays,
-  bypasses Turnitin and AI detectors), and points to antigpt.me.
+- AntiGPT appears only in the CTA: the post caption, or a short final on-image
+  line under the hook line. Never in the hook line itself.
+- The hook line must work on its own as a relatable student moment.
+- The CTA names AntiGPT, says what it does (humanizes AI essays, bypasses
+  Turnitin and AI detectors), and points to antigpt.me.
 - Approved wording lives in `antigpt-claim-bank.md`.

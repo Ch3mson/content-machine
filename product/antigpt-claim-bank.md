@@ -12,8 +12,8 @@ Source: `antigpt-brief.md`, https://www.antigpt.me, `~/dev/Humanizer`
 
 Before writing copy that mentions AntiGPT, detectors, or results, check this
 file. Use approved claims freely. Qualify caution claims. Never use blocked
-claims. The last slide of every study-habits post is the only product slide, so
-most claim use happens there.
+claims. The CTA line (post caption or short on-image close) is the only place
+the product appears, so most claim use happens there.
 
 ## Approved Claims
 
@@ -34,9 +34,11 @@ most claim use happens there.
 | Content deleted after processing, never used for training | Site FAQ | Privacy claim |
 | Removes Claude hidden watermarks | Pricing page feature line | Feature claim from official copy |
 
-## Ready Last-Slide CTA Lines
+## Ready CTA Lines
 
-Approved as-is. Adapt to account writing rules once `writing.md` exists.
+Approved as-is for the post caption or a short on-image close. Trim to the
+account voice in `accounts/antigpt/account-brief.md` (first person, dry, no
+guru tone).
 
 1. "If you drafted it with ChatGPT, run it through antigpt.me before you
    submit. It humanizes the text and bypasses Turnitin."
@@ -81,6 +83,5 @@ Never use these in any content.
 
 Direct "bypass Turnitin" copy is the user's explicit choice and matches the
 product's own marketing. It carries platform-moderation and academic-integrity
-optics risk on Instagram and TikTok. Keep it on the last slide, keep the rest
-of the post about study habits, and do not stack multiple bypass claims on one
-slide.
+optics risk on Instagram and TikTok. Keep it in the CTA line, keep the hook line
+about the student moment, and do not stack multiple bypass claims in one post.

@@ -6,7 +6,7 @@ description: Save useful reasoning connections, analogy links, mechanism transfe
 # Skill: Graphify Connection Capture
 
 Use this when a conversation produces a useful connection that should become
-retrievable later through Graphify, Creative DNA, or account ideation.
+retrievable later through Graphify or account ideation.
 
 This skill does **not** save private chain-of-thought. It saves a concise,
 user-visible reasoning artifact: the connection, why it matters, source nodes,
@@ -21,7 +21,6 @@ target nodes, and how it should be reused.
 - `add this to the graph`
 - `save the connection you made`
 - `make this retrievable later`
-- `this is a useful Creative DNA connection`
 - `store this mechanism transfer`
 
 Also use this when the user explicitly wants the relationships behind an answer
@@ -35,15 +34,12 @@ Use **this skill** when the memory is a relationship:
 source idea → mechanism → transferable principle → target account/use case
 ```
 
-Use `writing-feedback-compounding` instead when the memory is a writing taste
-correction:
+When the memory is a writing taste correction (bad phrase → better phrase →
+account rule), write it into `accounts/antigpt/account-brief.md` under Copy
+Rules For The Still instead of using this skill.
 
-```text
-bad phrase/style → better phrase/style → account writing rule
-```
-
-Use Creative DNA files when the connection is specifically a cross-niche viral
-mechanism that should become part of the Creative DNA system.
+When the connection is a reusable hook mechanic from a reference post, prefer a
+hook card via `references/skills/hook-idea-extraction/SKILL.md`.
 
 ## Read First
 
@@ -51,39 +47,23 @@ Use the smallest relevant set:
 
 1. `AGENTS.md`
 2. This file
-3. `graphify-out/GRAPH_REPORT.md`
-4. Creative DNA files only if the connection concerns viral mechanisms,
-   cross-niche inspiration, hooks, or account idea transfer:
-   - `references/creative-dna/README.md`
-   - `references/creative-dna/owned-account-idea-router.md`
-   - `references/creative-dna/cross-niche-principle-map.md`
-5. Target account files only if account constraints matter:
-   - `accounts/{account}/account-brief.md`
-   - `accounts/{account}/writing.md`
-   - `accounts/{account}/presets.md`, if present
+3. `graphify-out/GRAPH_REPORT.md`, if present
+4. `references/hook-ideas/index.md` when the connection concerns hooks or
+   reference posts
+5. Account files only if account constraints matter:
+   - `accounts/antigpt/README.md`
+   - `accounts/antigpt/account-brief.md`
 
 ## Storage Locations
 
-Default general connection file:
+Default connection file (create the folder if it does not exist):
 
 ```text
 references/connection-captures/{yyyy-mm-dd}-{short-slug}.md
 ```
 
-For Creative DNA mechanism transfers, prefer:
-
-```text
-references/creative-dna/extractions/{short-slug}.md
-```
-
-For account-specific ideation memories, use:
-
-```text
-accounts/{account}/writing/pattern-extractions.md
-```
-
-only if the connection changes writing behavior; otherwise keep it in
-`references/connection-captures/` and link the account in the metadata.
+If the connection changes how captions are written, also add the rule to
+`accounts/antigpt/account-brief.md` and link the capture file from it.
 
 ## Capture Format
 
@@ -94,7 +74,7 @@ Create or append a markdown artifact using this structure:
 
 Date: YYYY-MM-DD
 Status: raw | validated | promoted
-Scope: general | Creative DNA | account-specific | product | workflow
+Scope: general | hook-mechanic | account-specific | product | workflow
 
 ## Source Nodes
 
@@ -143,8 +123,8 @@ Scope: general | Creative DNA | account-specific | product | workflow
 - If the insight came from multiple sources, list each source under `Source Nodes`.
 - If the connection is speculative, mark `Status: raw`.
 - If the user approved it or it has evidence from source files, mark `Status: validated`.
-- If it is merged into Creative DNA/account rules, mark `Status: promoted` and link
-  the promoted file.
+- If it is merged into account rules or a hook card, mark `Status: promoted` and
+  link the promoted file.
 
 ## Graphify Update
 

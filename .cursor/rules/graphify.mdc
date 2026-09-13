@@ -5,9 +5,10 @@ alwaysApply: true
 
 # graphify
 
-This project has a graphify knowledge graph at `graphify-out/`.
+Graphify is optional local retrieval at `graphify-out/`. If the graph/report
+does not exist, inspect source files directly.
 
-- Before architecture or codebase questions, read `graphify-out/GRAPH_REPORT.md`.
+- Before architecture or codebase questions, read `graphify-out/GRAPH_REPORT.md` if present.
 - If `graphify-out/wiki/index.md` exists, navigate it instead of reading raw files.
 - For cross-module "how does X relate to Y" questions, prefer `graphify query`,
   `graphify path`, or `graphify explain` over grep.

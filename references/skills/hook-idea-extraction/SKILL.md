@@ -101,9 +101,12 @@ references/hook-ideas/inbox/slideshows/
 ## Relationship To Existing Workflows
 
 - Use this skill for raw, universal inspiration.
-- Use `angle-variants` when turning an idea into 3 account-aware angle concepts.
-- Use `post-concept-flow` when building a real post from a broad idea.
-- Use `angle-extraction` only when validating a repeated pattern into a specific account's `presets.md`.
+- To turn a card into a real antigpt post: pick or source a board and run
+  `references/skills/avatar-face-swap/SKILL.md`, then draft the on-image line
+  through `references/skills/caption-overlay/SKILL.md` (copy approval in chat
+  first). Log the reuse in `references/hook-ideas/usage-ledger.md`.
+- Voice and fit checks come from `accounts/antigpt/account-brief.md`, not from
+  the card.
 
 ## Hard Rules
 

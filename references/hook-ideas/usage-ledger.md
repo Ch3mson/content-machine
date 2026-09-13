@@ -8,12 +8,13 @@ overuse and makes cross-account reuse visible.
 
 | Date Used | Source ID | Source Type | Original Pattern | Target Account | Target Post | Adapted Hook | Reuse Mode | Result / Notes | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-09-11 | `2026-09-08-bellajobtips-crying-girl-single` | hook-card | One still + first-person line + helpless closer | antigpt | `accounts/antigpt/posts/1/` | Arena selfie still; on-image line TBD | visual-format | Format adopted account-wide as selfie + text + CTA | posted |
 |  |  | hook-card / social-post / manual |  |  |  |  | direct-hook / pattern-only / visual-format / flow-structure |  | planned / drafted / posted / retired |
 
 ## Source ID Rules
 
-- For hook cards, use the card slug, for example `2026-04-30-denis-averbukh-male-rules`.
-- For social-account posts, use the stable ID from `../social-accounts/post-index.md`, for example `user-football-kingdubar--post-1`.
+- For hook cards, use the card slug, for example `2026-09-08-bellajobtips-crying-girl-single`.
+- For raw reference posts without a card, use `{account}--post-{id}` matching the folder in `../social-accounts/`, for example `user-sophia.study-study--post-7629054163342658838`.
 - For external manual ideas not yet saved, create a hook card first if the idea is likely to be reused.
 
 ## Reuse Modes

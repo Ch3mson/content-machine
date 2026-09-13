@@ -1,20 +1,26 @@
 # References
 
-Shared materials that inform accounts and workflows.
+Shared materials that inform the account and the skills.
 
 | Path | Purpose |
 | --- | --- |
-| `research/README.md` | Claim-risk and source planning for new niches. |
-| `templates/account-brief.md` | Starter account brief for Workflow A. |
-| `templates/account-writing.md` | Indexed writing hub template for Workflow A1. |
-| `templates/writing/` | Subfile templates for indexed account writing systems. |
-| `templates/account-sources.md` | Starter source bank for Workflow A. |
+| `notion.md` | Connected knowledge-base map, retrieval, and what stays local. |
+| `ugc-pipeline.md` | Pipeline ownership, current capabilities, and next development work. |
+| `skills/avatar-post-producer/` | End-to-end avatar post workflow shared by Codex and Cursor. |
+| `skills/avatar-face-swap/` | Swap the locked avatar onto composition boards with `tools/fal/swap_avatar.py`. |
+| `skills/caption-overlay/` | Render approved copy onto a still with `tools/fal/caption.py`. |
+| `skills/hook-idea-extraction/` | Extract reusable hook patterns from reference posts into `hook-ideas/cards/`. |
+| `skills/tiktok-photo-sourcing/` | Download TikTok photo posts as boards or references. |
 | `skills/stop-slop/` | Vendored writing QA skill for removing AI writing patterns. |
-| `skills/post-concept-flow/` | Structured new-post ideation from avatar and pain point through research, angle, flow, copy, and image handoff. |
-| `skills/hook-idea-extraction/` | Extracts reusable hook patterns from transcripts, screenshots, and slideshow inspiration. |
-| `skills/account-quality-gate/` | Tests draft writing/design docs with a rendered non-hero sample slide. |
-| `skills/angle-extraction/` | Extracts repeatable angle patterns from stored post sets and validates them before presets. |
-| `hook-ideas/` | Universal low-authority hook inspiration bank, including the reuse ledger. |
-| `social-accounts/` | Reference slideshow accounts, screenshots, account map, post index, and hook-pattern taxonomy. |
+| `skills/graphify-connection-capture/` | Save reasoning connections for the knowledge graph. |
+| `hook-ideas/` | Hook inspiration bank: cards, raw inbox, index, reuse ledger. |
+| `social-accounts/` | Raw reference posts from other accounts (`{account}/Post {id}/`). |
+
+Codex discovery links live in `.agents/skills/`; Cursor wrappers live in
+`.cursor/skills/`. Edit the canonical body here, then mirror any frontmatter
+change into the Cursor wrapper. See `../FOLDERS.md` before adding new folders.
+
+Broad research belongs in Notion. Keep local material needed by production
+and link its source; see `notion.md` before removing any knowledge files.
 
 Do not put runnable scripts here. Scripts belong in `../tools/`.

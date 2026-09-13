@@ -7,10 +7,10 @@ and image carousels.
 ## Authority
 
 This folder is lower authority than account files. Treat it as inspiration, not
-as final copy, account voice, product claims, or validated presets.
+as final copy, account voice, or product claims.
 
-Use `accounts/{account}/writing.md`, `design.md`, and approved `presets.md` when
-turning an idea into a real post.
+Use `accounts/antigpt/account-brief.md` (voice, copy rules) and
+`accounts/antigpt/README.md` (format) when turning an idea into a real post.
 
 ## Folder Structure
 
@@ -24,7 +24,7 @@ references/hook-ideas/
     slideshows/    Downloaded slideshow images + slide transcript scaffolds.
   cards/           One analyzed hook idea card per source post.
   exports/         Optional grouped digests for reuse sessions.
-  templates/       Reusable card and extraction manifest templates.
+  templates/       Hook card template.
 ```
 
 ## Step-by-Step Workflow
@@ -112,17 +112,6 @@ Read the full transcript or filled slide scaffold. Extract:
 3. Save to `cards/YYYY-MM-DD-{source-slug}.md`.
 4. Keep exact source wording only in the "Original Hook" section for reference. All other sections should use abstracted, reusable language.
 
-For social-account posts, prefer the manifest updater:
-
-```powershell
-python tools/hook-extraction/update_hook_extraction.py `
-  references/hook-ideas/templates/social-post-extraction.json `
-  --dry-run
-```
-
-After the dry run passes, rerun without `--dry-run`. The updater creates the
-card and updates the other memory docs in the same pass.
-
 ### Step 5: Update the Index
 
 Add a row to `index.md` with:
@@ -137,17 +126,15 @@ Add a row to `index.md` with:
 | Transferable Pattern | One-line summary of the reusable move |
 | Tags | 4-8 hyphenated tags |
 | Account Fit | 3-6 account types that could use this |
-| Status | raw inspiration / candidate for account concept / candidate for angle extraction |
-
-If using `tools/hook-extraction/update_hook_extraction.py`, this step is handled
-by the manifest.
+| Status | raw inspiration / candidate for account concept / used |
 
 ### Step 6: Using a Card for a Real Post
 
-- Run `post-concept-flow` or `angle-variants` to adapt the pattern.
+- Pick or source a board, then run `references/skills/avatar-face-swap/SKILL.md` for the still.
+- Draft the on-image line through `references/skills/caption-overlay/SKILL.md`; copy is approved in chat before rendering.
 - Do **not** copy the original hook verbatim into account posts.
-- Use the account's `writing.md`, `design.md`, and `presets.md` to shape the final copy.
-- After using the pattern, add a row to `usage-ledger.md` so cross-account reuse stays visible.
+- Shape the line with `accounts/antigpt/account-brief.md` (Copy Rules For The Still) and Stop Slop.
+- After using the pattern, add a row to `usage-ledger.md` so reuse stays visible.
 
 ## What To Extract
 
@@ -171,6 +158,6 @@ by the manifest.
 
 ## Value Add
 
-This is useful because it separates raw inspiration from account-specific
-presets. `angle-extraction` validates patterns into a specific account after
-quality gates. This folder captures ideas before they are ready for that.
+This is useful because it separates raw inspiration from account rules. A card
+is a pattern to adapt; `accounts/antigpt/account-brief.md` decides how it sounds
+on the still.

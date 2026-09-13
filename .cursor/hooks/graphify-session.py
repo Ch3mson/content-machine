@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Cursor equivalent of .opencode/plugins/graphify.js."""
+"""Cursor sessionStart hook: point the agent at the graphify report when a graph exists."""
 
 import json
 import sys

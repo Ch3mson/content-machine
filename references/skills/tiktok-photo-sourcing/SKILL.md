@@ -24,22 +24,26 @@ Example:
 
 ```powershell
 python tools/tiktok-photo-sourcer/download_tiktok_photos.py `
-  --account legendperform `
-  --post 5 `
-  "https://www.tiktok.com/@legendperforming/photo/7553359406495288598"
+  --account user-sophia.study-study `
+  --post 7629054163342658838 `
+  "https://www.tiktok.com/@sophia.study/photo/7629054163342658838"
 ```
 
 This writes numbered files such as `1.jpg`, `2.jpg`, and `3.jpg`.
 
 The wrapper creates the destination account/post folder automatically when it does not exist. If the user asks for a new reference post such as "download this TikTok into legendperform post 6", run the command directly.
 
-Use `--out` when the user provides an exact output folder:
+Use `--out` when the user provides an exact output folder, or when the photo is
+wanted as a composition board for the avatar face-swap:
 
 ```powershell
 python tools/tiktok-photo-sourcer/download_tiktok_photos.py `
-  --out "references/social-accounts/legendperform/Post 5" `
+  --out "accounts/antigpt/boards" `
   "{tiktok-photo-url}"
 ```
+
+After a boards download, rename the numbered files to descriptive slugs and add
+each to the Boards table in `accounts/antigpt/README.md`.
 
 ## Rules
 
