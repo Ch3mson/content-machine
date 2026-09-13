@@ -1,6 +1,6 @@
 ---
 name: caption-overlay
-description: Render approved caption text onto an antigpt still with tools/fal/caption.py (TikTok Sans, white with black outline, centered). Use when the user says caption this, overlay text, put the line on the still, add the text, or wants the WISH / pain line rendered on a post image.
+description: Add approved text to antigpt images or slideshow slides using the current account style. Use when the user says caption this, overlay text, put the line on the still, add the text, or wants a study-tip headline rendered on a post image.
 metadata:
   repo_skill: references/skills/caption-overlay/SKILL.md
 ---

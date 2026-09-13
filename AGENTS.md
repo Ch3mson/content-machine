@@ -1,8 +1,10 @@
 # Agent Router
 
-This is a docs-first workspace for the **antigpt** Instagram/TikTok account. One
-post format is live: a single still of the locked avatar face-swapped onto a
-study composition board, one short first-person line rendered on it, and a CTA.
+This is a docs-first workspace for the **antigpt** Instagram/TikTok account.
+Current creative format: TikTok photo slideshows with the locked avatar, a
+practical hook, and short numbered technique slides. Each content slide has a
+short numbered heading and at most one explanation block. The lower block may
+use one short, slightly more elaborative sentence; keep the top heading brief.
 Start here, then read only the files the request needs.
 
 ## Pipeline Ownership
@@ -10,8 +12,8 @@ Start here, then read only the files the request needs.
 Codex owns building and maintaining the UGC pipeline in this repo: sourcing,
 avatar production, copy handoff, rendering, post records, and learning from
 results. Carry requested improvements through implementation and verification.
-The current production format stays the single avatar still described below;
-new formats can be added when Benson asks for them.
+Follow the slideshow direction confirmed by Benson on 2026-09-13. Existing
+still tools provide image assets; do not mistake their limits for a format rule.
 
 - Read `FOLDERS.md` before adding or reorganizing files.
 - Read `references/ugc-pipeline.md` for pipeline development and remaining gaps.
@@ -32,14 +34,18 @@ If the user says one of these, start the matching file without waiting for anoth
 | `hook ideas`, `hook bank`, `pull the hook`, `analyze hook`, `slideshow inspo`, TikTok post analysis | `references/skills/hook-idea-extraction/SKILL.md` + `references/hook-ideas/README.md` |
 | `TikTok photos`, `TikTok carousel`, `source TikTok`, `download TikTok`, `source board` | `references/skills/tiktok-photo-sourcing/SKILL.md` + `tools/tiktok-photo-sourcer/README.md` |
 | `stop slop`, `anti-AI writing`, `clean copy` | `references/skills/stop-slop/SKILL.md` |
+| slideshow copy / text for slides | `accounts/antigpt/account-brief.md` + `references/notion.md`; fetch relevant Notion writing examples before drafting |
+| `/make-slideshows`, `$make-slideshows`, make / continue / save a slideshow batch, make / edit a CapCut slideshow | `references/skills/make-slideshows/SKILL.md` |
 | `save this connection`, `graphify this connection`, `remember this link`, `capture this reasoning` | `references/skills/graphify-connection-capture/SKILL.md` |
 | product / app / claim / AntiGPT / detector mention | `product/antigpt-brief.md` + `product/antigpt-claim-bank.md` before writing |
 | end-to-end "make a new post from this board" | `references/skills/avatar-post-producer/SKILL.md` |
 | build / improve / fix the UGC pipeline | `references/ugc-pipeline.md` + `FOLDERS.md` |
 | Notion knowledge / Grok research / winning formats | `references/notion.md` |
 
-Codex discovers skills through `.agents/skills/` links; Cursor uses
-`.cursor/skills/` wrappers. Canonical bodies live in `references/skills/`.
+Codex discovers skills through `.agents/skills/` links; Claude Code reads
+`CLAUDE.md` and `.claude/skills/` links; Cursor uses `.cursor/skills/` wrappers.
+Canonical bodies live in `references/skills/`. `/make-slideshows` in Claude
+and `$make-slideshows` in Codex load the same workflow.
 Codex's optional project agent is `.codex/agents/ugc-pipeline-builder.toml`;
 setup details live in `.codex/README.md`. The primary agent can run the same
 workflows directly without spawning a subagent.
@@ -49,12 +55,18 @@ workflows directly without spawning a subagent.
 1. Selected skill.
 2. `accounts/antigpt/README.md` (format, avatar identity, boards table, posts table, commands).
 3. `accounts/antigpt/account-brief.md` when drafting copy or judging fit.
+   For slideshow copy, also fetch the relevant writing examples linked in
+   `references/notion.md`; apply the user's current brevity rule over denser examples.
 4. Product files only if the copy mentions AntiGPT, antigpt.me, or a detector.
-5. `references/hook-ideas/cards/2026-09-08-bellajobtips-crying-girl-single.md` when ideating lines.
+5. Relevant hook cards when needed; the current tone in `account-brief.md` takes precedence over older inspiration.
 6. Tool docs only when the skill calls for that tool.
 
 ## Workspace Contracts
 
+- Image and video files are local-only and ignored by Git (Benson, 2026-09-14).
+  Preserve them on disk; track code, captions, source URLs/hashes, and post
+  records. Do not force-add media. A clone needs the existing media copied
+  from the production machine, including the locked avatar, before rendering.
 - Account source of truth is `accounts/antigpt/`. `README.md` is the hub;
   `account-brief.md` is audience and voice memory.
 - `accounts/antigpt/avatar/asian-girl-avatar.jpg` is the identity lock. It is Figure 1 on
@@ -62,12 +74,32 @@ workflows directly without spawning a subagent.
 - `accounts/antigpt/boards/` holds other people's photos used as Figure 2
   composition inputs. Boards are never posted. Each board has a row in the hub
   README.
+- `accounts/antigpt/assets/study-backgrounds/` holds reusable study photos for
+  slideshow backgrounds, with source URLs and an overview. Keep it separate
+  from avatar face-swap boards; archive exact selected media in
+  `accounts/antigpt/assets/post-sources/N/`, outside the flat post folder.
 - `accounts/antigpt/outputs/{stamp}/` holds face-swap candidates plus
   `contact-sheet.jpg`. It is gitignored scratch; copy the exact chosen render
   into a post. `swap_avatar.py <board> --post N` generates a fresh still.
 - `accounts/antigpt/posts/N/` holds `image.jpg` (clean still),
   `image_caption.jpg` (captioned render), and `caption.md` (status, board,
   approved copy). Update the Posts table in the hub README by hand.
+  Include `caption.txt` with a plain-text TITLE and DESCRIPTION for copy/paste;
+  keep it synchronized with `caption.md`.
+  For slideshows, continually append to the same CapCut timeline in 15-second
+  post sections. Preserve earlier sections. Use `outputs/slideshow-draft/posts/N/`
+  for each new draft and record its range in `outputs/slideshow-draft/timeline.json`.
+  After final approval following modifications,
+  save canvas-only CapCut screenshots as `posts/N/01.png`–`05.png` and export
+  `posts/N/reel.mp4`. Final approval authorizes both local exports. Preserve
+  clean backgrounds in `assets/post-sources/N/`; record approval, copy, sources, and export
+  details and the post's timeline range in `caption.md`. Export only that
+  post's 15-second range; keep the accumulated timeline intact.
+  Post folders stay flat: numbered PNGs beside `reel.mp4` and caption files,
+  with no nested image or source folders.
+  Keep existing draft post folders; they are not complete export packages.
+  Current default is 9:16, three seconds per slide, with purple text on light purple highlights; read
+  the account brief before styling. The legacy CLI defaults are not the account style.
 - Hook inspiration lives in `references/hook-ideas/`. Cards are raw inspiration,
   not account rules or final copy.
 - Raw reference posts from other accounts live in `references/social-accounts/{account}/`.
@@ -78,7 +110,7 @@ workflows directly without spawning a subagent.
 
 ## Commands And Gotchas
 
-- Batch face-swap every board into a review folder with a contact sheet:
+- Batch face-swap every board into an outputs folder with a contact sheet:
   `python tools/fal/swap_avatar.py accounts/antigpt/boards`
 - One board straight into a post: `python tools/fal/swap_avatar.py <board.jpg> --post N`
   (refuses to overwrite an existing `image.jpg` without `--force`).
@@ -95,7 +127,10 @@ workflows directly without spawning a subagent.
 
 - Do not invent product claims; use `product/antigpt-claim-bank.md`.
 - Copy goes in chat first. Paste the exact lines with line breaks, wait for
-  explicit approval, then render. Never render placeholder text onto a post still.
+  explicit approval, then render. When Benson asks for complete slideshow
+  drafts to double-check after assembly (2026-09-13), that request authorizes
+  drafting and rendering in the working timeline; final approval still gates
+  the permanent post exports. Never use placeholder copy as a finished post.
 - Preserve approved wording and manual line breaks exactly when rendering.
 - Never generate a different girl. If `avatar/asian-girl-avatar.jpg` is missing, stop and ask.
 - Strip source on-screen text and watermarks in every swap unless the user asks

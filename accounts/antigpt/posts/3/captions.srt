@@ -1,0 +1,26 @@
+1
+00:00:00,000 --> 00:00:03,000
+top 3 techniques to ace your essays
+from a Harvard student >>>
+
+2
+00:00:03,000 --> 00:00:06,000
+1. find your sources with AI
+ask for relevant papers + direct links
+
+3
+00:00:06,000 --> 00:00:09,000
+2. let GPT build your outline
+paste your essay question + marking rubric
+
+4
+00:00:09,000 --> 00:00:12,000
+3. turn your notes into a draft
+give GPT your outline + source notes
+
+5
+00:00:12,000 --> 00:00:15,000
+my favourite writing website:
+AntiGPT (antigpt.me)
+rewrites AI text to sound human
++ helps bypass AI detectors

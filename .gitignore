@@ -9,6 +9,28 @@ __pycache__/
 *.log
 .DS_Store
 
+# Image and video media stay local; Git keeps code, captions, and source records.
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+*.[pP][nN][gG]
+*.[aA][pP][nN][gG]
+*.[wW][eE][bB][pP]
+*.[gG][iI][fF]
+*.[aA][vV][iI][fF]
+*.[hH][eE][iI][cC]
+*.[hH][eE][iI][fF]
+*.[bB][mM][pP]
+*.[tT][iI][fF]
+*.[tT][iI][fF][fF]
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[mM]4[vV]
+*.[wW][eE][bB][mM]
+*.[mM][kK][vV]
+*.[aA][vV][iI]
+*.[mM][pP][gG]
+*.[mM][pP][eE][gG]
+
 # fal scratch output and face-swap review candidates (copy selected keepers to posts/)
 tools/fal/out/
 accounts/*/outputs/

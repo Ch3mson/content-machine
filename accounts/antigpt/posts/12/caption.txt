@@ -1,0 +1,13 @@
+TITLE
+3 GPT shortcuts for writing your introduction
+
+DESCRIPTION
+you can draft an introduction once you know what the essay argues. give GPT your outline or body paragraphs and start with the thesis.
+
+ask: "state the central argument of this essay in one specific sentence." check whether that sentence says what you mean. then ask which background details a reader needs to understand the argument. choose the details that matter for your question.
+
+paste your thesis and chosen context together and ask for a short introduction within your word budget. compare it with the body of the essay so the opening promises the discussion you actually deliver.
+
+save this for the introduction you have been avoiding. AntiGPT at antigpt.me can help with the final wording: it rewrites AI text to sound human and helps bypass AI detectors.
+
+#EssayIntroduction #ChatGPT #EssayTips #AcademicWriting #StudyTok

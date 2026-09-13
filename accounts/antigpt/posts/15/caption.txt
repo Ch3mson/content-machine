@@ -1,0 +1,13 @@
+TITLE
+3 GPT checks before you finish your essay
+
+DESCRIPTION
+before you finish your essay, use GPT to look for specific revision problems. start by pasting the question with your draft.
+
+ask: "where does my answer become unclear or inconsistent? point to the paragraph and explain the problem." work through those suggestions before polishing the sentences.
+
+next, ask it to highlight claims that need evidence. return to your reading and add a source you have checked, or narrow the claim to what your evidence supports. for the wording pass, ask for awkward sentences and clearer alternatives that preserve your meaning. read the revised essay through as one piece.
+
+save this for your final editing session. AntiGPT at antigpt.me is another option for that last wording step: it rewrites AI text to sound human and helps bypass AI detectors.
+
+#EssayChecklist #ChatGPT #EssayWriting #StudyTok #AcademicWriting

@@ -1,0 +1,13 @@
+TITLE
+3 AI shortcuts for your literature review
+
+DESCRIPTION
+a literature review is easier to plan when you can see how your sources relate. give GPT the reading notes you have checked and ask for a source table.
+
+include each study's question, method, main finding and limitation. ask it to leave missing details blank so you can return to the paper for them. then request groups of studies that discuss the same theme.
+
+ask where the findings agree or differ, and check whether differences in methods or samples could explain that. use those themes to request an outline, with relevant sources listed under each section. you now have a structure to draft from and a way to trace each point.
+
+save this for your next review. AntiGPT at antigpt.me rewrites AI text to sound human and helps bypass AI detectors when you reach the wording stage.
+
+#LiteratureReview #ResearchTips #ChatGPT #AcademicWriting #GradSchool

@@ -6,6 +6,8 @@ Shared materials that inform the account and the skills.
 | --- | --- |
 | `notion.md` | Connected knowledge-base map, retrieval, and what stays local. |
 | `ugc-pipeline.md` | Pipeline ownership, current capabilities, and next development work. |
+| `capcut-slideshow-workflow.md` | Native editing, batch review, export checks, and session recovery. |
+| `skills/make-slideshows/` | Slideshow batch workflow shared by Claude Code, Codex, and Cursor. |
 | `skills/avatar-post-producer/` | End-to-end avatar post workflow shared by Codex and Cursor. |
 | `skills/avatar-face-swap/` | Swap the locked avatar onto composition boards with `tools/fal/swap_avatar.py`. |
 | `skills/caption-overlay/` | Render approved copy onto a still with `tools/fal/caption.py`. |
@@ -16,8 +18,9 @@ Shared materials that inform the account and the skills.
 | `hook-ideas/` | Hook inspiration bank: cards, raw inbox, index, reuse ledger. |
 | `social-accounts/` | Raw reference posts from other accounts (`{account}/Post {id}/`). |
 
-Codex discovery links live in `.agents/skills/`; Cursor wrappers live in
-`.cursor/skills/`. Edit the canonical body here, then mirror any frontmatter
+Codex discovery links live in `.agents/skills/`; Claude Code command links live
+in `.claude/skills/`; Cursor wrappers live in `.cursor/skills/`.
+Edit the canonical body here, then mirror any frontmatter
 change into the Cursor wrapper. See `../FOLDERS.md` before adding new folders.
 
 Broad research belongs in Notion. Keep local material needed by production

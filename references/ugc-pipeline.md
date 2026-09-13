@@ -6,6 +6,13 @@ direction, approves copy, and publishes. Current account:
 
 ## Current production path
 
+Start slideshow production with
+[`make-slideshows`](skills/make-slideshows/SKILL.md): `/make-slideshows` in
+Claude Code or `$make-slideshows` in Codex. The shared procedure covers source
+selection, copy, native CapCut assembly, HTML review, revisions, final exports,
+and recovery from post records in a later session. The table below describes
+the still tools used when producing image assets for that flow.
+
 | Stage | Implementation | Output / handoff |
 | --- | --- | --- |
 | Research | Notion + local hook extraction skills | Linked source and a pattern adapted to account voice |
@@ -17,9 +24,33 @@ direction, approves copy, and publishes. Current account:
 | Deliver | Show final image and caption text | Benson posts natively; update Posted status only after confirmation |
 | Learn | Supplied feedback/results | Voice → brief; format → hub; hook reuse → ledger; failures → `BUGS.md` |
 
+Creative direction is TikTok photo slideshows (Benson, 2026-09-13): a hook and
+short technique slides with at most two text blocks each. The existing CLI
+tools produce still assets and one text block per render. Native CapCut
+assembly was verified for post 3: five backgrounds, ten editable top/bottom
+text layers, 9:16, and purple highlights. The approved default is now three
+seconds per slide, or 15 seconds for five slides. Follow the
+[CapCut slideshow workflow](capcut-slideshow-workflow.md) for repeat production.
+Continually append new posts to one native CapCut timeline in 15-second sections,
+preserving earlier posts. Keep draft copy/media by reserved post ID and record
+each section's time range; Benson reviews completed drafts together.
+After final approval following modifications, the required package is ordered
+CapCut slide screenshots as `posts/N/01.png`–`05.png` for TikTok, beside
+`posts/N/reel.mp4` for Instagram Reels. Keep the post folder flat with the
+approval/copy record and `caption.txt` containing the posting TITLE and DESCRIPTION.
+Preserve clean backgrounds separately in `assets/post-sources/N/`.
+Export each approved section separately and retain the timeline. This handoff
+is now the default. Posts 6–15 demonstrate the completed batch: 50 native
+1080 × 1920 PNGs, ten separate 15-second EsDeeKid reels, clean sources, and
+copy-ready title/descriptions are exported and verified. Their native timeline
+sections span 45–195 seconds, preserving posts 3–5 at 0–45 seconds.
+Independent text-block placement and highlighted backgrounds remain gaps in
+the CLI renderer; reusable automated CapCut assembly/export is not yet built.
+
 The still workflow is live. `tools/fal/video.py` exists as an optional clip
-utility; a repeatable video format, publishing integration, and automated
-performance ingestion have not been built. No scheduled jobs are configured
+utility. Native slideshow review and both exports are verified procedures;
+headless automatic dual-format export,
+publishing integration, and performance ingestion have not been built. No scheduled jobs are configured
 by this project setup.
 
 ## Development priorities

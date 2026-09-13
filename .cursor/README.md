@@ -19,6 +19,7 @@ see [Codex setup](../.codex/README.md). Folder ownership is in
 
 | Wrapper | Canonical skill | Use |
 | --- | --- | --- |
+| `skills/make-slideshows/` | `references/skills/make-slideshows/SKILL.md` | Make, review, revise, and save slideshow batches |
 | `skills/avatar-post-producer/` | `references/skills/avatar-post-producer/SKILL.md` | Run the full still workflow |
 | `skills/avatar-face-swap/` | `references/skills/avatar-face-swap/SKILL.md` | Swap the locked avatar onto boards with fal |
 | `skills/caption-overlay/` | `references/skills/caption-overlay/SKILL.md` | Render approved copy onto a still |

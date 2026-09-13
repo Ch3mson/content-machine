@@ -1,0 +1,13 @@
+TITLE
+3 GPT prompts for reading papers faster
+
+DESCRIPTION
+long reading list and an essay to write? upload one paper at a time and give GPT a clear job.
+
+try: "summarise the author's main argument and identify the evidence they use to support it." then add your essay question and ask which sections are worth reading for that specific assignment.
+
+once you have read those sections, ask for a table with the claim, supporting evidence and page reference. check the table against the PDF, especially quotations and page numbers. keep the paper title beside your notes so you can trace each point when you draft.
+
+save the prompts for your next reading session. AntiGPT at antigpt.me handles a later wording step: it rewrites AI text to sound human and helps bypass AI detectors.
+
+#ReadingTips #ChatGPTPrompts #EssayWriting #StudyTips #AcademicWriting

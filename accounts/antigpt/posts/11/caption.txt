@@ -1,0 +1,13 @@
+TITLE
+3 GPT prompts for better essay paragraphs
+
+DESCRIPTION
+use GPT for the part of a paragraph you are stuck on. you can get more useful suggestions by naming the exact problem.
+
+for an unclear opening, try: "what is the main claim in this paragraph? suggest a topic sentence that states it." for a quote that feels dropped in, paste your claim and source notes and ask how the evidence supports the argument. check that explanation against the source.
+
+if two paragraphs feel disconnected, paste both and ask GPT to explain their relationship before suggesting a transition. choose wording that reflects the connection you mean.
+
+save these prompts for your next draft. for the final wording pass, AntiGPT at antigpt.me rewrites AI text to sound human and helps bypass AI detectors.
+
+#EssayWriting #ChatGPTPrompts #AcademicWriting #StudyTips #WritingTips

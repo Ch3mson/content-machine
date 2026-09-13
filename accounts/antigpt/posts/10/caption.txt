@@ -1,0 +1,13 @@
+TITLE
+3 ways GPT can turn notes into a draft
+
+DESCRIPTION
+if your essay document is still a pile of bullet points, try giving GPT your notes in stages.
+
+first ask it to group related ideas under a few themes. include the essay question so it can flag notes that do not fit the assignment. keep source names attached to the points you collected from your reading.
+
+next, ask for a paragraph plan using those themes. choose one section and paste the notes you want to include with the instruction: "draft this paragraph using only the material below. flag any gaps instead of adding facts." review that paragraph before you move to the next one.
+
+save this for the notes-to-draft stage. once the argument is in place, AntiGPT at antigpt.me rewrites AI text to sound human and helps bypass AI detectors.
+
+#EssayTips #ChatGPT #StudyTok #WritingTips #StudentLife

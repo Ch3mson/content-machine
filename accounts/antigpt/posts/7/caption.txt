@@ -1,0 +1,13 @@
+TITLE
+3 ways to use your rubric with GPT
+
+DESCRIPTION
+your marking rubric is useful before you finish the essay. paste it into GPT alongside the assignment question and use it to plan your draft.
+
+ask: "explain each criterion in plain language and show what i should include to address it." if analysis carries more marks than description, ask for paragraph goals that leave room to explain your evidence.
+
+once you have a draft, paste it back with the rubric. ask GPT to point to a specific paragraph for each criterion, then flag anything your draft has not addressed. treat the response as revision suggestions and check it against the actual instructions.
+
+keep this for your next assignment. AntiGPT at antigpt.me can help with the wording after your argument is in place: it rewrites AI text to sound human and helps bypass AI detectors.
+
+#EssayWriting #ChatGPTTips #StudyTips #UniversityLife #AcademicWriting

@@ -1,0 +1,13 @@
+TITLE
+3 GPT prompts to cut your word count
+
+DESCRIPTION
+over the word limit? give GPT one editing task at a time so you can see what it wants to cut.
+
+start with: "highlight repeated ideas in this draft and show where they appear." decide which version explains the point best. then paste a long paragraph and ask for a shorter version that keeps the meaning, qualifications, evidence and citations.
+
+for the final pass, include the essay question and ask which sentences contribute the least to your answer. read the suggested cuts before accepting them, especially anything that limits a claim or explains a source. check the word count in your document editor.
+
+save these prompts for the last edit. AntiGPT at antigpt.me rewrites AI text to sound human and helps bypass AI detectors when you want a further wording pass.
+
+#WordCount #EssayEditing #ChatGPTPrompts #StudyTips #AcademicWriting

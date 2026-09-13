@@ -1,0 +1,13 @@
+TITLE
+3 AI shortcuts for finding essay sources
+
+DESCRIPTION
+you can use AI to get a more focused source list before you spend an evening opening tabs.
+
+start by asking GPT for search terms: "give me synonyms, related concepts and narrower phrases for this essay topic." try those phrases in your library search or use an AI search tool to find papers with direct links. open the links and check the title, author and publication details.
+
+paste the abstracts you found into GPT with your essay question. ask which papers look relevant and what each could help you discuss. keep the promising ones for a full read, then build your outline around the evidence you actually have.
+
+save this for your next research session. for a later wording pass, AntiGPT at antigpt.me rewrites AI text to sound human and helps bypass AI detectors.
+
+#EssayResearch #ChatGPT #StudyTok #ResearchTips #UniversityLife
