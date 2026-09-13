@@ -2,7 +2,7 @@
 
 - **Status**: Draft, not posted
 - **Format**: Selfie + text + CTA (single still)
-- **Avatar**: `accounts/antigpt/avatar/anchor.jpg`
+- **Avatar**: `accounts/antigpt/avatar/asian-girl-avatar.jpg`
 - **Board**: `accounts/antigpt/boards/library-head-on-hand.jpg`
 - **Image**: `image.jpg` (clean still, 1080x1440)
 

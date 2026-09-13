@@ -57,12 +57,12 @@ workflows directly without spawning a subagent.
 
 - Account source of truth is `accounts/antigpt/`. `README.md` is the hub;
   `account-brief.md` is audience and voice memory.
-- `accounts/antigpt/avatar/anchor.jpg` is the identity lock. It is Figure 1 on
+- `accounts/antigpt/avatar/asian-girl-avatar.jpg` is the identity lock. It is Figure 1 on
   every fal edit. Never generate or post a different girl.
 - `accounts/antigpt/boards/` holds other people's photos used as Figure 2
   composition inputs. Boards are never posted. Each board has a row in the hub
   README.
-- `accounts/antigpt/review/{stamp}/` holds face-swap candidates plus
+- `accounts/antigpt/outputs/{stamp}/` holds face-swap candidates plus
   `contact-sheet.jpg`. It is gitignored scratch; copy the exact chosen render
   into a post. `swap_avatar.py <board> --post N` generates a fresh still.
 - `accounts/antigpt/posts/N/` holds `image.jpg` (clean still),
@@ -97,7 +97,7 @@ workflows directly without spawning a subagent.
 - Copy goes in chat first. Paste the exact lines with line breaks, wait for
   explicit approval, then render. Never render placeholder text onto a post still.
 - Preserve approved wording and manual line breaks exactly when rendering.
-- Never generate a different girl. If `avatar/anchor.jpg` is missing, stop and ask.
+- Never generate a different girl. If `avatar/asian-girl-avatar.jpg` is missing, stop and ask.
 - Strip source on-screen text and watermarks in every swap unless the user asks
   to keep them.
 - Never overwrite a still whose `caption.md` says Posted without the user saying so.

@@ -10,7 +10,7 @@ canonical skills below. This workflow can run in the main conversation or
 through a requested agent; it does not depend on Cursor.
 
 1. Read `references/skills/avatar-face-swap/SKILL.md`. Confirm the locked
-   `accounts/antigpt/avatar/anchor.jpg` exists and resolve the requested boards.
+   `accounts/antigpt/avatar/asian-girl-avatar.jpg` exists and resolve the requested boards.
    Add source rows for new boards.
 2. Run the requested swap batch from the repo root. For more than 12 planned
    fal calls, use `--dry-run` and report the count before starting.
@@ -34,4 +34,4 @@ through a requested agent; it does not depend on Cursor.
 
 If approval or a selection is still needed, return the finished work available
 so far and identify that specific handoff. Never render placeholder copy or
-generate a substitute identity to bypass a missing anchor.
+generate a substitute identity to bypass a missing avatar image.

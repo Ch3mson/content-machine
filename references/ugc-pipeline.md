@@ -10,7 +10,7 @@ direction, approves copy, and publishes. Current account:
 | --- | --- | --- |
 | Research | Notion + local hook extraction skills | Linked source and a pattern adapted to account voice |
 | Source boards | Local images or TikTok photo sourcer | `boards/` image + account Boards row |
-| Generate | `tools/fal/swap_avatar.py` | Locked avatar on board; candidates + contact sheet in `review/` |
+| Generate | `tools/fal/swap_avatar.py` | Locked avatar on board; candidates + contact sheet in `outputs/` |
 | Select | User chooses a candidate, or requests a direct post render | Exact selected still copied, or a fresh `--post N` render, into `posts/N/image.jpg` |
 | Approve copy | Caption skill + account brief + claim bank when needed | Exact lines approved in chat and saved in `caption.md` |
 | Render | `tools/fal/caption.py` | `image_caption.jpg`, preserving the clean still |
@@ -32,7 +32,7 @@ them just because this list exists.
    the chosen review image exactly, records its board/run, and protects existing
    posts. Today `--post N` spends a new generation call and can change the image;
    exact promotion is manual.
-2. **Record batch provenance.** Save source board, anchor identity, prompt,
+2. **Record batch provenance.** Save source board, avatar identity, prompt,
    model/settings, result paths, failures, and request IDs with each run. This
    would support selective retries and explain which input produced a keeper.
 3. **Make the post handoff reliable.** Keep `caption.md` and the hub in sync,

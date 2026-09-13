@@ -8,23 +8,23 @@ Study / AntiGPT account. One locked girl, one post format: **selfie + text + CTA
 
 No slideshows. No other generated faces on a posted still.
 
-## Avatar (identity lock)
+## Asian girl avatar (identity lock)
 
-`avatar/anchor.jpg` is Figure 1 on every fal edit. Keep her face. Keep her hair type (long dark wavy messy, or a bun of that same hair when the pose needs it). Change only pose, outfit, and scene.
+`avatar/asian-girl-avatar.jpg` is Figure 1 on every fal edit. Keep her face. Keep her hair type (long dark wavy messy, or a bun of that same hair when the pose needs it). Change only pose, outfit, and scene.
 
 - 20-year-old East Asian college student
 - Long dark wavy messy hair, loose side part, face-framing layers; bun of that same hair is allowed
 - Soft oval face, dark eyes, silver hoop earrings
 - Default outfit: black zip-up hoodie over a plain white tank
-- On a board swap: keep the board's expression and gaze (looking at the iPad, writing, eyes closed). Only swap face, ears, hair, earrings. Do not force the anchor pout.
+- On a board swap: keep the exact board pose, expression, gaze, head angle, hand placement, and face occlusion (looking at the iPad, writing, eyes closed). Only swap identity: face, ears, hair, earrings. Do not transfer the avatar's reference pout. Use `--size source` to preserve the board's crop and dimensions.
 
 ## Folders
 
 | Path | What it is |
 | --- | --- |
-| `avatar/anchor.jpg` | Identity lock. Never regenerate a different girl. |
+| `avatar/asian-girl-avatar.jpg` | Identity lock. Never regenerate a different girl. |
 | `boards/` | Composition boards (other people's photos). Figure 2 inputs only, never posted. |
-| `review/{stamp}/` | Face-swap candidates + `contact-sheet.jpg`. Gitignored scratch; copy the exact keeper into a post. `--post N` generates a fresh still. |
+| `outputs/{stamp}/` | Face-swap candidates + `contact-sheet.jpg`. Gitignored scratch; copy the exact keeper into a post. `--post N` generates a fresh still. |
 | `posts/N/image.jpg` | Clean promoted still. `image_caption.jpg` is the captioned render. `caption.md` holds status and approved copy. |
 | `assets/fonts/TikTokSans-Bold.ttf` | Overlay font |
 | `assets/logo-white.png` | Brand mark |
@@ -48,17 +48,19 @@ Add a board: drop the photo in `boards/` with a descriptive slug and add a row h
 
 | Post | Status | Board | Notes |
 | --- | --- | --- | --- |
-| `posts/1/` | Posted | Arena selfie (original anchor scene) | Navy arena selfie, extras swapped. Caption TBD. |
+| `posts/1/` | Posted | Arena selfie (original avatar scene) | Navy arena selfie, extras swapped. Caption TBD. |
 | `posts/2/` | Draft, not posted | `library-head-on-hand.jpg` | Library face-swap. No approved copy yet. |
 
-Pending review: `review/2026-09-13-study-selfies-v2/` is the tighter identity + hair pass (down waves or a bun of her hair). First pass is still in `review/2026-09-13-study-selfies/`.
+Latest batch: `outputs/2026-09-13-asian-girl-avatar-board-poses/` contains seven board swaps using the Asian girl avatar and source proportions. `contact-sheet.jpg` shows the current candidates.
+
+Earlier outputs: `outputs/2026-09-13-study-selfies-v2/` is the tighter identity + hair pass (down waves or a bun of her hair). First pass is in `outputs/2026-09-13-study-selfies/`.
 
 ## Commands
 
-Batch face-swap the avatar onto every board (writes to `review/{stamp}/` + contact sheet):
+Batch face-swap the avatar onto every board (writes to `outputs/{stamp}/` + contact sheet):
 
 ```bash
-python tools/fal/swap_avatar.py accounts/antigpt/boards
+python tools/fal/swap_avatar.py accounts/antigpt/boards --size source
 ```
 
 One board, straight into a post folder:

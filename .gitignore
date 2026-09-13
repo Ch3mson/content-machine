@@ -11,7 +11,7 @@ __pycache__/
 
 # fal scratch output and face-swap review candidates (copy selected keepers to posts/)
 tools/fal/out/
-accounts/*/review/
+accounts/*/outputs/
 
 # Local databases / archives
 *.sqlite

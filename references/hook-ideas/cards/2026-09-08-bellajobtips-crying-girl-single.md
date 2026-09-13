@@ -75,7 +75,7 @@ The same account also repeated:
 
 ## Visual Benchmark (Tear Level)
 
-- Golden Reference: retired with the old crying-girl stills. antigpt stills now use `accounts/antigpt/avatar/anchor.jpg` face-swapped onto study boards.
+- Golden Reference: retired with the old crying-girl stills. antigpt stills now use `accounts/antigpt/avatar/asian-girl-avatar.jpg` face-swapped onto study boards.
 - Tear/Emotion standard: no longer the account look. Keep this card as hook-pattern memory only.
 
 ## Tags

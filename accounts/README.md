@@ -9,9 +9,9 @@ the avatar, boards, posts, and commands.
 accounts/{account}/
   README.md            # hub: format, avatar identity, boards table, posts table, commands
   account-brief.md     # audience, POV, product relationship
-  avatar/anchor.jpg    # identity lock for fal edits
+  avatar/asian-girl-avatar.jpg    # identity lock for fal edits
   boards/              # composition boards (Figure 2 inputs), never posted
-  review/{stamp}/      # face-swap candidates + contact sheet (gitignored)
+  outputs/{stamp}/      # face-swap candidates + contact sheet (gitignored)
   posts/N/
     image.jpg          # clean promoted still
     image_caption.jpg  # captioned render

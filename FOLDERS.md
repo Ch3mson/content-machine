@@ -31,10 +31,10 @@ Boards table, and Posts table. `account-brief.md` owns audience and voice.
 accounts/antigpt/
   README.md
   account-brief.md
-  avatar/anchor.jpg
+  avatar/asian-girl-avatar.jpg
   assets/fonts/
   boards/{descriptive-slug}.jpg
-  review/{timestamp}/          # ignored candidates + contact sheet
+  outputs/{timestamp}/          # ignored candidates + contact sheet
   posts/{N}/
     image.jpg                 # clean production still
     image_caption.jpg         # approved words rendered onto the still
@@ -50,7 +50,7 @@ accounts/antigpt/
 - Record the source URL, creator/post ID, and selected slide when available.
   If a source is unknown, say so; do not invent provenance.
 - Keep third-party boards separate from avatar outputs. Review candidates
-  stay in `review/`; only a chosen still enters `posts/`.
+  stay in `outputs/`; only a chosen still enters `posts/`.
 - When a specific review image is selected, preserve those exact bytes on
   promotion. `swap_avatar.py --post N` generates a fresh image; it is not a
   copy operation.

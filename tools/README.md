@@ -14,6 +14,6 @@ repo-relative or absolute.
 | TikTok Transcript Sourcer | `tiktok-transcript-sourcer/` | Hook-idea transcripts for TikTok videos through Supadata (`SUPADATA_API_KEY`). |
 | Slideshow Transcriber | `slideshow-transcriber/` | Slide-by-slide text scaffolds for reference carousels during hook extraction. |
 
-Scratch output: `fal/out/` and `accounts/*/review/` are gitignored.
+Scratch output: `fal/out/` and `accounts/*/outputs/` are gitignored.
 
 Strategy docs, templates, and product files do not belong here.

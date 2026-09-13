@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Face-swap the locked avatar onto composition boards with Fal Seedream edit.
 
-Figure 1 = accounts/{account}/avatar/anchor.jpg (identity lock).
+Figure 1 = accounts/{account}/avatar/asian-girl-avatar.jpg (identity lock).
 Figure 2 = each board you pass (file, folder, or glob).
 
 Batch mode writes one still per board (plus a contact sheet) into
-accounts/{account}/review/{stamp}/ so you can pick keepers. --post N writes a
+accounts/{account}/outputs/{stamp}/ so you can pick keepers. --post N writes a
 single board's result straight to accounts/{account}/posts/N/image.jpg.
 
 Examples:
@@ -41,7 +41,7 @@ DEFAULT_ACCOUNT = "antigpt"
 DEFAULT_SIZE = "1080x1440"
 
 IDENTITY_LOCK = (
-    "Figure 1 is the locked girl. Keep her EXACT identity: the same unique face (same eyes, "
+    "Figure 1 is our Asian girl avatar. Keep her EXACT identity: the same unique face (same eyes, "
     "nose, mouth, jawline, and skin tone), and the same silver hoop earrings. Do not change her "
     "identity, age, or ethnicity. Do not keep Figure 2's face. Hair must be HER hair from Figure "
     "1: long dark wavy messy hair with the loose side part and face-framing layers. If the pose "
@@ -51,11 +51,17 @@ IDENTITY_LOCK = (
 COMPOSITION = (
     "Figure 2 is the composition board. Replace the person in Figure 2 with the Figure 1 girl. "
     "Match Figure 2's camera angle, framing, crop, pose, body position, outfit, lighting, and "
-    "setting exactly. Keep every other element of the Figure 2 scene unchanged."
+    "setting exactly. Preserve the exact torso lean, shoulder angles, arms, fingers, hand-to-face "
+    "contact, and leg placement. Keep glasses, hats, headphones, held objects, and face occlusions "
+    "in the same positions. Do not rotate, recenter, zoom, or reveal hidden parts of her face. "
+    "Keep every other element of the Figure 2 scene unchanged."
 )
 EXPRESSION = (
     "Keep Figure 2's exact facial expression, gaze, and head angle. If she is looking down "
-    "at a screen or page, keep that. Do not add the Figure 1 puckered pout. Only swap "
+    "at a screen or page, keep that. Match eyelid openness, brow position, mouth shape, smile, "
+    "and lip tension to Figure 2. Closed eyes must stay closed; downcast eyes must stay downcast. "
+    "Transfer Figure 1's identity only, never her reference pose or expression. "
+    "Do not add the Figure 1 puckered pout. Only swap "
     "identity: face, ears, hair, and earrings."
 )
 STYLE = (
@@ -63,8 +69,9 @@ STYLE = (
     "retouching. Pure photograph."
 )
 STRIP_TEXT = (
-    "Remove ALL on-screen text, captions, stickers, emoji, logos, and watermarks from the "
-    "source. No text anywhere in the output."
+    "Remove added on-screen text, captions, graphic stickers, emoji overlays, and watermarks "
+    "from the source. Do not add text. Preserve real scene details, including physical stickers "
+    "on the laptop, clothing, equipment, and background objects."
 )
 
 
@@ -85,14 +92,14 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("boards", nargs="+", help="Board image(s): file, folder, or glob")
     parser.add_argument("--account", default=DEFAULT_ACCOUNT, help="Account folder under accounts/")
-    parser.add_argument("--anchor", help="Identity still (default accounts/{account}/avatar/anchor.jpg)")
+    parser.add_argument("--avatar", "--anchor", dest="avatar", help="Identity still (default accounts/{account}/avatar/asian-girl-avatar.jpg); --anchor is a compatibility alias")
     parser.add_argument("--scene", help="Extra scene / styling notes appended to the prompt")
     parser.add_argument("--variants", type=int, default=1, help="Renders per board (default 1)")
     parser.add_argument("--workers", type=int, default=3, help="Parallel fal calls (default 3)")
-    parser.add_argument("--size", default=DEFAULT_SIZE, help=f"WIDTHxHEIGHT (default {DEFAULT_SIZE})")
+    parser.add_argument("--size", default=DEFAULT_SIZE, help=f"WIDTHxHEIGHT or source to request each board's dimensions (default {DEFAULT_SIZE})")
     parser.add_argument("--format", choices=("jpeg", "png"), default="jpeg")
     parser.add_argument("--keep-text", action="store_true", help="Do not ask the model to strip source text")
-    parser.add_argument("--out-dir", help="Override the review output folder")
+    parser.add_argument("--out-dir", help="Override the batch outputs folder")
     parser.add_argument("--post", type=int, help="Write the single result to accounts/{account}/posts/N/image.jpg")
     parser.add_argument("--force", action="store_true", help="Allow --post to overwrite an existing image.jpg")
     parser.add_argument("--no-sheet", action="store_true", help="Skip the contact sheet")
@@ -125,7 +132,7 @@ def swap_one(
     board: Path,
     out_path: Path,
     prompt: str,
-    anchor_uri: str,
+    avatar_uri: str,
     size: tuple[int, int],
     fmt: str,
     api_key: str,
@@ -136,7 +143,7 @@ def swap_one(
         "num_images": 1,
         "output_format": fmt,
         "enable_safety_checker": True,
-        "image_urls": [anchor_uri, file_to_data_uri(board)],
+        "image_urls": [avatar_uri, file_to_data_uri(board)],
     }
     body = run_sync(SEEDREAM_EDIT, payload, api_key, timeout=240)
     return download(first_image_url(body), out_path)
@@ -211,20 +218,29 @@ def main() -> int:
 
     if args.variants < 1:
         raise SystemExit("--variants must be at least 1")
-    size = parse_size(args.size)
+    size = None if args.size.lower() == "source" else parse_size(args.size)
     account_dir = PROJECT_ROOT / "accounts" / args.account
-    anchor = resolve_repo_path(args.anchor) if args.anchor else account_dir / "avatar" / "anchor.jpg"
-    if not anchor.exists():
-        raise SystemExit(f"Anchor not found: {anchor}")
+    avatar = resolve_repo_path(args.avatar) if args.avatar else account_dir / "avatar" / "asian-girl-avatar.jpg"
+    if not avatar.exists():
+        raise SystemExit(f"Asian girl avatar not found: {avatar}")
 
     boards = collect_boards(args.boards)
+    board_sizes: dict[Path, tuple[int, int]] = {}
+    for board in boards:
+        if size is not None:
+            board_sizes[board] = size
+        else:
+            from PIL import Image, ImageOps
+
+            with Image.open(board) as image:
+                board_sizes[board] = ImageOps.exif_transpose(image).size
 
     # Plan outputs.
     jobs: list[tuple[Path, Path]] = []
     post_dir: Path | None = None
     if args.post is not None:
         if len(boards) != 1 or args.variants != 1:
-            raise SystemExit("--post takes exactly one board and --variants 1. Run a batch into review/ first.")
+            raise SystemExit("--post takes exactly one board and --variants 1. Run a batch into outputs/ first.")
         post_dir = account_dir / "posts" / str(args.post)
         target = post_dir / f"image.{'jpg' if args.format == 'jpeg' else 'png'}"
         if target.exists() and not args.force:
@@ -233,30 +249,32 @@ def main() -> int:
         out_dir = post_dir
     else:
         stamp = datetime.now().strftime("%Y-%m-%d-%H%M%S")
-        out_dir = resolve_repo_path(args.out_dir) if args.out_dir else account_dir / "review" / stamp
+        out_dir = resolve_repo_path(args.out_dir) if args.out_dir else account_dir / "outputs" / stamp
         ext = "jpg" if args.format == "jpeg" else "png"
         for board in boards:
             for variant in range(1, args.variants + 1):
                 suffix = f"-v{variant}" if args.variants > 1 else ""
                 jobs.append((board, out_dir / f"{board.stem}{suffix}.{ext}"))
 
-    print(f"anchor:  {anchor}")
-    print(f"boards:  {len(boards)}  variants: {args.variants}  fal calls: {len(jobs)}  size: {size[0]}x{size[1]}")
+    print(f"avatar:  {avatar}")
+    size_label = f"{size[0]}x{size[1]}" if size else "source (per board)"
+    print(f"boards:  {len(boards)}  variants: {args.variants}  fal calls: {len(jobs)}  size: {size_label}")
     print(f"out:     {out_dir}")
     if args.dry_run:
         for board, out_path in jobs:
-            print(f"  {board.name} -> {out_path}")
+            width, height = board_sizes[board]
+            print(f"  {board.name} ({width}x{height}) -> {out_path}")
         return 0
 
     api_key = get_api_key()
-    anchor_uri = file_to_data_uri(anchor)
+    avatar_uri = file_to_data_uri(avatar)
     out_dir.mkdir(parents=True, exist_ok=True)
 
     results: list[tuple[str, Path]] = []
     failures: list[str] = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
         futures = {
-            pool.submit(swap_one, board, out_path, prompt, anchor_uri, size, args.format, api_key): (board, out_path)
+            pool.submit(swap_one, board, out_path, prompt, avatar_uri, board_sizes[board], args.format, api_key): (board, out_path)
             for board, out_path in jobs
         }
         for future in concurrent.futures.as_completed(futures):
@@ -275,7 +293,7 @@ def main() -> int:
         write_caption_stub(post_dir, args.post, boards[0])
         print(f"\nPromoted to {results[0][1]}. Add the row to accounts/{args.account}/README.md posts table.")
     elif len(results) > 1 and not args.no_sheet:
-        sheet = build_contact_sheet(results, out_dir / "contact-sheet.jpg", size)
+        sheet = build_contact_sheet(results, out_dir / "contact-sheet.jpg", size or (1080, 1440))
         print(f"\ncontact sheet: {sheet}")
 
     if failures:

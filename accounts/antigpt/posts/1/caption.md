@@ -2,7 +2,7 @@
 
 - **Status**: Posted
 - **Format**: Selfie + text + CTA (single still)
-- **Avatar**: `accounts/antigpt/avatar/anchor.jpg`
+- **Avatar**: `accounts/antigpt/avatar/asian-girl-avatar.jpg`
 - **Image**: `image.jpg` (clean still)
 
 ## Overlay direction

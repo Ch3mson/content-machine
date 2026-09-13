@@ -84,7 +84,10 @@ and commands live in `README.md`. This file is the audience and voice memory.
 
 ## Visual Rules
 
-- Only the locked avatar (`avatar/anchor.jpg`) appears on posted stills.
+- Only the locked avatar (`avatar/asian-girl-avatar.jpg`) appears on posted stills.
+- User naming (2026-09-13): call her **Asian girl avatar** and put generated
+  candidates in `outputs/`. Swaps keep the board's exact pose and expression;
+  change the person's identity, preserving gaze, head angle, and hand placement.
 - Study scenes: library, cafe, dorm, empty classroom, late-night desk. Real
   clutter (coffee, laptop, iPad, headphones) over staged aesthetics.
 - Keep the amateur phone-photo feel. Slightly imperfect beats polished.

@@ -15,10 +15,10 @@ research; account rules, skills, claims, and production records stay in Git.
 ## Pipeline
 
 ```text
-board (someone's study photo)  +  avatar/anchor.jpg
+board (someone's study photo)  +  avatar/asian-girl-avatar.jpg
         │
         ▼  python tools/fal/swap_avatar.py <boards>          (fal Seedream edit)
-accounts/antigpt/review/{stamp}/*.jpg + contact-sheet.jpg
+accounts/antigpt/outputs/{stamp}/*.jpg + contact-sheet.jpg
         │  pick one
         ▼  copy the exact selected review image + create caption.md
 accounts/antigpt/posts/N/image.jpg

@@ -7,7 +7,7 @@ description: Face-swap the locked antigpt avatar onto composition boards with fa
 
 ## Overview
 
-Every posted still is the one locked girl (`accounts/antigpt/avatar/anchor.jpg`)
+Every posted still is the one locked girl (`accounts/antigpt/avatar/asian-girl-avatar.jpg`)
 edited onto someone else's study photo (a "board"). The script carries the
 identity-lock prompt, so you never type it. Your job is to get the boards in
 place, run the batch, show the contact sheet, and promote the keeper.
@@ -28,10 +28,10 @@ Add one row per new board to the Boards table in `accounts/antigpt/README.md`
 
 ## Step 2: Run the swap
 
-Batch every board into a review folder with a contact sheet:
+Batch every board into an outputs folder with a contact sheet, using its original proportions:
 
 ```bash
-python tools/fal/swap_avatar.py accounts/antigpt/boards
+python tools/fal/swap_avatar.py accounts/antigpt/boards --size source
 ```
 
 Selected boards, two takes each, extra scene direction:
@@ -41,13 +41,17 @@ python tools/fal/swap_avatar.py accounts/antigpt/boards/study-selfie-03.jpg acco
   --variants 2 --scene "warm late-night lamp light, tired but calm"
 ```
 
-Output lands in `accounts/antigpt/review/{stamp}/` (gitignored) as
+Output lands in `accounts/antigpt/outputs/{stamp}/` (gitignored) as
 `{board-stem}.jpg` plus `contact-sheet.jpg`. Show the contact sheet to the user
 and list the per-board paths.
 
 Useful flags: `--dry-run` (plan only), `--prompt-only` (print the prompt),
 `--keep-text` (do not strip source text), `--size 1080x1920` (full vertical),
-`--workers 3`, `--out-dir`.
+`--workers 3`, `--out-dir`. With `--size source`, the request uses the original
+board dimensions; fal may round or scale them while retaining the proportions.
+The identity image is named **Asian girl avatar**; its file is
+`avatar/asian-girl-avatar.jpg`. The override flag is `--avatar` (`--anchor`
+remains a compatibility alias for existing commands).
 
 ## Step 3: Promote the keeper
 
@@ -73,9 +77,9 @@ Captioning is a separate step: `references/skills/caption-overlay/SKILL.md`.
 
 ## Rules
 
-- Never generate a different girl. If the anchor is missing, stop and ask.
+- Never generate a different girl. If the Asian girl avatar is missing, stop and ask.
 - The board decides pose, outfit, crop, scene, and facial expression. The
-  anchor decides face, ears, hair type, and earrings. Do not add the anchor
+  avatar decides face, ears, hair type, and earrings. Do not add the anchor
   pout unless the user asks. Do not "improve" the board composition in the
   prompt unless the user asks; put small adjustments in `--scene`.
 - Source on-screen text, stickers, and watermarks are stripped by default. Only
@@ -86,6 +90,9 @@ Captioning is a separate step: `references/skills/caption-overlay/SKILL.md`.
   posted or captioned.
 - Default size is 1080x1440 (3:4 portrait). Use 1080x1920 only when the user
   asks for full-screen TikTok.
+- For a swap that keeps the board's pose/composition exactly, use `--size source`.
+  Keep head angle, hand placement, eyelid openness, mouth shape, accessories,
+  and occlusions from the board. Do not expose eyes hidden by a cap or hand.
 - One fal edit costs a few cents and takes 20-60 s. Batches of 6 with 3 workers
   finish in about two minutes; tell the user before starting anything over 12
   calls.
